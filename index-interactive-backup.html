@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hữu Hùng AI | Blog AI Automation cho người Việt</title>
+    <meta name="description" content="Hữu Hùng AI chia sẻ workflow, AI Agent, SEO AI và tự động hóa thực chiến cho người Việt.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="Hữu Hùng AI">Hữu Hùng AI</a>
+      <nav class="nav" aria-label="Điều hướng chính">
+        <a href="#/">Blog</a>
+        <a href="#topics">Chủ đề</a>
+        <a href="#resources">Tài nguyên</a>
+        <a href="#about">Giới thiệu</a>
+      </nav>
+    </header>
+
+    <main id="app">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy-block">
+            <p class="eyebrow">Hữu Hùng AI / Automation Index</p>
+            <h1 id="hero-title">AI Automation thực chiến cho người Việt</h1>
+            <p class="hero-copy">Một thư viện nội dung được hệ thống hóa về AI Agent, SEO AI, workflow, công cụ AI và tự động hóa vận hành. Viết cho người cần áp dụng thật, không chỉ đọc trend.</p>
+            <div class="hero-actions" aria-label="Hành động nhanh">
+              <a class="primary-action" href="#latest">Đọc bài mới nhất</a>
+              <a class="secondary-action" href="#category-filters">Khám phá chủ đề</a>
+            </div>
+          </div>
+          <aside class="index-panel" aria-label="Automation Index">
+            <span class="panel-label">Automation Index</span>
+            <div class="index-row"><strong>AGENT</strong><span>AI Agent & Swarm</span></div>
+            <div class="index-row"><strong>SEO</strong><span>Search & Content</span></div>
+            <div class="index-row"><strong>TOOL</strong><span>Stack & Workflow</span></div>
+            <div class="index-row"><strong>MODEL</strong><span>LLM & Local AI</span></div>
+          </aside>
+        </div>
+        <div class="stats" aria-label="Thống kê nội dung công khai">
+          <span><strong id="stat-count">0</strong> bài viết</span>
+          <span><strong id="stat-categories">0</strong> nhóm chủ đề</span>
+          <span>AI Agent, SEO AI, Workflow</span>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Tìm kiếm và lọc bài viết">
+        <label class="search-label" for="search-input">Tìm bài viết</label>
+        <input id="search-input" type="search" placeholder="Tìm Claude, AI SEO, OpenClaw, Hermes..." autocomplete="off">
+        <p class="search-hint">Gợi ý: thử tìm “Claude”, “AI SEO”, “OpenClaw”, “Hermes”, “Ollama”.</p>
+        <div id="category-filters" class="filters" aria-label="Lọc theo chuyên mục"></div>
+      </section>
+
+      <section id="latest" aria-label="Danh sách bài viết">
+        <section id="article-list" class="article-grid" aria-live="polite"></section>
+      </section>
+      <article id="article-detail" class="article-detail" hidden></article>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Hữu Hùng AI</strong>
+        <p>Tiếp tục học AI Automation qua các bài viết thực chiến, dễ hiểu và phù hợp thị trường Việt Nam.</p>
+      </div>
+      <a class="footer-link" href="#/">Xem bài mới nhất</a>
+    </footer>
+
+    <script src="articles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

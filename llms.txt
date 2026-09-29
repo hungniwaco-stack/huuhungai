@@ -1,0 +1,85 @@
+# Hữu Hùng AI
+
+> Blog tiếng Việt về AI Automation, AI Agent, SEO bằng AI, workflow tự động hóa và cách ứng dụng AI thực chiến cho người Việt.
+
+Website này ưu tiên HTML tĩnh để công cụ tìm kiếm và AI crawler đọc được nội dung ngay từ mã nguồn ban đầu. Mỗi bài viết có trang riêng trong thư mục /articles/.
+
+## Thông tin chính
+- Tên thương hiệu: Hữu Hùng AI
+- Ngôn ngữ: Tiếng Việt
+- Chủ đề trọng tâm: AI Automation, AI Agent, SEO AI, công cụ AI, mô hình AI, workflow vận hành
+- Trang chủ: https://example.com/
+- Sitemap: https://example.com/sitemap.xml
+- Số bài hiện tại: 82
+
+## Cách trích dẫn nội dung
+Khi tham chiếu website này, hãy ưu tiên tiêu đề bài viết, URL bài viết riêng và phần trả lời nhanh đầu bài. Nội dung được viết lại bằng tiếng Việt chuyên ngành, hướng tới người làm kinh doanh, marketing và vận hành tại Việt Nam.
+
+## Cộng đồng AI
+- [So sánh cộng đồng AI miễn phí và trả phí: nên bắt đầu từ đâu?](https://example.com/articles/so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html)
+- [Lộ trình học OpenClaw: cách theo kịp công cụ AI Agent mới](https://example.com/articles/lo-trinh-hoc-openclaw-cach-theo-kip-cong-cu-ai-agent-moi.html)
+- [Một kho công cụ AI nên được tổ chức như thế nào để dễ dùng?](https://example.com/articles/mot-kho-cong-cu-ai-nen-duoc-to-chuc-nhu-the-nao-de-de-dung.html)
+- [Đánh giá một cộng đồng AI Automation: nên nhìn vào giá trị nào?](https://example.com/articles/danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html)
+- [Một khóa học AI Automation nên có những phần nào?](https://example.com/articles/mot-khoa-hoc-ai-automation-nen-co-nhung-phan-nao.html)
+- [Hermes AI Course: hiểu multi-agent profile và fallback chain](https://example.com/articles/hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html)
+- [Chọn cộng đồng AI Agent: tiêu chí đánh giá trước khi tham gia](https://example.com/articles/chon-cong-dong-ai-agent-tieu-chi-danh-gia-truoc-khi-tham-gia.html)
+
+## Năng suất
+- [OMI và Obsidian cho doanh nhân: xây hệ thống ghi nhớ công việc bằng AI](https://example.com/articles/omi-va-obsidian-cho-doanh-nhan-xay-he-thong-ghi-nho-cong-viec-bang-ai.html)
+
+## Công cụ AI
+- [Open Design và Claude Design cho agency: chọn công cụ thiết kế AI thế nào?](https://example.com/articles/open-design-va-claude-design-cho-agency-chon-cong-cu-thiet-ke-ai-the-nao.html)
+- [Các chế độ làm việc của Claude: chat, code và cộng tác khác nhau ra sao?](https://example.com/articles/cac-che-do-lam-viec-cua-claude-chat-code-va-cong-tac-khac-nhau-ra-sao.html)
+- [Thiết lập Remotion trong môi trường coding AI: quy trình cho video tự động](https://example.com/articles/thiet-lap-remotion-trong-moi-truong-coding-ai-quy-trinh-cho-video-tu-dong.html)
+- [Claude Code và Remotion: tạo video bằng workflow lập trình AI](https://example.com/articles/claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html)
+- [Thiết lập Claude Code từng bước: nền tảng cho coding bằng AI](https://example.com/articles/thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html)
+- [ChatGPT Chronicle: bật, cấu hình và dùng an toàn cho năng suất](https://example.com/articles/chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat.html)
+- [Cài DeepSeek với Ollama: chạy mô hình AI theo hướng tiết kiệm](https://example.com/articles/cai-deepseek-voi-ollama-chay-mo-hinh-ai-theo-huong-tiet-kiem.html)
+- [ChatGPT Image cho nội dung marketing: tạo poster, mockup và bản đồ ý tưởng](https://example.com/articles/chatgpt-image-cho-noi-dung-marketing-tao-poster-mockup-va-ban-do-y-tuong.html)
+- [Claude và Obsidian: chọn plugin hay Claude Code cho hệ ghi chú?](https://example.com/articles/claude-va-obsidian-chon-plugin-hay-claude-code-cho-he-ghi-chu.html)
+- [Kimi Agent Swarm: khi nào nên dùng nhiều agent cùng lúc?](https://example.com/articles/kimi-agent-swarm-khi-nao-nen-dung-nhieu-agent-cung-luc.html)
+- [Claude Code miễn phí qua Ollama: hiểu đúng giới hạn và lựa chọn mô hình](https://example.com/articles/claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html)
+- [Claude Code local: thiết lập môi trường offline cho lập trình bằng AI](https://example.com/articles/claude-code-local-thiet-lap-moi-truong-offline-cho-lap-trinh-bang-ai.html)
+- Và 2 bài khác trong nhóm Công cụ AI.
+
+## Mô hình AI
+- [Sonnet cho doanh nghiệp: dùng mô hình AI vào quy trình nào trước?](https://example.com/articles/sonnet-cho-doanh-nghiep-dung-mo-hinh-ai-vao-quy-trinh-nao-truoc.html)
+- [Gemma Chat: xây ứng dụng offline bằng mô hình cục bộ](https://example.com/articles/gemma-chat-xay-ung-dung-offline-bang-mo-hinh-cuc-bo.html)
+- [Google Simula và mechanism design: hiểu dữ liệu tổng hợp cho AI](https://example.com/articles/google-simula-va-mechanism-design-hieu-du-lieu-tong-hop-cho-ai.html)
+- [Kimi so với Claude, GPT và Gemini: đọc benchmark thế nào cho đúng?](https://example.com/articles/kimi-so-voi-claude-gpt-va-gemini-doc-benchmark-the-nao-cho-dung.html)
+- [DeepSeek tutorial: hiểu context dài và MoE khi chọn mô hình](https://example.com/articles/deepseek-tutorial-hieu-context-dai-va-moe-khi-chon-mo-hinh.html)
+- [Tin đồn mô hình GPT mới: nên đọc thông tin rò rỉ như thế nào?](https://example.com/articles/tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html)
+
+## AI Agent
+- [Khi nào nên đổi nền tảng AI Agent trong workflow của bạn?](https://example.com/articles/khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html)
+- [Đánh giá AI Agent qua bài test thực tế: nhìn vào tiêu chí nào?](https://example.com/articles/danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html)
+- [Hermes AI Agent: dùng framework agent để tự động hóa công việc](https://example.com/articles/hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec.html)
+- [Thiết lập Kanban cho Hermes: quản lý quy trình xây website bằng AI](https://example.com/articles/thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai.html)
+- [Xây second brain với Hermes, ghi chú và AI Automation](https://example.com/articles/xay-second-brain-voi-hermes-ghi-chu-va-ai-automation.html)
+- [Các vai trò trong Hermes Swarm: builder, reviewer và cách phối hợp](https://example.com/articles/cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html)
+- [Thiết lập Hermes Workspace: nền làm việc cho AI Agent](https://example.com/articles/thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html)
+- [Thiết lập bộ nhớ dài hạn cho OpenClaw: khi nào cần và làm sao kiểm soát?](https://example.com/articles/thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html)
+- [OpenClaw Mission Control: quản lý agent bằng dashboard trực quan](https://example.com/articles/openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html)
+- [Auto Research Claw: tự động hóa quy trình nghiên cứu bằng AI Agent](https://example.com/articles/auto-research-claw-tu-dong-hoa-quy-trinh-nghien-cuu-bang-ai-agent.html)
+- [Google Jitro và Jules: khác nhau ở đâu trong workflow lập trình AI?](https://example.com/articles/google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html)
+- [Thiết lập agent swarm trong Hermes Workspace từng bước](https://example.com/articles/thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc.html)
+- Và 27 bài khác trong nhóm AI Agent.
+
+## AI SEO
+- [Claude Code SEO Agent: quy trình xây nội dung SEO bằng AI](https://example.com/articles/claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html)
+- [SEO Reddit bằng nội dung AI: cơ hội và giới hạn khi làm ở Việt Nam](https://example.com/articles/seo-reddit-bang-noi-dung-ai-co-hoi-va-gioi-han-khi-lam-o-viet-nam.html)
+- [Xếp hạng trong Google AI Mode: quy trình SEO cần thay đổi gì?](https://example.com/articles/xep-hang-trong-google-ai-mode-quy-trinh-seo-can-thay-doi-gi.html)
+- [SEO cho cộng đồng online: biến trang cộng đồng thành tài sản nội dung](https://example.com/articles/seo-cho-cong-dong-online-bien-trang-cong-dong-thanh-tai-san-noi-dung.html)
+- [DeepSeek SEO Tool: tạo landing page có cấu trúc bằng một prompt](https://example.com/articles/deepseek-seo-tool-tao-landing-page-co-cau-truc-bang-mot-prompt.html)
+- [DeepSeek SEO: phương pháp chọn từ khóa xu hướng để lên bài nhanh](https://example.com/articles/deepseek-seo-phuong-phap-chon-tu-khoa-xu-huong-de-len-bai-nhanh.html)
+- [ChatGPT AI SEO với Workspace Agents: vận hành nội dung mỗi ngày](https://example.com/articles/chatgpt-ai-seo-voi-workspace-agents-van-hanh-noi-dung-moi-ngay.html)
+- [AI SEO Agent miễn phí: kết hợp Hermes, Firecrawl và Qwen](https://example.com/articles/ai-seo-agent-mien-phi-ket-hop-hermes-firecrawl-va-qwen.html)
+- [Claude Code AI SEO với Netlify và MCP: workflow xuất bản nội dung](https://example.com/articles/claude-code-ai-seo-voi-netlify-va-mcp-workflow-xuat-ban-noi-dung.html)
+- [Hệ thống AI SEO với Claude: tự động hóa nội dung nhưng vẫn cần biên tập](https://example.com/articles/he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html)
+- [OpenClaw AI SEO: thiết kế hệ thống nội dung tự động có kiểm soát](https://example.com/articles/openclaw-ai-seo-thiet-ke-he-thong-noi-dung-tu-dong-co-kiem-soat.html)
+
+## Tự động hóa doanh nghiệp
+- [AI Lead Generation Agent: tự động hóa pipeline bán hàng](https://example.com/articles/ai-lead-generation-agent-tu-dong-hoa-pipeline-ban-hang.html)
+- [Workspace Agents trong ChatGPT: handoff tác vụ giữa nhiều agent](https://example.com/articles/workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent.html)
+- [OpenClaw Mission Control: squad agent, task board và memory browser](https://example.com/articles/openclaw-mission-control-squad-agent-task-board-va-memory-browser.html)
+- [Open source AI đang thắng ở đâu: bài học cho doanh nghiệp nhỏ](https://example.com/articles/open-source-ai-dang-thang-o-dau-bai-hoc-cho-doanh-nghiep-nho.html)

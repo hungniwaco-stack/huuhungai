@@ -85,8 +85,8 @@ Kết quả kiểm tra gần nhất:
 
 Lưu ý quan trọng:
 
-- Domain đang để placeholder: `https://example.com`.
-- Khi người dùng có domain thật, cần thay `https://example.com` trong:
+- Domain đang để placeholder: `https://huuhungai.com`.
+- Khi người dùng có domain thật, cần thay `https://huuhungai.com` trong:
   - `sitemap.xml`
   - `robots.txt`
   - `llms.txt`
@@ -202,7 +202,7 @@ Không hỏi lại các quyết định đã chốt, trừ khi người dùng mu
 
 Ưu tiên tiếp theo:
 
-1. Nếu có domain thật: thay `https://example.com` toàn site và tạo lại sitemap/robots/llms/schema.
+1. Nếu có domain thật: thay `https://huuhungai.com` toàn site và tạo lại sitemap/robots/llms/schema.
 2. Nếu chưa có domain: polish UI trang danh sách và trang bài.
 3. Chọn 10-15 bài quan trọng nhất để viết lại sâu, tăng chuyên môn và khác biệt.
 4. Thêm trang `about.html` giới thiệu Hữu Hùng AI.

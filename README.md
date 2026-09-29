@@ -4,7 +4,7 @@ Bộ file này dùng cho website HTML tĩnh. Mỗi bài viết có một URL ri�
 
 ## Cần đổi trước khi xuất bản
 
-Thay toàn bộ `https://example.com` bằng domain thật của anh trong:
+Thay toàn bộ `https://huuhungai.com` bằng domain thật của anh trong:
 
 - `sitemap.xml`
 - `robots.txt`

@@ -1,2 +1,6 @@
 .vercel
 .env*
+# Excel files (private working data)
+*.xlsx
+*.xls
+~$*

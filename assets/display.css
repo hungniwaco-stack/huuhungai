@@ -1,0 +1,18 @@
+/* Che do hien thi: sang/toi va co chu. Bien mau chi doi khi html[data-theme=light]. */
+html[data-theme=light]{color-scheme:light;--bg:#f4f5f8;--paper:#fff;--paper-2:#fff3ea;--ink:#14161c;--muted:#4b5666;--line:#d5d9e0;--accent:#d9480f;--blue:#0b5cad;--mark:#b4135c;--soft:#e8f1fa}
+html[data-theme=dark]{color-scheme:dark}
+html[data-theme=light] .site{background:rgba(255,255,255,.92)}
+html[data-theme=light] .answer{border-color:#b9d3ea;color:#16324b}
+html[data-theme=light] .topic-chip{border-color:#f0cfb8}
+html[data-theme=light] .topic-chip.active{border-color:#d9480f}
+html[data-theme=light] .topic-chip em{color:#5b6674}
+html[data-theme=light] .searchbox{background:#fff}
+html[data-theme=light] .article{border:1px solid var(--line)}
+html[data-size="1"]{font-size:112.5%}
+html[data-size="2"]{font-size:125%}
+html[data-size="-1"]{font-size:93.75%}
+.nav{flex-wrap:wrap}
+.disp{display:inline-flex;gap:6px;align-items:center}
+.disp button{min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;font-weight:800;cursor:pointer}
+.disp button:hover{border-color:var(--blue)}
+.disp button[disabled]{opacity:.4;cursor:default}

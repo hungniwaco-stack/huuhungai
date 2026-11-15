@@ -38,6 +38,7 @@ def head_style():
 
 BOOT = ('<script>try{var d=document.documentElement,t=localStorage.getItem("hh-theme");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";'
         'd.dataset.theme=t;var z=localStorage.getItem("hh-size");if(z)d.dataset.size=z}catch(e){document.documentElement.dataset.theme="dark"}</script>')
+GTM = '<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TQP6WHPC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());</script>'
 ASSETS = '<link rel="stylesheet" href="/assets/display.css"><script src="/assets/display.js" defer></script>'
 HEADER = ('<header class="site"><div class="wrap nav"><a class="brand" href="/">Hữu Hùng AI</a><nav><a href="/#topics">Chủ đề</a>'
           '<a href="/tin-tuc/">Tin AI</a></nav></div></header>')
@@ -46,7 +47,7 @@ HEADER = ('<header class="site"><div class="wrap nav"><a class="brand" href="/">
 def page(title, desc, url, body, date, css, kind="Article"):
     ld = {"@context": "https://schema.org", "@type": kind, "headline": title, "description": desc, "datePublished": date, "dateModified": date,
           "author": {"@type": "Person", "name": "Hữu Hùng"}, "publisher": {"@type": "Organization", "name": "Hữu Hùng AI"}, "mainEntityOfPage": url}
-    return ('<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+    return ('<!doctype html><html lang="vi"><head>' + GTM + '<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{esc(title)} | Hữu Hùng AI</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{url}">'
             f'<meta property="og:type" content="article"><meta property="og:site_name" content="Hữu Hùng AI"><meta property="og:locale" content="vi_VN">'
             f'<meta property="og:title" content="{esc(title)} | Hữu Hùng AI"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{url}">'

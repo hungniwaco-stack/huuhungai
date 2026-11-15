@@ -500,13 +500,19 @@
   </url>
   <url>
     <loc>https://huuhungai.com/tin-tuc/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://huuhungai.com/tin-tuc/2026-11-15.html</loc>
     <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/tin-tuc/2026-11-16.html</loc>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

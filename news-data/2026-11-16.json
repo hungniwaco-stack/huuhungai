@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "summary": "Google ra Gemini 4 Hydrogen, LangChain gọi thêm 300 triệu USD, United chặn AI agent đặt vé và ElevenLabs thử nghiệm ElevenAI.",
+  "items": [
+    {
+      "title": "Google phát hành Gemini 4 Hydrogen, thay thế Gemini 3.8 Flash",
+      "body": "Ngày 12/11, Google công bố Gemini 4 Hydrogen, mô hình nhanh dành cho lập trình và quy trình agent hằng ngày, có mặt trên Gemini API, AI Studio, ứng dụng Gemini và đang triển khai trong Google Search toàn cầu. Giá API là 1,50 USD mỗi triệu token đầu vào và 7,50 USD mỗi triệu token đầu ra, áp dụng đồng đều cho cửa sổ ngữ cảnh 1 triệu token, kèm mức suy luận mới xhigh. Con số nhanh hơn 2,5 lần so với 3.8 Flash là do Google tự công bố, nên tự đo lại trên tác vụ của bạn trước khi chuyển đổi.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "title": "LangChain gọi vốn Series C 300 triệu USD, định giá 3 tỷ USD",
+      "body": "Ngày 13/11, LangChain thông báo vòng Series C 300 triệu USD với mức định giá 3 tỷ USD, do CapitalG dẫn dắt, có thêm GIC, DFJ Growth cùng nhiều nhà đầu tư cũ. Công ty hẹn công bố tính năng mới cho nền tảng LangSmith tại sự kiện ngày 20/11. Với người đang xây agent trên LangChain hoặc LangGraph, đây là tín hiệu hệ sinh thái tiếp tục được đầu tư, nên theo dõi thay đổi sắp tới của LangSmith.",
+      "source_name": "LangChain Blog",
+      "source_url": "https://www.langchain.com/blog/series-c"
+    },
+    {
+      "title": "United Airlines hạn chế AI agent cá nhân của bên thứ ba đặt vé",
+      "body": "Ngày 11/11, United cho biết sẽ hạn chế các AI agent và trợ lý cá nhân của bên thứ ba không được ủy quyền truy cập kênh số của hãng, kể cả qua đại lý du lịch trực tuyến. Lý do được nêu là rủi ro khi chia sẻ thông tin đăng nhập, nguy cơ mua nhầm hoặc dùng dặm MileagePlus ngoài ý muốn. Người làm agent tự động hóa giao dịch cần lưu ý xu hướng doanh nghiệp siết quyền truy cập và đòi tích hợp chính thức.",
+      "source_name": "Skift",
+      "source_url": "https://skift.com/2026/11/11/united-airlines-moves-to-block-personal-ai-agents-from-booking-flights/"
+    },
+    {
+      "title": "ElevenLabs mở truy cập sớm ElevenAI cho ghi chú cuộc họp và đọc chính tả",
+      "body": "Tại hội nghị ở New York ngày 11/11, ElevenLabs giới thiệu ElevenAI, ứng dụng ghi chú cuộc họp có xin đồng ý của người tham dự, gửi tóm tắt và việc cần làm sau cuộc gọi, chạy trên mô hình nhận dạng giọng nói Scribe v3. Ứng dụng đang ở dạng truy cập sớm miễn phí. Cùng dịp, hãng công bố thêm tính năng Memory và Routines cho ElevenAgents, hữu ích cho ai đang làm agent giọng nói.",
+      "source_name": "ElevenLabs Blog",
+      "source_url": "https://elevenlabs.io/blog/nyc-summit"
+    }
+  ]
+}

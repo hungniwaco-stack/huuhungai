@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-17",
+  "summary": "Google mở MCP server và agent skills cho AdMob, OpenAI đưa agent computer use vào y tế, GTIG cảnh báo tấn công tự động bằng AI.",
+  "items": [
+    {
+      "title": "Google AdMob ra agent skills, thử nghiệm MCP server và trợ lý Ask AdMob",
+      "body": "Ngày 16/11, Google công bố bộ công cụ AI cho AdMob: agent skills là các playbook dựng sẵn để AI agent làm việc như chuyển sang Google Mobile Ads Next-Gen SDK, đã dùng được ngay; MCP server cho phép agent đọc dữ liệu tài khoản, tạo ad unit và chỉnh mediation, hiện mới thử nghiệm sớm và mở rộng đầu năm sau. Trợ lý hội thoại Ask AdMob chạy Gemini sẽ bắt đầu thử nghiệm trong vài tháng tới. Theo Google, thay đổi qua MCP vẫn cần nhà phát triển duyệt trước khi đưa lên production.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/products/publisher-connections/new-google-admob-tools/"
+    },
+    {
+      "title": "OpenAI công bố kết quả agent computer use cho quy trình y tế",
+      "body": "Ngày 16/11, OpenAI chia sẻ kết quả đánh giá mô hình về độ hữu ích, an toàn và chi phí khi agent tự thao tác trên phần mềm y tế, ví dụ chuẩn bị yêu cầu phê duyệt bảo hiểm cho ca chụp MRI. Hãng cho biết đang làm cùng Abridge, Ambience, Cigna Healthcare và CVS Health, và tính năng dùng được qua OpenAI API, ChatGPT for Healthcare và ChatGPT for Clinicians, có cấu hình phê duyệt, quyền truy cập và nhật ký kiểm toán. Bản demo dùng dữ liệu bệnh nhân giả lập, nên kết quả thực tế cần kiểm chứng thêm.",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/"
+    },
+    {
+      "title": "Google GTIG cảnh báo kẻ tấn công dùng framework LLM tự động khai thác bản vá",
+      "body": "Ngày 16/11, nhóm Google Threat Intelligence Group cho biết kẻ xấu đang dùng framework LLM tự động để quét bản cập nhật phần mềm, xác định lỗi được vá và dựng mã tấn công mà không cần người can thiệp. Google gọi đây là mối đe dọa tốc độ máy và giới thiệu Google AI Threat Defense, kết hợp Gemini, Wiz, CodeMender và Mandiant. Bài blog không nêu vụ tấn công cụ thể; điều đáng lưu ý là khoảng thời gian từ lúc phát hành bản vá đến lúc bị khai thác có thể ngắn hơn trước.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/"
+    },
+    {
+      "title": "Gemini Notebook tạo được trang web tương tác từ tài liệu nguồn",
+      "body": "Ngày 16/11, Google cho phép Gemini Notebook biến ghi chú và nguồn tài liệu thành trang web tương tác, chỉ cần gõ make me a site kèm mô tả trong khung chat. Ví dụ Google đưa ra gồm tài liệu ôn tập, bảng điều khiển dữ liệu và bộ theo dõi dự án, có thể mở ở tab mới và chia sẻ. Tính năng đang triển khai toàn cầu trên web cho người dùng từ 18 tuổi, kể cả tài khoản Workspace; ứng dụng di động sẽ có sau.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+    },
+    {
+      "title": "OpenAI mở bộ phân loại ảnh phát hiện CSAM miễn phí qua API",
+      "body": "Ngày 16/11, OpenAI phát hành bộ phân loại ảnh phát hiện nội dung xâm hại tình dục trẻ em, kể cả ảnh do AI tạo, được xây dựng với sự hỗ trợ của tổ chức NCMEC. Các tổ chức đã qua thẩm định được dùng miễn phí qua OpenAI API, việc chia sẻ quyền truy cập có Tech Coalition và ROOST hỗ trợ. Cùng đợt, OpenAI thêm cảnh báo trong ChatGPT và hướng dẫn cho developer; ai xây sản phẩm có nội dung người dùng tải lên nên đọc hướng dẫn này.",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/strengthening-online-child-safety/"
+    },
+    {
+      "title": "OpenAI mở rộng chương trình ChatGPT miễn phí cho nhà nghiên cứu",
+      "body": "Ngày 16/11, OpenAI cho biết chương trình ChatGPT for Academic Researchers sẽ mở rộng tới tối đa 200.000 nhà nghiên cứu. Vòng đăng ký tiếp theo mở ngày 23/11 với 50.000 suất cấp theo thứ tự đến trước cho người đủ điều kiện, mỗi suất gồm ChatGPT Plus miễn phí cho người nhận và tối đa hai cộng sự. OpenAI nói mặc định không dùng dữ liệu trong chương trình để huấn luyện mô hình.",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+    },
+    {
+      "title": "Nvidia công bố GPU Rubin HPC cho mô phỏng và phân tích dữ liệu, dự kiến năm 2028",
+      "body": "Tại SC26 ngày 16/11, Nvidia giới thiệu Rubin HPC, GPU mới trong nền tảng Vera Rubin dành cho mô phỏng, khoa học, kỹ thuật và phân tích dữ liệu. Nvidia cho biết chip có hơn 50.000 lõi CUDA, khả năng tăng tốc dữ liệu thưa và NVLink thế hệ thứ bảy. Sản phẩm dự kiến ra mắt năm 2028, nên đây là tin về lộ trình hạ tầng hơn là thứ dùng được ngay.",
+      "source_name": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/rubin-hpc/"
+    }
+  ]
+}

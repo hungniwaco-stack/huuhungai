@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/huu-hung-ai-reader.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/huu-hung-ai-automation-blog.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index-interactive-backup.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

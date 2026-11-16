@@ -16,3 +16,4 @@ html[data-size="-1"]{font-size:93.75%}
 .disp button{min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;font-weight:800;cursor:pointer}
 .disp button:hover{border-color:var(--blue)}
 .disp button[disabled]{opacity:.4;cursor:default}
+.site-foot{padding:28px 14px 40px;color:var(--muted);font-size:.9rem;text-align:center}.site-foot a{text-decoration:underline}

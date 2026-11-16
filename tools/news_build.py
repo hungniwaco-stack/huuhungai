@@ -38,7 +38,7 @@ def head_style():
 
 BOOT = ('<script>try{var d=document.documentElement,t=localStorage.getItem("hh-theme");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";'
         'd.dataset.theme=t;var z=localStorage.getItem("hh-size");if(z)d.dataset.size=z}catch(e){document.documentElement.dataset.theme="dark"}</script>')
-GTM = '<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TQP6WHPC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());</script>'
+GTM = '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",wait_for_update:500});try{if(localStorage.getItem("hh-consent")==="granted")gtag("consent","update",{analytics_storage:"granted"})}catch(e){}gtag("js",new Date());</script><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TQP6WHPC"></script>'
 OGIMG = '<meta property="og:image" content="https://huuhungai.com/assets/og-default.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Hữu Hùng AI: AI Automation thực chiến cho người Việt"><meta name="twitter:image" content="https://huuhungai.com/assets/og-default.png">'
 FOOT = '<footer class="site-foot"><a href="/quyen-rieng-tu.html">Quyền riêng tư và cookie</a> · <a href="/tin-tuc/">Tin AI</a> · © Hữu Hùng AI</footer>'
 ASSETS = '<link rel="stylesheet" href="/assets/display.css"><script src="/assets/display.js" defer></script>'

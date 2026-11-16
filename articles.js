@@ -288,7 +288,7 @@
   },
   {
     "slug": "openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan",
-    "title": "OpenClaw Mission Control: quản lý agent bằng dashboard trực quan",
+    "title": "Mission Control cho OpenClaw: dashboard cộng đồng và Control UI chính thức",
     "sourceTitle": "OpenClaw Mission Control Setup",
     "category": "AI Agent",
     "date": "2026-05-05",
@@ -333,7 +333,7 @@
   },
   {
     "slug": "google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai",
-    "title": "Google Jitro và Jules: khác nhau ở đâu trong workflow lập trình AI?",
+    "title": "Google Jules và tin đồn Jitro: điều đã xác nhận và điều chưa",
     "sourceTitle": "Google Jitro Vs Jules",
     "category": "AI Agent",
     "date": "2026-05-02",
@@ -408,7 +408,7 @@
   },
   {
     "slug": "manus-cloud-computer-va-aws-stack-moi-cho-nguoi-lam-solo",
-    "title": "Manus Cloud Computer và AWS: stack mới cho người làm solo",
+    "title": "Manus Cloud Computer và quan hệ đối tác AWS: hai việc khác nhau",
     "sourceTitle": "Manus Cloud Computer Vs AWS",
     "category": "AI Agent",
     "date": "2026-05-02",
@@ -573,7 +573,7 @@
   },
   {
     "slug": "chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat",
-    "title": "ChatGPT Chronicle: bật, cấu hình và dùng an toàn cho năng suất",
+    "title": "ChatGPT Computer History (trước là Chronicle): bật và dùng an toàn",
     "sourceTitle": "ChatGPT Chronicle Setup",
     "category": "Công cụ AI",
     "date": "2026-04-28",
@@ -663,7 +663,7 @@
   },
   {
     "slug": "tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent",
-    "title": "Tự xây OpenClaw: lớp skills và tools quyết định năng lực agent",
+    "title": "Kỹ năng và công cụ OpenClaw: xây năng lực agent có kiểm soát",
     "sourceTitle": "Build Your Own OpenClaw Skills Tools",
     "category": "AI Agent",
     "date": "2026-04-26",
@@ -678,7 +678,7 @@
   },
   {
     "slug": "deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent",
-    "title": "DeepSeek và OpenClaw: thiết lập local gateway cho agent",
+    "title": "Chạy mô hình cục bộ cho OpenClaw: runtime, cấu hình và rủi ro",
     "sourceTitle": "DeepSeek OpenClaw Setup",
     "category": "AI Agent",
     "date": "2026-04-26",
@@ -873,7 +873,7 @@
   },
   {
     "slug": "workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent",
-    "title": "Workspace Agents trong ChatGPT: handoff tác vụ giữa nhiều agent",
+    "title": "Workspace Agents trong ChatGPT: chia sẻ và bàn giao việc cho đồng đội",
     "sourceTitle": "ChatGPT Workspace Agents Handoff",
     "category": "Tự động hóa doanh nghiệp",
     "date": "2026-04-23",
@@ -903,7 +903,7 @@
   },
   {
     "slug": "openclaw-mission-control-squad-agent-task-board-va-memory-browser",
-    "title": "OpenClaw Mission Control: squad agent, task board và memory browser",
+    "title": "Mission Control cho OpenClaw: đội agent, bảng việc và bộ nhớ",
     "sourceTitle": "OpenClaw Mission Control Dashboard",
     "category": "Tự động hóa doanh nghiệp",
     "date": "2026-04-23",
@@ -933,7 +933,7 @@
   },
   {
     "slug": "space-agent-va-openclaw-so-sanh-suc-manh-toc-do-va-chi-phi",
-    "title": "Space Agent và OpenClaw: so sánh sức mạnh, tốc độ và chi phí",
+    "title": "Space Agent và OpenClaw: khác nhau ở thiết kế và cách tự đo",
     "sourceTitle": "Space Agent vs OpenClaw",
     "category": "AI Agent",
     "date": "2026-04-23",
@@ -993,7 +993,7 @@
   },
   {
     "slug": "openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat",
-    "title": "OpenClaw update: bài học về tích hợp message, cron và bảo mật",
+    "title": "OpenClaw: bài học bảo mật khi nối tin nhắn, cron và webhook",
     "sourceTitle": "OpenClaw Update iMessage Agents",
     "category": "AI Agent",
     "date": "2026-04-22",
@@ -1008,7 +1008,7 @@
   },
   {
     "slug": "openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo",
-    "title": "OpenClaw và Kimi: dựng agent stack với mô hình mở",
+    "title": "OpenClaw và Kimi: cấu hình Moonshot, Kimi Coding và Ollama Cloud",
     "sourceTitle": "OpenClaw Kimi Tutorial",
     "category": "AI Agent",
     "date": "2026-04-22",
@@ -1053,7 +1053,7 @@
   },
   {
     "slug": "tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao",
-    "title": "Tin đồn mô hình GPT mới: nên đọc thông tin rò rỉ như thế nào?",
+    "title": "Tin đồn mô hình AI mới: nên đọc thông tin rò rỉ như thế nào?",
     "sourceTitle": "GPT Pro Spud Model Revealed",
     "category": "Mô hình AI",
     "date": "2026-04-20",

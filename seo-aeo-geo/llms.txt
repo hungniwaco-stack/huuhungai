@@ -33,7 +33,7 @@ Khi tham chiếu website này, hãy ưu tiên tiêu đề bài viết, URL bài 
 - [Thiết lập Remotion trong môi trường coding AI: quy trình cho video tự động](https://huuhungai.com/articles/thiet-lap-remotion-trong-moi-truong-coding-ai-quy-trinh-cho-video-tu-dong.html)
 - [Claude Code và Remotion: tạo video bằng workflow lập trình AI](https://huuhungai.com/articles/claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html)
 - [Thiết lập Claude Code từng bước: nền tảng cho coding bằng AI](https://huuhungai.com/articles/thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html)
-- [ChatGPT Chronicle: bật, cấu hình và dùng an toàn cho năng suất](https://huuhungai.com/articles/chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat.html)
+- [ChatGPT Computer History (trước là Chronicle): bật và dùng an toàn](https://huuhungai.com/articles/chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat.html)
 - [Cài DeepSeek với Ollama: chạy mô hình AI theo hướng tiết kiệm](https://huuhungai.com/articles/cai-deepseek-voi-ollama-chay-mo-hinh-ai-theo-huong-tiet-kiem.html)
 - [ChatGPT Image cho nội dung marketing: tạo poster, mockup và bản đồ ý tưởng](https://huuhungai.com/articles/chatgpt-image-cho-noi-dung-marketing-tao-poster-mockup-va-ban-do-y-tuong.html)
 - [Claude và Obsidian: chọn plugin hay Claude Code cho hệ ghi chú?](https://huuhungai.com/articles/claude-va-obsidian-chon-plugin-hay-claude-code-cho-he-ghi-chu.html)
@@ -48,7 +48,7 @@ Khi tham chiếu website này, hãy ưu tiên tiêu đề bài viết, URL bài 
 - [Google Simula và mechanism design: hiểu dữ liệu tổng hợp cho AI](https://huuhungai.com/articles/google-simula-va-mechanism-design-hieu-du-lieu-tong-hop-cho-ai.html)
 - [Kimi so với Claude, GPT và Gemini: đọc benchmark thế nào cho đúng?](https://huuhungai.com/articles/kimi-so-voi-claude-gpt-va-gemini-doc-benchmark-the-nao-cho-dung.html)
 - [DeepSeek tutorial: hiểu context dài và MoE khi chọn mô hình](https://huuhungai.com/articles/deepseek-tutorial-hieu-context-dai-va-moe-khi-chon-mo-hinh.html)
-- [Tin đồn mô hình GPT mới: nên đọc thông tin rò rỉ như thế nào?](https://huuhungai.com/articles/tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html)
+- [Tin đồn mô hình AI mới: nên đọc thông tin rò rỉ như thế nào?](https://huuhungai.com/articles/tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html)
 
 ## AI Agent
 - [Khi nào nên đổi nền tảng AI Agent trong workflow của bạn?](https://huuhungai.com/articles/khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html)
@@ -59,9 +59,9 @@ Khi tham chiếu website này, hãy ưu tiên tiêu đề bài viết, URL bài 
 - [Các vai trò trong Hermes Swarm: builder, reviewer và cách phối hợp](https://huuhungai.com/articles/cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html)
 - [Thiết lập Hermes Workspace: nền làm việc cho AI Agent](https://huuhungai.com/articles/thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html)
 - [Thiết lập bộ nhớ dài hạn cho OpenClaw: khi nào cần và làm sao kiểm soát?](https://huuhungai.com/articles/thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html)
-- [OpenClaw Mission Control: quản lý agent bằng dashboard trực quan](https://huuhungai.com/articles/openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html)
+- [Mission Control cho OpenClaw: dashboard cộng đồng và Control UI chính thức](https://huuhungai.com/articles/openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html)
 - [Auto Research Claw: tự động hóa quy trình nghiên cứu bằng AI Agent](https://huuhungai.com/articles/auto-research-claw-tu-dong-hoa-quy-trinh-nghien-cuu-bang-ai-agent.html)
-- [Google Jitro và Jules: khác nhau ở đâu trong workflow lập trình AI?](https://huuhungai.com/articles/google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html)
+- [Google Jules và tin đồn Jitro: điều đã xác nhận và điều chưa](https://huuhungai.com/articles/google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html)
 - [Thiết lập agent swarm trong Hermes Workspace từng bước](https://huuhungai.com/articles/thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc.html)
 - Và 27 bài khác trong nhóm AI Agent.
 
@@ -80,6 +80,6 @@ Khi tham chiếu website này, hãy ưu tiên tiêu đề bài viết, URL bài 
 
 ## Tự động hóa doanh nghiệp
 - [AI Lead Generation Agent: tự động hóa pipeline bán hàng](https://huuhungai.com/articles/ai-lead-generation-agent-tu-dong-hoa-pipeline-ban-hang.html)
-- [Workspace Agents trong ChatGPT: handoff tác vụ giữa nhiều agent](https://huuhungai.com/articles/workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent.html)
-- [OpenClaw Mission Control: squad agent, task board và memory browser](https://huuhungai.com/articles/openclaw-mission-control-squad-agent-task-board-va-memory-browser.html)
+- [Workspace Agents trong ChatGPT: chia sẻ và bàn giao việc cho đồng đội](https://huuhungai.com/articles/workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent.html)
+- [Mission Control cho OpenClaw: đội agent, bảng việc và bộ nhớ](https://huuhungai.com/articles/openclaw-mission-control-squad-agent-task-board-va-memory-browser.html)
 - [Open source AI đang thắng ở đâu: bài học cho doanh nghiệp nhỏ](https://huuhungai.com/articles/open-source-ai-dang-thang-o-dau-bai-hoc-cho-doanh-nghiep-nho.html)

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-19",
+  "summary": "Anthropic định giá IPO 83 USD/cổ phiếu, Google ra Gemini 4 Neon và Stitch Loop, Copilot thêm connector MCP, Nvidia báo doanh thu kỷ lục.",
+  "items": [
+    {
+      "title": "Anthropic định giá IPO ở mức 83 USD mỗi cổ phiếu, niêm yết Nasdaq với mã ANT",
+      "body": "Ngày 18/11/2026, Anthropic công bố định giá đợt IPO 980 triệu cổ phiếu phổ thông loại A ở mức 83 USD, trong đó khoảng 956 triệu cổ phiếu do công ty bán và phần còn lại do một số cổ đông bán. Cổ phiếu dự kiến giao dịch trên Nasdaq Global Select Market từ 19/11 với mã ANT, đợt chào bán dự kiến hoàn tất ngày 20/11. Các bên bảo lãnh có quyền mua thêm tối đa 147 triệu cổ phiếu trong 30 ngày.",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    },
+    {
+      "title": "Google ra Gemini 4 Neon: ngữ cảnh 1 triệu token, giá 3 USD mỗi triệu token đầu vào",
+      "body": "Ngày 18/11/2026, Google giới thiệu Gemini 4 Neon, đặt giữa Carbon (việc dài, khó nhất) và Hydrogen (việc nhanh hằng ngày), nhắm tới lập trình, suy luận phân tích và quy trình doanh nghiệp. Giá API là 3 USD mỗi triệu token đầu vào, 0,15 USD cho đầu vào đã cache và 15 USD cho đầu ra; có trên Gemini API bản trả phí, Antigravity và ứng dụng Gemini cho gói Pro, Ultra. Cùng ngày GitHub đưa Neon vào Copilot cho các gói Pro+, Max, Business và Enterprise.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+      "title": "Google Labs giới thiệu Stitch Loop, agent theo dõi và cải tiến sản phẩm đã phát hành",
+      "body": "Ngày 18/11/2026, Google Labs công bố Stitch Loop, một agent chạy dài hạn kết nối với GitHub, log, hành vi người dùng và phản hồi qua hơn 180 tích hợp hoặc MCP server tùy chỉnh. Agent chạy các vòng lặp theo mục tiêu (mặc định là bảo mật, độ trễ, khả năng truy cập), dựng thay đổi trong sandbox rồi mở pull request; không có gì được merge nếu người chưa duyệt. Hiện mới mở danh sách chờ toàn cầu, người dùng Google AI Ultra đủ điều kiện được ưu tiên.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"
+    },
+    {
+      "title": "GitHub Copilot thêm 8 connector MCP: Supabase, Box, Calendly, ClickUp, Webflow, Wix...",
+      "body": "Ngày 18/11/2026, GitHub bổ sung tám connector cho Copilot gồm Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow và Wix, nâng tổng số lên hơn 33. Các connector là MCP server do GitHub xác minh, dùng được trong Copilot app, Copilot CLI, VS Code và github.com. Tính năng đang ở bản xem trước công khai; với gói Business và Enterprise, quản trị viên phải bật chính sách Editor preview features.",
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot"
+    },
+    {
+      "title": "GitHub Copilot cho đặt sẵn Agent Plugin theo từng team trong tổ chức",
+      "body": "Ngày 18/11/2026, GitHub phát hành chính thức tính năng tùy biến Copilot theo team cho gói Business và Enterprise. Người quản lý team chọn các Agent Plugin được duyệt để bật mặc định cho thành viên trên VS Code, Copilot app và Copilot CLI. Thành viên có thể tắt nếu chính sách cho phép, còn chính sách cấp doanh nghiệp và tổ chức luôn được ưu tiên hơn lựa chọn của team.",
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"
+    },
+    {
+      "title": "Nvidia báo doanh thu quý 3 tài khóa 2027 đạt 115,8 tỷ USD, tăng 103%",
+      "body": "Ngày 17/11/2026, Nvidia công bố doanh thu quý kết thúc 25/10/2026 đạt 115,8 tỷ USD, tăng 103% so với cùng kỳ; mảng Data Center đạt 107,6 tỷ USD, tăng 110%. Công ty dự báo quý 4 khoảng 130 tỷ USD (cộng trừ 3%), quý này có thêm một tuần, và không tính doanh thu Data Center từ Trung Quốc. Thông cáo trích lời Colette Kress, CEO tạm quyền kiêm giám đốc tài chính.",
+      "source_name": "NVIDIA Investor Relations",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "title": "AI Mode trên Google Search có chế độ chat tạm, không lưu lịch sử",
+      "body": "Ngày 17/11/2026, Google bổ sung temporary threads cho AI Mode: phiên hỏi đáp tách khỏi tài khoản, không dùng sở thích cũ, không ảnh hưởng cá nhân hóa sau này và biến mất khi đóng. Người dùng bấm biểu tượng ở góc trên bên phải AI Mode để bật. Tính năng đang triển khai toàn cầu trên trình duyệt máy tính và di động, ở mọi ngôn ngữ AI Mode hỗ trợ.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"
+    },
+    {
+      "title": "Genie 4 mở cho thuê bao Google AI Ultra qua Project Genie",
+      "body": "Ngày 18/11/2026, Google DeepMind bắt đầu mở Genie 4, mô hình tạo thế giới tương tác, cho thuê bao Google AI Ultra đủ điều kiện tại Project Genie; gói Pro mới được vào danh sách chờ. Người dùng có thể đổi môi trường giữa phiên bằng câu lệnh văn bản và có âm thanh thời gian thực; Genie 3 nay chạy tới 3 phút mỗi lượt. Google lưu ý đây vẫn là mô hình giai đoạn nghiên cứu và mọi video, âm thanh tạo ra đều gắn SynthID.",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    }
+  ]
+}

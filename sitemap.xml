@@ -535,6 +535,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/ai-seo-agent-mien-phi-ket-hop-hermes-firecrawl-va-qwen.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/chatgpt-image-cho-noi-dung-marketing-tao-poster-mockup-va-ban-do-y-tuong.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/claude-code-ai-seo-voi-netlify-va-mcp-workflow-xuat-ban-noi-dung.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -547,7 +559,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/gemma-chat-xay-ung-dung-offline-bang-mo-hinh-cuc-bo.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/hermes-agent-mission-control-giao-dien-quan-tri-agent-the-he-moi.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -559,7 +589,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/lo-trinh-hoc-openclaw-cach-theo-kip-cong-cu-ai-agent-moi.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/manus-cloud-computer-va-aws-stack-moi-cho-nguoi-lam-solo.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/mot-khoa-hoc-ai-automation-nen-co-nhung-phan-nao.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/open-source-ai-dang-thang-o-dau-bai-hoc-cho-doanh-nghiep-nho.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -577,7 +631,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/openclaw-va-byterover-nang-cap-bo-nho-dai-han-cho-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/seo-cho-cong-dong-online-bien-trang-cong-dong-thanh-tai-san-noi-dung.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -590,6 +656,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/thiet-lap-aion-ui-voi-openclaw-giao-dien-dieu-khien-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -535,7 +535,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/ai-agent-local-mien-phi-voi-hermes-va-ollama-khi-nao-nen-dung.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/ai-seo-agent-mien-phi-ket-hop-hermes-firecrawl-va-qwen.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -547,13 +559,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/chon-cong-dong-ai-agent-tieu-chi-danh-gia-truoc-khi-tham-gia.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/claude-code-ai-seo-voi-netlify-va-mcp-workflow-xuat-ban-noi-dung.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/deepseek-seo-phuong-phap-chon-tu-khoa-xu-huong-de-len-bai-nhanh.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -613,6 +643,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/open-source-ai-dang-thang-o-dau-bai-hoc-cho-doanh-nghiep-nho.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -643,6 +679,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/paperclip-hermes-agent-mo-hinh-to-chuc-cong-viec-bang-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/seo-cho-cong-dong-online-bien-trang-cong-dong-thanh-tai-san-noi-dung.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -650,6 +698,24 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/sonnet-cho-doanh-nghiep-dung-mo-hinh-ai-vao-quy-trinh-nao-truoc.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/space-agent-va-openclaw-so-sanh-suc-manh-toc-do-va-chi-phi.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -674,6 +740,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/xep-hang-trong-google-ai-mode-quy-trinh-seo-can-thay-doi-gi.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

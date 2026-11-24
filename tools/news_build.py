@@ -2,7 +2,8 @@
 
 Input  news-data/YYYY-MM-DD.json:
   {"date": "2026-11-15", "summary": "1-2 cau mo dau (<=160 ky tu)",
-   "items": [{"title": "...", "body": "2-3 cau tu viet", "source_name": "...", "source_url": "https://..."}]}
+   "items": [{"title": "...", "body": "2-3 cau tu viet", "source_name": "...", "source_url": "https://..."}],
+   "en": {"summary": "English summary (20-160 chars)", "items": [{"title": "...", "body": "..."}]}}   <- same item order, required
 Output tin-tuc/<date>.html, tin-tuc/index.html, homepage block, sitemap.xml.
 Run from anywhere: python tools/news_build.py   (idempotent)
 """
@@ -26,6 +27,9 @@ def load(paths=None):
         for it in d["items"]:
             assert it["source_url"].startswith("https://") and it["source_name"], f"{date}: source missing"
             assert len(it["title"]) <= 120 and 40 <= len(it["body"]) <= 600, f"{date}: {it['title'][:30]}"
+        e = d.get("en")  # every issue must also carry the English text, same item order
+        assert e and 20 <= len(e["summary"]) <= 160 and not re.search(r'["&<>]', e["summary"]), f"{date}: missing or bad en.summary"
+        assert len(e["items"]) == len(d["items"]) and all(it["title"] and len(it["body"]) >= 40 for it in e["items"]), f"{date}: en.items must match items"
         days.append(d)
     return days
 

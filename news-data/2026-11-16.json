@@ -26,5 +26,26 @@
       "source_name": "ElevenLabs Blog",
       "source_url": "https://elevenlabs.io/blog/nyc-summit"
     }
-  ]
+  ],
+  "en": {
+    "summary": "Google launches Gemini 4 Hydrogen, LangChain raises another $300M, United blocks AI agents from booking and ElevenLabs tests ElevenAI.",
+    "items": [
+      {
+        "title": "Google releases Gemini 4 Hydrogen, replacing Gemini 3.8 Flash",
+        "body": "On Nov 12, Google announced Gemini 4 Hydrogen, a fast model for coding and everyday agent workflows, available in the Gemini API, AI Studio and the Gemini app, and rolling out in Google Search worldwide. API pricing is $1.50 per million input tokens and $7.50 per million output tokens, flat across the 1 million token context window, with a new xhigh reasoning level. The 2.5x speedup over 3.8 Flash is Google's own figure, so measure it on your own tasks before switching."
+      },
+      {
+        "title": "LangChain raises a $300M Series C at a $3B valuation",
+        "body": "On Nov 13, LangChain announced a $300M Series C at a $3B valuation, led by CapitalG with GIC, DFJ Growth and existing investors. The company plans to announce new LangSmith platform features at its Nov 20 event. For anyone building agents on LangChain or LangGraph, this signals continued investment in the ecosystem, so watch the upcoming LangSmith changes."
+      },
+      {
+        "title": "United Airlines restricts third-party personal AI agents from booking",
+        "body": "On Nov 11, United said it will restrict unauthorized third-party AI agents and personal assistants from accessing its digital channels, including through online travel agencies. The reasons given are the risk of sharing login credentials and the chance of unintended purchases or MileagePlus mile use. If you build agents that automate transactions, note the trend of businesses tightening access and demanding official integrations."
+      },
+      {
+        "title": "ElevenLabs opens early access to ElevenAI for meeting notes and dictation",
+        "body": "At a New York event on Nov 11, ElevenLabs introduced ElevenAI, a meeting-notes app that asks attendees for consent, sends summaries and action items after calls, and runs on the Scribe v3 speech recognition model. The app is in free early access. At the same time, the company announced Memory and Routines for ElevenAgents, useful if you build voice agents."
+      }
+    ]
+  }
 }

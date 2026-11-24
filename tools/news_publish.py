@@ -1,7 +1,7 @@
 """Publish one approved daily news issue end to end.
 Usage: python tools/news_publish.py YYYY-MM-DD [--dry-run]
   1. moves news-drafts/<date>.json to news-data/ (if it is still a draft) and validates it
-  2. runs tools/news_build.py
+  2. runs tools/news_build.py and tools/i18n_build.py (the draft JSON must include the "en" block)
   3. git add (specific paths only), commit, push
   4. waits for the Vercel deploy (gh status), checks the live pages return 200
   5. pings IndexNow for the home page, /tin-tuc/ and the new day page
@@ -40,10 +40,11 @@ def main():
         shutil.move(draft, final)
     assert os.path.exists(final), f"no draft or data for {date}"
     print(run(sys.executable, "tools/news_build.py"))
+    print(run(sys.executable, "tools/i18n_build.py"))  # English pages + hreflang (must run after news_build)
     if dry:
         print("dry-run: stopped before git"); return
 
-    run("git", "add", "news-data", "tin-tuc", "index.html", "sitemap.xml")
+    run("git", "add", "news-data", "tin-tuc", "en", "index.html", "sitemap.xml")
     if run("git", "diff", "--cached", "--name-only"):
         run("git", "-c", "core.safecrlf=false", "commit", "-q", "-m",
             f"Publish daily AI news {date}\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>")
@@ -57,7 +58,7 @@ def main():
     else:
         print("nothing new to commit, checking live pages anyway")
 
-    urls = [f"{SITE}/", f"{SITE}/tin-tuc/", f"{SITE}/tin-tuc/{date}.html"]
+    urls = [f"{SITE}/", f"{SITE}/tin-tuc/", f"{SITE}/tin-tuc/{date}.html", f"{SITE}/en/", f"{SITE}/en/news/", f"{SITE}/en/news/{date}.html"]
     for u in urls:
         code = http(u)
         assert code == 200, f"{u} -> {code}"

@@ -1,7 +1,41 @@
-{"date":"2026-11-15",
-"summary":"Anthropic ra mắt Claude Fable 5.2 và Mythos 5.2, khởi động IPO; Nvidia đổi CEO. Ba tin đã đối chiếu nguồn chính thức.",
-"items":[
-{"title":"Anthropic giới thiệu Claude Fable 5.2 và Claude Mythos 5.2","body":"Ngày 9/11, Anthropic công bố hai mô hình mới, mô tả là mô hình mạnh nhất của hãng cho công việc kỹ thuật khó, đặt chuẩn mới ở lập trình, tài chính và khoa học. Trang công bố không nêu giá, điểm chuẩn hay phạm vi cung cấp, nên cần xem tài liệu mô hình trước khi chọn dùng.","source_name":"Anthropic","source_url":"https://www.anthropic.com/news"},
-{"title":"Anthropic khởi động roadshow cho đợt IPO dự kiến","body":"Ngày 10/11, Anthropic thông báo bắt đầu roadshow chào bán cổ phiếu phổ thông loại A và đã đăng ký niêm yết trên Nasdaq với mã ANT. Giá và số cổ phiếu cuối cùng chỉ được ấn định sau roadshow, các con số trên báo chí hiện chưa phải kết quả chốt.","source_name":"Anthropic","source_url":"https://www.anthropic.com/news/roadshow-launch"},
-{"title":"Nvidia công bố thay đổi CEO, Colette Kress làm CEO tạm quyền","body":"Ngày 12/11, Nvidia cho biết Jensen Huang từ chức chủ tịch, CEO và thành viên hội đồng quản trị, có hiệu lực ngay. CFO Colette Kress giữ vai trò CEO tạm quyền, Harvey C. Jones là chủ tịch hội đồng đầu tiên, và hội đồng bắt đầu tìm CEO chính thức từ cả trong lẫn ngoài công ty.","source_name":"Nvidia Investor Relations","source_url":"https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"}
-]}
+{
+  "date": "2026-11-15",
+  "summary": "Anthropic ra mắt Claude Fable 5.2 và Mythos 5.2, khởi động IPO; Nvidia đổi CEO. Ba tin đã đối chiếu nguồn chính thức.",
+  "items": [
+    {
+      "title": "Anthropic giới thiệu Claude Fable 5.2 và Claude Mythos 5.2",
+      "body": "Ngày 9/11, Anthropic công bố hai mô hình mới, mô tả là mô hình mạnh nhất của hãng cho công việc kỹ thuật khó, đặt chuẩn mới ở lập trình, tài chính và khoa học. Trang công bố không nêu giá, điểm chuẩn hay phạm vi cung cấp, nên cần xem tài liệu mô hình trước khi chọn dùng.",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic khởi động roadshow cho đợt IPO dự kiến",
+      "body": "Ngày 10/11, Anthropic thông báo bắt đầu roadshow chào bán cổ phiếu phổ thông loại A và đã đăng ký niêm yết trên Nasdaq với mã ANT. Giá và số cổ phiếu cuối cùng chỉ được ấn định sau roadshow, các con số trên báo chí hiện chưa phải kết quả chốt.",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    {
+      "title": "Nvidia công bố thay đổi CEO, Colette Kress làm CEO tạm quyền",
+      "body": "Ngày 12/11, Nvidia cho biết Jensen Huang từ chức chủ tịch, CEO và thành viên hội đồng quản trị, có hiệu lực ngay. CFO Colette Kress giữ vai trò CEO tạm quyền, Harvey C. Jones là chủ tịch hội đồng đầu tiên, và hội đồng bắt đầu tìm CEO chính thức từ cả trong lẫn ngoài công ty.",
+      "source_name": "Nvidia Investor Relations",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+    }
+  ],
+  "en": {
+    "summary": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 and starts its IPO; Nvidia changes CEO. Three items checked against official sources.",
+    "items": [
+      {
+        "title": "Anthropic introduces Claude Fable 5.2 and Claude Mythos 5.2",
+        "body": "On Nov 9, Anthropic announced two new models, described as the company's most capable for hard technical work and setting a new bar in coding, finance and science. The announcement page does not state pricing, benchmarks or availability, so read the model documentation before choosing either."
+      },
+      {
+        "title": "Anthropic starts the roadshow for its planned IPO",
+        "body": "On Nov 10, Anthropic announced the start of the roadshow to offer Class A common stock, which it has registered to list on Nasdaq under the ticker ANT. The final price and share count are only set after the roadshow, so figures in the press are not yet final results."
+      },
+      {
+        "title": "Nvidia announces a CEO change, with Colette Kress as interim CEO",
+        "body": "On Nov 12, Nvidia said Jensen Huang resigned as chairman, CEO and board member, effective immediately. CFO Colette Kress serves as interim CEO, Harvey C. Jones is the first board chair, and the board has begun a search for a permanent CEO from inside and outside the company."
+      }
+    ]
+  }
+}

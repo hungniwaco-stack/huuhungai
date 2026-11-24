@@ -50,5 +50,42 @@
       "source_name": "Google Blog",
       "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
     }
-  ]
+  ],
+  "en": {
+    "summary": "Anthropic prices its IPO at $83 a share, Google ships Gemini 4 Neon and Stitch Loop, Copilot adds MCP connectors, Nvidia reports record revenue.",
+    "items": [
+      {
+        "title": "Anthropic prices its IPO at $83 a share, listing on Nasdaq as ANT",
+        "body": "On Nov 18, 2026, Anthropic announced the pricing of its IPO of 980 million Class A common shares at $83, of which about 956 million are sold by the company and the rest by certain shareholders. The shares are expected to trade on the Nasdaq Global Select Market from Nov 19 under the ticker ANT, with the offering expected to close on Nov 20. Underwriters have a 30-day option to buy up to 147 million additional shares."
+      },
+      {
+        "title": "Google launches Gemini 4 Neon: 1 million token context, $3 per million input tokens",
+        "body": "On Nov 18, 2026, Google introduced Gemini 4 Neon, positioned between Carbon (the longest, hardest work) and Hydrogen (fast everyday work), aimed at coding, analytical reasoning and enterprise workflows. API pricing is $3 per million input tokens, $0.15 for cached input and $15 for output; it is available in the paid Gemini API, Antigravity and the Gemini app for Pro and Ultra plans. The same day, GitHub added Neon to Copilot for Pro+, Max, Business and Enterprise plans."
+      },
+      {
+        "title": "Google Labs introduces Stitch Loop, an agent that monitors and improves shipped products",
+        "body": "On Nov 18, 2026, Google Labs announced Stitch Loop, a long-running agent that connects to GitHub, logs, user behavior and feedback through more than 180 integrations or custom MCP servers. It runs goal-driven loops (by default security, latency and accessibility), builds changes in a sandbox and opens a pull request; nothing is merged without human approval. It is currently a global waitlist, with eligible Google AI Ultra users prioritized."
+      },
+      {
+        "title": "GitHub Copilot adds 8 MCP connectors: Supabase, Box, Calendly, ClickUp, Webflow, Wix...",
+        "body": "On Nov 18, 2026, GitHub added eight connectors to Copilot: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow and Wix, bringing the total to more than 33. The connectors are GitHub-verified MCP servers, usable in the Copilot app, Copilot CLI, VS Code and github.com. The feature is in public preview; on Business and Enterprise plans, an administrator must enable the Editor preview features policy."
+      },
+      {
+        "title": "GitHub Copilot lets organizations preset Agent Plugins by team",
+        "body": "On Nov 18, 2026, GitHub made team-level Copilot customization generally available for Business and Enterprise plans. Team managers choose approved Agent Plugins to turn on by default for members in VS Code, the Copilot app and Copilot CLI. Members can turn them off if policy allows, and enterprise and organization policies always take precedence over a team's choices."
+      },
+      {
+        "title": "Nvidia reports fiscal 2027 Q3 revenue of $115.8B, up 103%",
+        "body": "On Nov 17, 2026, Nvidia reported revenue of $115.8B for the quarter ended Oct 25, 2026, up 103% year over year; Data Center revenue was $107.6B, up 110%. The company guides Q4 to about $130B (plus or minus 3%), a quarter with one extra week, and excludes Data Center revenue from China. The release quotes Colette Kress, interim CEO and chief financial officer."
+      },
+      {
+        "title": "AI Mode in Google Search gets a temporary chat that saves no history",
+        "body": "On Nov 17, 2026, Google added temporary threads to AI Mode: Q&A sessions separate from your account that use no past preferences, do not affect later personalization and disappear when closed. Users tap the icon at the top right of AI Mode to turn it on. The feature is rolling out worldwide on desktop and mobile browsers, in every language AI Mode supports."
+      },
+      {
+        "title": "Genie 4 opens to Google AI Ultra subscribers through Project Genie",
+        "body": "On Nov 18, 2026, Google DeepMind began opening Genie 4, an interactive world-generation model, to eligible Google AI Ultra subscribers in Project Genie; Pro plans can only join a waitlist for now. Users can change the environment mid-session with text prompts and get real-time audio; Genie 3 now runs up to 3 minutes per session. Google notes this is still a research-stage model and all generated video and audio carry SynthID."
+      }
+    ]
+  }
 }

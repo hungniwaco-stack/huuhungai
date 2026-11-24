@@ -44,5 +44,38 @@
       "source_name": "NVIDIA Blog",
       "source_url": "https://blogs.nvidia.com/blog/rubin-hpc/"
     }
-  ]
+  ],
+  "en": {
+    "summary": "Google opens an MCP server and agent skills for AdMob, OpenAI brings computer-use agents to healthcare, and GTIG warns of automated AI attacks.",
+    "items": [
+      {
+        "title": "Google AdMob adds agent skills, a trial MCP server and the Ask AdMob assistant",
+        "body": "On Nov 16, Google announced AI tools for AdMob: agent skills are ready-made playbooks for AI agents to do tasks such as moving to the Google Mobile Ads Next-Gen SDK, available now; an MCP server lets agents read account data, create ad units and adjust mediation, currently in early testing and expanding early next year. A conversational assistant, Ask AdMob, runs on Gemini and begins testing in the coming months. Google says changes made through MCP still need developer approval before going to production."
+      },
+      {
+        "title": "OpenAI publishes results for computer-use agents in healthcare workflows",
+        "body": "On Nov 16, OpenAI shared evaluation results on usefulness, safety and cost when agents operate healthcare software on their own, for example preparing an insurance approval request for an MRI scan. The company says it is working with Abridge, Ambience, Cigna Healthcare and CVS Health, and the feature is available through the OpenAI API, ChatGPT for Healthcare and ChatGPT for Clinicians, with approval settings, access controls and audit logs. The demo used simulated patient data, so real-world results need further verification."
+      },
+      {
+        "title": "Google GTIG warns attackers are using automated LLM frameworks to exploit patches",
+        "body": "On Nov 16, the Google Threat Intelligence Group said attackers are using automated LLM frameworks to scan software updates, identify the bugs that were fixed and build exploit code with no human involved. Google calls this a machine-speed threat and introduced Google AI Threat Defense, combining Gemini, Wiz, CodeMender and Mandiant. The blog post names no specific attack; the notable point is that the time from patch release to exploitation may be shorter than before."
+      },
+      {
+        "title": "Gemini Notebook can turn source documents into interactive web pages",
+        "body": "On Nov 16, Google let Gemini Notebook turn notes and source documents into interactive web pages; just type make me a site with a description in the chat box. Google's examples include study guides, data dashboards and project trackers, which can open in a new tab and be shared. The feature is rolling out worldwide on the web for users aged 18 and over, including Workspace accounts; mobile apps will follow."
+      },
+      {
+        "title": "OpenAI offers a free image classifier for detecting CSAM through its API",
+        "body": "On Nov 16, OpenAI released an image classifier that detects child sexual abuse material, including AI-generated images, built with support from NCMEC. Vetted organizations can use it free through the OpenAI API, with access sharing supported by the Tech Coalition and ROOST. In the same release, OpenAI added warnings in ChatGPT and guidance for developers; anyone building products that accept user uploads should read this guidance."
+      },
+      {
+        "title": "OpenAI expands its free ChatGPT program for researchers",
+        "body": "On Nov 16, OpenAI said its ChatGPT for Academic Researchers program will expand to up to 200,000 researchers. The next application round opens Nov 23 with 50,000 first-come, first-served slots for eligible people, each including free ChatGPT Plus for the recipient and up to two collaborators. OpenAI says data in the program is not used to train models by default."
+      },
+      {
+        "title": "Nvidia announces the Rubin HPC GPU for simulation and data analytics, expected in 2028",
+        "body": "At SC26 on Nov 16, Nvidia introduced Rubin HPC, a new GPU in the Vera Rubin platform for simulation, science, engineering and data analytics. Nvidia says the chip has more than 50,000 CUDA cores, sparse data acceleration and seventh-generation NVLink. The product is expected in 2028, so this is an infrastructure roadmap item rather than something you can use now."
+      }
+    ]
+  }
 }

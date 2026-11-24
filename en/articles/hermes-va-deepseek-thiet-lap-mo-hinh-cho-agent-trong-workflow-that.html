@@ -34,7 +34,7 @@
 <li><strong>Cost.</strong> An agent calls the model many turns, so the cached input price matters. Hermes's stable prompt helps raise the cache-hit rate; changing the model or provider mid-session loses this advantage.</li>
 <li><strong>Data.</strong> Using the API means conversation content, including files the agent reads, is sent to DeepSeek. Read their data policy and terms, and do not put in customer data or confidential information if you are not sure. If data must not leave the machine, look at the local option.</li>
 <li><strong>Tool reliability.</strong> Each model is better or worse at calling tools. Test on your real tasks before using it for important work.</li>
-<li><strong>Fallback.</strong> You can set DeepSeek as the main model and another provider as the fallback, or the reverse, with <code>fallback_providers</code> (see <a href="/articles/hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html">Hermes AI course: understanding multi-agent, profiles and fallback chains</a>).</li>
+<li><strong>Fallback.</strong> You can set DeepSeek as the main model and another provider as the fallback, or the reverse, with <code>fallback_providers</code> (see <a href="hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html">Hermes AI course: understanding multi-agent, profiles and fallback chains</a>).</li>
 </ul>
 <h2 id="hermes-va-deepseek-thiet-lap-mo-hinh-cho-agent-trong-workflow-that-5">Assigning models by role</h2>
 <p>Not every task needs the most expensive model. Hermes lets you set a separate model for subagents with <code>delegation.model</code> and <code>delegation.provider</code>, or pin a separate model to each profile. One common approach: a strong model for planning and review, a cheap model for repetitive steps such as summarizing and classifying. Measure the real cost after a week instead of guessing.</p>
@@ -42,5 +42,5 @@
 <ol>
 <li>Choose three real tasks, small enough.</li>
 <li>Run them with DeepSeek and with the model you currently use.</li>
-<li>Compare on accuracy, number of fixes, time and cost, using the framework in <a href="/articles/danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests</a>.</li>
+<li>Compare on accuracy, number of fixes, time and cost, using the framework in <a href="danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests</a>.</li>
 </ol></div></article></main><footer class="site-foot"><a href="/en/privacy.html">Privacy and cookies</a> · <a href="/en/news/">AI News</a> · © Hữu Hùng AI</footer></body></html>

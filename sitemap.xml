@@ -541,6 +541,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/ai-lead-generation-agent-tu-dong-hoa-pipeline-ban-hang.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/ai-seo-agent-mien-phi-ket-hop-hermes-firecrawl-va-qwen.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -560,6 +566,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/cai-deepseek-voi-ollama-chay-mo-hinh-ai-theo-huong-tiet-kiem.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -607,6 +619,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -631,6 +649,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/deepseek-seo-phuong-phap-chon-tu-khoa-xu-huong-de-len-bai-nhanh.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -638,6 +662,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/deepseek-seo-tool-tao-landing-page-co-cau-truc-bang-mot-prompt.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/deepseek-tutorial-hieu-context-dai-va-moe-khi-chon-mo-hinh.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -655,7 +685,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/hermes-agent-mission-control-giao-dien-quan-tri-agent-the-he-moi.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/hermes-agent-workspace-goc-nhin-developer-ve-kien-truc-va-hieu-nang.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -674,6 +716,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/hermes-ai-video-generator-tao-video-giai-thich-bang-manim.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/hermes-desktop-app-thiet-lap-nhanh-de-bat-dau-lam-viec-voi-agent.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -752,6 +800,18 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/omi-va-obsidian-cho-doanh-nhan-xay-he-thong-ghi-nho-cong-viec-bang-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/open-design-va-claude-design-cho-agency-chon-cong-cu-thiet-ke-ai-the-nao.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -871,6 +931,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/thiet-lap-telegram-ai-agent-token-cau-hinh-va-tac-vu-dau-tien.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -878,6 +944,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/xay-second-brain-voi-hermes-ghi-chu-va-ai-automation.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -7,7 +7,7 @@ QUICK: OpenClaw has official provider plugins for DeepSeek (id `deepseek`, varia
 ## Two providers, two ways of using them
 - **DeepSeek:** calls DeepSeek's API directly with your key. Data is sent to DeepSeek.
 - **Ollama Cloud:** runs large models on Ollama's cloud infrastructure so you do not need a powerful graphics card. According to Ollama's documentation, you can call through the API (no Ollama install needed) or run cloud models from the app, the CLI and the local API; both ways need an Ollama account. The cloud model catalog is at `ollama.com/search?c=cloud`.
-For how this differs from running a model on your own machine, see [DeepSeek and OpenClaw: setting up a local gateway for agents](deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html).
+For how this differs from running a model on your own machine, see [Running local models for OpenClaw: runtimes, configuration and risks](deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html).
 ## How OpenClaw connects providers
 The "Official provider plugins" page lists dozens of bundled provider plugins (including DeepSeek, Moonshot, Ollama Cloud, OpenRouter, Together, Groq...). According to that page, official plugins do not need a `models.providers` entry: you enable the plugin, set authentication and choose a model. Use `models.providers` only for custom providers or narrow settings such as timeouts.
 The page's table states:

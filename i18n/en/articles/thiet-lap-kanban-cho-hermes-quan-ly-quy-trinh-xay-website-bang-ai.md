@@ -8,7 +8,7 @@ QUICK: Hermes's Kanban is a durable task board stored in `~/.hermes/kanban.db`, 
 The documentation describes it as a shared task board for all Hermes profiles. Each task is a row in `~/.hermes/kanban.db`, and each worker runs as its own process with its own profile identity. Unlike `delegate_task` (a blocking function call), Kanban is a queue where every handoff is visible and editable.
 The states: `triage`, `todo`, `ready`, `running`, `blocked`, `review`, `done`, `archived`.
 ## Requirements
-- Hermes Agent with at least one profile as a worker. Create profiles following [Hermes AI course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html).
+- Hermes Agent with at least one profile as a worker. Create profiles following [Hermes AI Course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html).
 - A running gateway, because the dispatcher is embedded in the gateway by default. Without a gateway, ready tasks will sit waiting.
 - Git, if you use worktree folders for coding tasks.
 ## Minimum setup

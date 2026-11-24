@@ -38,4 +38,4 @@ The larger the model, the more RAM or graphics card memory it needs. Nous Resear
 - An app that handles sensitive data which needs to stay on the machine.
 - Environments with no or limited internet.
 - You want to avoid per-call costs.
-When you need the highest quality or many simultaneous users, see [Ollama and Hermes: when a local AI agent beats the cloud](ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html).
+When you need the highest quality or many simultaneous users, see [Ollama and Hermes: when does a local AI agent beat the cloud?](ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html).

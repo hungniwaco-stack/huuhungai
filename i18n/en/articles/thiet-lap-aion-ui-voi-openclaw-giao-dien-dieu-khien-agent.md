@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: Aion UI (repo `iOfficeAI/AionUi`, Apache-2.0 license) is a desktop app that brings many agents into one interface: it has a built-in agent and automatically detects installed CLIs such as OpenClaw, Claude Code and Codex. Install it from a release or with `brew install aionui` on macOS. Data is stored locally in SQLite.
 ## What Aion UI is
-The project README describes a free, open-source "Cowork" app: the agent works on your machine (reads files, writes code, browses the web, automates tasks) and you approve its actions. The app has its own built-in agent and can also run external agent CLIs in the same interface. It is a community project, not a product of the OpenClaw Foundation. For the official OpenClaw build, see [Installing OpenClaw](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
+The project README describes a free, open-source "Cowork" app: the agent works on your machine (reads files, writes code, browses the web, automates tasks) and you approve its actions. The app has its own built-in agent and can also run external agent CLIs in the same interface. It is a community project, not a product of the OpenClaw Foundation. For the official OpenClaw build, see [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
 ## Requirements
 - macOS 10.15 or later, Windows 10 or later, or Linux (Ubuntu 18.04 or later, Debian 10 or later, Fedora 32 or later).
 - At least 4 GB of RAM recommended, with at least 500 MB of free disk space.
@@ -29,4 +29,4 @@ Aion UI automatically scans for CLI tools installed on your machine. The README 
 ## Data and security
 The README says all data is stored locally in a SQLite database and is not uploaded to any server. That only describes the app; the model you choose still receives the content you send. With the remote WebUI, use a strong password and prefer a private network or VPN, because this interface controls agents that can run commands on your machine.
 ## When to use it
-It suits you if you use several agents and want one shared interface. If you only use OpenClaw, the official interface (Control UI) or [ClawX](ngay-dau-voi-clawx-openclaw-nen-kiem-tra-gi-truoc-khi-dung-that.html) may be enough. Also consider that adding another software layer adds one more thing to update and trust, so do not install all three interfaces at once.
+It suits you if you use several agents and want one shared interface. If you only use OpenClaw, the official interface (Control UI) or [Day one with ClawX for OpenClaw: what to check before real use](ngay-dau-voi-clawx-openclaw-nen-kiem-tra-gi-truoc-khi-dung-that.html) may be enough. Also consider that adding another software layer adds one more thing to update and trust, so do not install all three interfaces at once.

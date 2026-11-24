@@ -31,7 +31,7 @@ The sustainable way is to reduce vendor lock-in from the start:
 - **Store workflows and instructions as text files** (Markdown) that you own, not only inside the platform's interface.
 - **Separate the model layer from the workflow layer**, so you can swap the model without rewriting the workflow.
 - **Prefer open standards** for tool integration where possible.
-- **Keep your test set** to compare a new platform quickly, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+- **Keep your test set** to compare a new platform quickly, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 - **Export data and logs periodically**, and do not wait until you need to try exporting.
 ## A safe migration plan
 1. Choose one low-risk task to try on the new platform.

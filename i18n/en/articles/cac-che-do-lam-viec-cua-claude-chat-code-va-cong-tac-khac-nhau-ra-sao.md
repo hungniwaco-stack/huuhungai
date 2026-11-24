@@ -16,7 +16,7 @@ Claude Code is a coding assistant that works directly in your project folder, us
 - **Suits:** writing and fixing code, building small websites, automating with scripts, working on many files at once, and also text folders such as a notes vault.
 - **Permissions:** read and write in the folder you open, run commands with the permissions you grant.
 - **Risk:** medium to high if you grant broad permissions. Use Git and plan-only mode when starting out.
-See the step-by-step guide at [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+See the step-by-step guide at [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
 ## Mode 3: Collaboration on files and apps
 This is the mode for non-coding work, where Claude works with files and apps on your machine to finish a multi-step task, such as organizing documents, consolidating data or drafting a report from several sources.
 - **Suits:** office and knowledge work with many files, needing consolidation or bulk processing.
@@ -41,4 +41,4 @@ Learn a topic, ask about a document you paste   Chat
 ## Data and privacy
 In every mode, content you give Claude or let it read is processed by the service. Check the provider's current data policy, and do not put in passwords, access keys or sensitive customer data if you do not need to.
 ## Combining the modes
-An effective way is usually to combine them: use chat to think and plan, use Claude Code or the collaboration mode to carry out the work on files, then go back to chat to review and adjust. To judge whether an agent that works on files can be trusted, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+An effective way is usually to combine them: use chat to think and plan, use Claude Code or the collaboration mode to carry out the work on files, then go back to chat to review and adjust. To judge whether an agent that works on files can be trusted, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

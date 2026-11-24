@@ -7,7 +7,7 @@ QUICK: Learn OpenClaw in order: get one Gateway running and a first chat, then c
 ## Principle: learn one layer at a time
 OpenClaw has many layers: Gateway, chat channels, models, tools, skills, memory, automation, multi-agent. Do not open them all at once. Each stage below ends with something you can verify. The official documentation is at `docs.openclaw.ai`.
 ## Stage 1: get it running and chat
-- Install and onboard following [Installing OpenClaw](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
+- Install and onboard following [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
 - Check with `openclaw gateway status`, open `openclaw dashboard` and send a first message.
 - **Milestone:** an AI reply in the Control UI.
 ## Stage 2: connect one channel
@@ -22,10 +22,10 @@ OpenClaw has many layers: Gateway, chat channels, models, tools, skills, memory,
 - Configure a model provider (there are separate pages on providers, local runtimes and sample configs, including Kimi and Moonshot) and choose which tools the agent may use.
 - **Milestone:** the agent completes one small real task with the tools you chose.
 ## Stage 5: memory, skills, automation
-- Memory (the documentation describes several tiers and lookup mechanisms), skills (a CLI to find, install and manage them) and scheduled automation (the Automations page, formerly called cron). For memory details, see [Long-term memory for OpenClaw](thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html).
+- Memory (the documentation describes several tiers and lookup mechanisms), skills (a CLI to find, install and manage them) and scheduled automation (the Automations page, formerly called cron). For memory details, see [Setting up long-term memory for OpenClaw: when it is needed and how to control it](thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html).
 - **Milestone:** a recurring task runs on time without you prompting it.
 ## Stage 6: multi-agent and interfaces
-- Only when really needed, look at multi-agent routing ([Mission Control for OpenClaw: an agent squad, task board and memory](openclaw-mission-control-squad-agent-task-board-va-memory-browser.html)) and interfaces such as [ClawX](ngay-dau-voi-clawx-openclaw-nen-kiem-tra-gi-truoc-khi-dung-that.html) or [Aion UI](thiet-lap-aion-ui-voi-openclaw-giao-dien-dieu-khien-agent.html).
+- Only when really needed, look at multi-agent routing ([Mission Control for OpenClaw: an agent squad, task board and memory](openclaw-mission-control-squad-agent-task-board-va-memory-browser.html)) and interfaces such as [Day one with ClawX for OpenClaw: what to check before real use](ngay-dau-voi-clawx-openclaw-nen-kiem-tra-gi-truoc-khi-dung-that.html) or [Setting up Aion UI with OpenClaw: a control interface for agents](thiet-lap-aion-ui-voi-openclaw-giao-dien-dieu-khien-agent.html).
 ## Keeping up with changes without breaking the system
 The update documentation lists several points worth remembering:
 - Update with `openclaw update`. There are release channels: `latest`, beta and an extended stable channel; `main` is not a release.

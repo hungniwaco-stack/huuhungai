@@ -595,6 +595,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/chatgpt-image-cho-noi-dung-marketing-tao-poster-mockup-va-ban-do-y-tuong.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -620,6 +626,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -673,6 +685,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/gemma-chat-xay-ung-dung-offline-bang-mo-hinh-cuc-bo.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -680,6 +698,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/google-simula-va-mechanism-design-hieu-du-lieu-tong-hop-cho-ai.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -728,6 +752,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/hermes-hay-openclaw-vi-sao-cau-tra-loi-phu-thuoc-workflow.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -829,6 +859,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/openclaw-computer-use-cho-agent-thao-tac-may-tinh-sao-cho-an-toan.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -836,6 +872,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/openclaw-mission-control-squad-agent-task-board-va-memory-browser.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -913,6 +955,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huuhungai.com/en/articles/thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huuhungai.com/en/articles/thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -938,6 +992,12 @@
   </url>
   <url>
     <loc>https://huuhungai.com/en/articles/tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huuhungai.com/en/articles/tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent.html</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

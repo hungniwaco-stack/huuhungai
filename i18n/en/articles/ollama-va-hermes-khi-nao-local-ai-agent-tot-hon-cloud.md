@@ -43,7 +43,7 @@ fallback_providers:
 ```
 Read the "Fallback Providers" documentation on Hermes's site for the switching conditions and how to supply keys. An important note: when falling back to the cloud, that turn's data **will leave the machine**. If your reason for choosing local is privacy, think carefully about whether to turn the fallback on at all.
 ## Measure before deciding
-Do not choose by feel. Take a few of your real tasks and run them both ways, then compare using the framework in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html): accuracy, stability, time, cost and the amount of human intervention.
+Do not choose by feel. Take a few of your real tasks and run them both ways, then compare using the framework in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html): accuracy, stability, time, cost and the amount of human intervention.
 ## Practical advice
 - Start local if you already have a powerful machine and the work is simple.
 - If you find the agent often wrong or too slow, do not force it; try a cloud model just for the hard tasks.

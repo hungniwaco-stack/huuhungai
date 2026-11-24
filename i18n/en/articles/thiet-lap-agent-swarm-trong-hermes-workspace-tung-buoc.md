@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: Swarm Mode is a feature of Hermes Workspace (a community project) for running several persistent Hermes workers through tmux, each worker with one profile and one role. It needs Node.js 22, pnpm, git, tmux and at least one Hermes profile. You add workers from presets, dispatch work through the interface or the API, and workers send checkpoints back to the Reports section.
 ## Before you start
-Swarm Mode is not part of the official Hermes Agent. It lives in [Hermes Workspace](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html), a community web interface (repo `outsourc-e/hermes-workspace`, MIT license). Install and run Workspace normally first, then turn on Swarm. For an explanation of the roles, see [Roles in Hermes Swarm: builder, reviewer and how to coordinate](cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html).
+Swarm Mode is not part of the official Hermes Agent. It lives in [Setting up Hermes Workspace: a working base for AI agents](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html), a community web interface (repo `outsourc-e/hermes-workspace`, MIT license). Install and run Workspace normally first, then turn on Swarm. For an explanation of the roles, see [Roles in Hermes Swarm: builder, reviewer and how to coordinate](cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html).
 ## Requirements per the Swarm Quickstart
 - Node.js 22 or later.
 - pnpm and git.

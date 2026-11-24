@@ -61,4 +61,4 @@ These are the mistakes AI makes most, because ordinary React code does not apply
 - You have chosen the `fps`, size and length you want, and told the AI.
 - You have written the rules above into a guide file for the AI to read each time.
 - The project is in Git so you can undo when the AI edits wrongly.
-The specific workflow for handing work to Claude Code is in [Claude Code and Remotion: making video with an AI coding workflow](claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html). If you do not use Claude Code yet, first see [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+The specific workflow for handing work to Claude Code is in [Claude Code and Remotion: making video with an AI coding workflow](claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai.html). If you do not use Claude Code yet, first see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).

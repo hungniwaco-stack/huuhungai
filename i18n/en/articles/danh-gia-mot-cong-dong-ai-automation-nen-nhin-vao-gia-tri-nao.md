@@ -44,4 +44,4 @@ If you see many of these signs, stop and look into it more before paying.
 After a few weeks of taking part, ask yourself: what can I do now that I could not before, how much time have I saved, have I learned something I can use right away. If the answers are vague, that is important information.
 ## Related articles
 - If you are specifically interested in AI agent communities, see [Choosing an AI agent community: criteria to evaluate before joining](chon-cong-dong-ai-agent-tieu-chi-danh-gia-truoc-khi-tham-gia.html).
-- If you are torn between free and paid, see [Free vs paid AI communities](so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html).
+- If you are torn between free and paid, see [Free vs paid AI communities: where should you start?](so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html).

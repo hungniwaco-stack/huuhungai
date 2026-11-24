@@ -12,7 +12,7 @@
 <pre><code>openclaw models list
 openclaw models list --provider openai
 openclaw models set provider/model</code></pre>
-<p>If the model is not yet in the official provider's list, you can declare it manually through <code>models.providers</code> (see <a href="openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo.html">OpenClaw and Kimi</a> for an example). The provider documentation also has a practical note: if your API organization does not yet have access to a new version, explicitly set the version you do have (the documentation uses OpenAI as the example, and says signing in again keeps an explicitly set primary model).</p>
+<p>If the model is not yet in the official provider's list, you can declare it manually through <code>models.providers</code> (see <a href="openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo.html">OpenClaw and Kimi: configuring Moonshot, Kimi Coding and Ollama Cloud</a> for an example). The provider documentation also has a practical note: if your API organization does not yet have access to a new version, explicitly set the version you do have (the documentation uses OpenAI as the example, and says signing in again keeps an explicitly set primary model).</p>
 <h2 id="openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri-3">Step 2: try it as a separate choice, do not change the default right away</h2>
 <p>In a chat session, <code>/model</code> selects the model as a user override. According to the failover documentation, if this choice fails OpenClaw reports an error instead of switching to a fallback, which means you see the problem immediately. <code>/status</code> shows which model is in use; <code>/new</code> or <code>/reset</code> clears automatic pins. Only when the trial goes well should you change <code>agents.defaults.model.primary</code>.</p>
 <h2 id="openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri-4">Step 3: check context, tools and cost</h2>
@@ -22,7 +22,7 @@ openclaw models set provider/model</code></pre>
 <li><strong>Cost:</strong> record the price in <code>cost</code> if you want to track it; remember the different price tiers between fast and standard modes at some providers.</li>
 </ul>
 <h2 id="openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri-5">Step 4: set up a sensible fallback</h2>
-<p>Set <code>agents.defaults.model.fallbacks</code> so that when the new model is rate-limited or fails, the agent switches to a stable model. Remember that fallbacks only apply when the model is the default, not when you choose it manually. For the switching conditions and cooldown time, see <a href="deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html">DeepSeek, OpenClaw and Ollama Cloud</a>.</p>
+<p>Set <code>agents.defaults.model.fallbacks</code> so that when the new model is rate-limited or fails, the agent switches to a stable model. Remember that fallbacks only apply when the model is the default, not when you choose it manually. For the switching conditions and cooldown time, see <a href="deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html">DeepSeek, OpenClaw and Ollama Cloud: connecting models to an agent</a>.</p>
 <h2 id="openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri-6">Step 5: update the OpenClaw version safely</h2>
 <p>According to the update documentation:</p>
 <ul>
@@ -31,7 +31,7 @@ openclaw models set provider/model</code></pre>
 <li>An older version cannot read a database with a newer schema, so restoring must come with the right backup and the right version.</li>
 <li>After the update: <code>openclaw doctor</code>, <code>openclaw gateway status --deep</code>, <code>openclaw channels status --probe</code>.</li>
 </ul>
-<p>In addition, run <code>openclaw security audit</code> because defaults can change, see <a href="lo-trinh-hoc-openclaw-cach-theo-kip-cong-cu-ai-agent-moi.html">An OpenClaw learning path</a>.</p>
+<p>In addition, run <code>openclaw security audit</code> because defaults can change, see <a href="lo-trinh-hoc-openclaw-cach-theo-kip-cong-cu-ai-agent-moi.html">An OpenClaw learning path: how to keep up with new AI agent tools</a>.</p>
 <h2 id="openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri-7">Decision checklist</h2>
 <ul>
 <li>Change the default when: the new model wins on 3 of your real tasks on accuracy or cost, calls tools reliably and you have a fallback.</li>

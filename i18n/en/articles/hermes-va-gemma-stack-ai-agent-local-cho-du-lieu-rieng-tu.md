@@ -26,6 +26,6 @@ Look at the agent as software with many exits:
 The easiest way to be both private and usable is to split by sensitivity:
 - Sensitive data: a local profile, no cloud fallback, web tools off.
 - Public data: a profile that uses the cloud, with a stronger model.
-These two profiles are kept separate by creating separate profiles (see [Hermes AI course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html)). A fuller local-versus-cloud comparison framework is in [Ollama and Hermes: when does a local AI agent beat the cloud?](ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html).
+These two profiles are kept separate by creating separate profiles (see [Hermes AI Course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html)). A fuller local-versus-cloud comparison framework is in [Ollama and Hermes: when does a local AI agent beat the cloud?](ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html).
 ## Check before you trust
 Before handing over real data, run a trial task with fake data and watch the process's network traffic to confirm there are no unintended outbound connections. For data under legal constraints, ask the person in charge of compliance first; this article is not legal advice.

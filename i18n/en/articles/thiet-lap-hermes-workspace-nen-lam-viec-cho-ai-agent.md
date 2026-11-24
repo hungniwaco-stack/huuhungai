@@ -16,7 +16,7 @@ Hermes Workspace is a web app written by the community (version 2.3.0 when I rea
 - `8642`: the Hermes gateway (chat, models, tasks).
 - `9119`: the Hermes dashboard (sessions, skills, config, MCP).
 ## Enable the API server on the Hermes side
-The gateway side needs `API_SERVER_ENABLED=true` (required). If you want access from another machine, add `API_SERVER_HOST=0.0.0.0` together with `API_SERVER_KEY` for authentication. The README says the gateway refuses to start if you open `0.0.0.0` without a key. This is also how [Hermes Open WebUI](hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo.html) connects.
+The gateway side needs `API_SERVER_ENABLED=true` (required). If you want access from another machine, add `API_SERVER_HOST=0.0.0.0` together with `API_SERVER_KEY` for authentication. The README says the gateway refuses to start if you open `0.0.0.0` without a key. This is also how [Hermes Open WebUI with Docker and Ollama: an internal AI interface](hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo.html) connects.
 ## Method 1: one-line install (macOS, Linux)
 ```
 curl -fsSL https://raw.githubusercontent.com/outsourc-e/hermes-workspace/main/install.sh | bash
@@ -64,4 +64,4 @@ The README explains how to point `HERMES_API_URL` at Ollama (`OLLAMA_ORIGINS=* o
 - `HERMES_ALLOW_INSECURE_REMOTE=1` turns off the safeguard when exposed to the outside; the README does not recommend it.
 The interface has a terminal and a file editor, which means anyone who gets in controls your machine. Remote access should go through Tailscale or a VPN.
 ## Next steps
-To run several workers at once, see [Setting up Agent Swarm in Hermes Workspace step by step](thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc.html). For a more architectural view, see [Hermes Agent Workspace: a developer's view of architecture and performance](hermes-agent-workspace-goc-nhin-developer-ve-kien-truc-va-hieu-nang.html). A lighter community interface is [Hermes WebUI](hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc.html).
+To run several workers at once, see [Setting up an agent swarm in Hermes Workspace step by step](thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc.html). For a more architectural view, see [Hermes Agent Workspace: a developer's view of architecture and performance](hermes-agent-workspace-goc-nhin-developer-ve-kien-truc-va-hieu-nang.html). A lighter community interface is [Hermes WebUI: build a chat interface for your agent in a few steps](hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc.html).

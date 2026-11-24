@@ -11,7 +11,7 @@ Each time a company prepares a model, code names, screenshots, benchmark tables 
 2. **Reputable press that cites clearly:** it says where the information comes from and who confirmed it.
 3. **Leaks:** screenshots, tool names exposed in code, posts by people in the industry. They may be partly right, but they often lose context.
 4. **Speculation and aggregators:** articles that conclude more than the facts support, usually without a source of origin.
-One example: the name Jitro is mentioned in many articles as the next generation of Jules, but Google's official Jules page does not mention it, and the leak-based articles have dates that do not match. See [Jitro and Jules](google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html).
+One example: the name Jitro is mentioned in many articles as the next generation of Jules, but Google's official Jules page does not mention it, and the leak-based articles have dates that do not match. See [Google Jules and the Jitro rumor: what is confirmed and what is not](google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html).
 ## Signs to doubt
 - No publication date, or a date that does not match what the article says.
 - Very precise figures with no source (benchmarks, context length, price).
@@ -28,7 +28,7 @@ By contrast, more credible signs: a traceable origin, a clear date, an explicit 
 ## A simple process to follow without getting swept up
 - Make a list of a few official sources from the companies you care about and read those, instead of everything that is circulating.
 - Write rumors in a "watch" file and take no action.
-- When an official announcement arrives, read the documentation and the pricing page, then try it on 3 of your real tasks before changing your default. For the testing and fallback process, see [OpenClaw and new models: how to read a worthwhile update](openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri.html).
+- When an official announcement arrives, read the documentation and the pricing page, then try it on 3 of your real tasks before changing your default. For the testing and fallback process, see [OpenClaw and new models: how to read an update that is worth it](openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri.html).
 - Always keep a path back to the old model.
 ## Your responsibility when you repost
 If you write or share a rumor, state clearly that it is unconfirmed and give its origin. Do not turn speculation into a headline. This also helps avoid spreading false information.

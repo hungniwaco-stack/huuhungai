@@ -3,9 +3,9 @@
 <ul>
 <li><strong>Agent squad:</strong> the official documentation talks about multi-agent routing: boundaries between agents, channel accounts and the "bindings" that route a conversation to a particular agent. Each agent can separate sessions by agent, workspace or sender.</li>
 <li><strong>Task board:</strong> a feature of community dashboards. For example, <code>navjotdhanawat/openclaw-mission-control</code> has a five-column Kanban board (Inbox, Assigned, In Progress, Review, Done), priorities from Low to Urgent and groups work into "missions". Other dashboards have columns Backlog, In Progress, Review, Done. According to the documentation I read, OpenClaw has no built-in task board.</li>
-<li><strong>Memory browser:</strong> a memory browser is a feature of a few dashboards. OpenClaw's own memory (structure, search, provenance, deletion) has separate documentation, see <a href="/articles/thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html">Long-term memory for OpenClaw</a>.</li>
+<li><strong>Memory browser:</strong> a memory browser is a feature of a few dashboards. OpenClaw's own memory (structure, search, provenance, deletion) has separate documentation, see <a href="thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html">Setting up long-term memory for OpenClaw: when it is needed and how to control it</a>.</li>
 </ul>
-<p>For an overview of dashboards and safe access, see <a href="openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html">Mission Control: managing agents with a dashboard</a>.</p>
+<p>For an overview of dashboards and safe access, see <a href="openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan.html">Mission Control for OpenClaw: community dashboards and the official Control UI</a>.</p>
 <h2 id="openclaw-mission-control-squad-agent-task-board-va-memory-browser-2">Multi-agent routing in OpenClaw</h2>
 <p>According to the official documentation index, there are separate pages: Multi-agent routing (agent boundaries, channel accounts, bindings), Agent bindings (routing accounts and conversations to agents), Multi-user mode (session ownership when several people share one agent) and Broadcast groups (bounded group flows across channels). Each page has plenty of configuration detail that I have not read, so this article gives no syntax. Open those pages when you build the team.</p>
 <p>One important note from the security page: OpenClaw assumes one trust boundary per Gateway, meaning one operator or one group of people who trust each other, and it is not an adversarial multi-tenant boundary. For users who do not trust each other, the documentation advises separate Gateways, credentials and, ideally, separate operating system users or machines for each party. An agent with a messaging tool can send across conversations and providers by default.</p>
@@ -15,7 +15,7 @@
 <li><strong>Split by clear roles</strong>, for example one agent drafts and one reviews, each with its own tools and permissions (the documentation has pages on tool policy and per-agent profiles).</li>
 <li><strong>Hand out work through a single place.</strong> If you use a community dashboard, use only one task board to avoid double assignment.</li>
 <li><strong>Irreversible actions go through a person</strong>: sending messages, merging code, deleting data, spending money.</li>
-<li><strong>Measure</strong> time, cost and the number of reworks, using the framework in <a href="danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests</a>.</li>
+<li><strong>Measure</strong> time, cost and the number of reworks, using the framework in <a href="danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests: which criteria to look at</a>.</li>
 </ol>
 <h2 id="openclaw-mission-control-squad-agent-task-board-va-memory-browser-4">Risks to know</h2>
 <ul>
@@ -24,4 +24,4 @@
 <li>An agent that reads outside content (web pages, messages) can be hit by injected instructions; the OpenClaw documentation has a separate page on prompt injection.</li>
 </ul>
 <h2 id="openclaw-mission-control-squad-agent-task-board-va-memory-browser-5">When you need an agent team</h2>
-<p>When a task is long, multi-step and has a person reviewing in the middle. If it has not reached that level, one agent with good skills is usually enough. For a similar role-design framework on the Hermes side, see <a href="cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html">Roles in Hermes Swarm</a>.</p></div></article></main><footer class="site-foot"><a href="/en/privacy.html">Privacy and cookies</a> · <a href="/en/news/">AI News</a> · © Hữu Hùng AI</footer></body></html>
+<p>When a task is long, multi-step and has a person reviewing in the middle. If it has not reached that level, one agent with good skills is usually enough. For a similar role-design framework on the Hermes side, see <a href="cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop.html">Roles in Hermes Swarm: builder, reviewer and how to coordinate</a>.</p></div></article></main><footer class="site-foot"><a href="/en/privacy.html">Privacy and cookies</a> · <a href="/en/news/">AI News</a> · © Hữu Hùng AI</footer></body></html>

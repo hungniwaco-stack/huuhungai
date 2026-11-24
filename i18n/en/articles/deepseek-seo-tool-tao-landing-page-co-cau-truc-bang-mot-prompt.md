@@ -47,7 +47,7 @@ Few words in the right places are usually more effective than many words.
 - The page loads fast, the text is large enough and the contrast is good.
 - The form collects only the necessary information and there is a privacy policy.
 ## Do not reuse the same template for many pages
-If you create many landing pages with the same prompt and only change the product name, the results will be so alike that they become thin content. Each page needs real information and its own angle, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+If you create many landing pages with the same prompt and only change the product name, the results will be so alike that they become thin content. Each page needs real information and its own angle, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
 ## Suggested workflow
 1. Prepare the real information.
 2. Run the prompt to get a draft.

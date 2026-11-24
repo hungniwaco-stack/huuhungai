@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: OpenClaw supports Kimi in two ways: **Moonshot AI** (`MOONSHOT_API_KEY`, model `moonshot/kimi-k2.6`) and **Kimi Coding** (`KIMI_API_KEY`, model `kimi/kimi-for-coding`). Both have a ready-made onboarding command. You can also call Kimi through Ollama Cloud. The prices in the documentation's sample config are only example values, so do not use them to plan a budget.
 ## "Open models" and what needs to be said clearly
-This article is about connecting Kimi to OpenClaw. Many articles lump models such as Kimi together as "open models", but whether a model's weights are published is a question for each individual release. When you use the Moonshot API, you use their cloud service, not weights running on your own machine. For running a model locally, see [DeepSeek and OpenClaw: a local gateway](deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html).
+This article is about connecting Kimi to OpenClaw. Many articles lump models such as Kimi together as "open models", but whether a model's weights are published is a question for each individual release. When you use the Moonshot API, you use their cloud service, not weights running on your own machine. For running a model locally, see [Running local models for OpenClaw: runtimes, configuration and risks](deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html).
 ## Route 1: Moonshot AI (Kimi through the Moonshot API)
 Sample config from the "Provider examples" documentation (JSON5):
 ```
@@ -51,12 +51,12 @@ Sample config from the "Provider examples" documentation (JSON5):
 ```
 This is a built-in provider that is Anthropic-compatible. The onboarding shortcut is `openclaw onboard --auth-choice kimi-code-api-key`.
 ## Route 3: Kimi through Ollama Cloud
-In the provider plugin table, Ollama Cloud (id `ollama-cloud`, variable `OLLAMA_API_KEY`) has an example model `ollama-cloud/kimi-k2.6`. For details see [DeepSeek, OpenClaw and Ollama Cloud](deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html), including the notes on Ollama's data handling.
+In the provider plugin table, Ollama Cloud (id `ollama-cloud`, variable `OLLAMA_API_KEY`) has an example model `ollama-cloud/kimi-k2.6`. For details see [DeepSeek, OpenClaw and Ollama Cloud: connecting models to an agent](deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html), including the notes on Ollama's data handling.
 ## Which route to choose
 - You need a direct integration with Moonshot and want to manage costs on a Moonshot account: route 1.
 - Mainly for coding and you want a prebuilt provider: route 2.
 - You already use Ollama and want a single account: route 3.
-Try the same real task on the models you are considering and compare accuracy, speed and cost, instead of trusting a generic comparison table. For a scoring framework, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+Try the same real task on the models you are considering and compare accuracy, speed and cost, instead of trusting a generic comparison table. For a scoring framework, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 ## Fallbacks and tool permissions
 Set fallbacks with `agents.defaults.model.fallbacks`; if you pick a model manually with `/model`, an error is reported instead of switching to a fallback. Outside models may resist prompt injection less well than top-tier models, so keep tool permissions narrow and read the [security lessons](openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat.html).
 ## A note on data

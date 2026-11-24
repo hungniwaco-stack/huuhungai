@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: A good AI agent community has real technical depth: runnable examples, public source code or configs, leaders who have deployed agents themselves and a serious security culture. Because agents can run commands and use access keys, a community that is careless about security can cause you real harm.
 ## How it differs from general AI communities
-General AI communities usually revolve around how to use chatbots and tools. A community about **AI agents** goes into riskier territory: agents call tools, run commands, access data and can act on your behalf. So the technical and safety criteria matter more. The general evaluation framework is in [Evaluating an AI Automation community](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html); this article adds the agent-specific part.
+General AI communities usually revolve around how to use chatbots and tools. A community about **AI agents** goes into riskier territory: agents call tools, run commands, access data and can act on your behalf. So the technical and safety criteria matter more. The general evaluation framework is in [Evaluating an AI Automation community: which value should you look at?](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html); this article adds the agent-specific part.
 ## Technical criteria
 **Runnable examples.** Do they share configs, source code or specific commands you can run again yourself? A community that only talks about ideas with no real examples is usually of little value to practitioners.
 **Public repos or documentation.** Are there repos, documentation or notes that are kept up to date? Content scattered across messages that scroll away is hard to reuse.
@@ -35,4 +35,4 @@ General AI communities usually revolve around how to use chatbots and tools. A c
 - No one talks about risk, everything is "safe and easy".
 - Pressure to buy a higher plan for "secrets" you cannot preview.
 ## Free or paid
-Free does not mean poor, and paid does not mean good. For the choosing criteria, see [Free vs paid AI communities](so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html). If you want to try an agent yourself before joining any group, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+Free does not mean poor, and paid does not mean good. For the choosing criteria, see [Free vs paid AI communities: where should you start?](so-sanh-cong-dong-ai-mien-phi-va-tra-phi-nen-bat-dau-tu-dau.html). If you want to try an agent yourself before joining any group, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

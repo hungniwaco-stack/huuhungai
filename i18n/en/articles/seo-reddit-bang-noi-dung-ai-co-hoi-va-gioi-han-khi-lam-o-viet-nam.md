@@ -27,7 +27,7 @@ Every subreddit has its own rules set by its moderators, and those rules decide 
 - Using AI to post or comment in bulk, especially automatically and without review. Content like this is easily recognized by the community, reported and may get you banned.
 - Pretending to be a real user praising your own brand.
 - Generic content that looks the same in many places.
-Besides the risk from the platform, content aimed at manipulating rankings through large volume also goes against search engines' anti-spam policies, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+Besides the risk from the platform, content aimed at manipulating rankings through large volume also goes against search engines' anti-spam policies, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
 ## How to take part sustainably
 1. **Read the community's rules** and observe for a while.
 2. **Contribute first:** answer questions, share knowledge, without mentioning the brand.

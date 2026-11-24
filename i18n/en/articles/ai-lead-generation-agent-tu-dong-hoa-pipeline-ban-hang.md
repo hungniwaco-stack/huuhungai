@@ -31,7 +31,7 @@ This is the part to read carefully. The points below are based on sources I look
 - **Secure the data:** set permissions, and do not store it casually in tools with unclear policies.
 - **Do not use the agent to impersonate** or to make people think they are talking to a real person when that matters.
 ## Technical risks of the agent
-- An agent that reads web content or mail can be hit by injected malicious instructions, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+- An agent that reads web content or mail can be hit by injected malicious instructions, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 - The agent can invent details about the recipient, discrediting the letter. Always check before sending.
 - Bulk sending is easily flagged as spam and damages your domain's reputation.
 ## How to start small

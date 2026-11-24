@@ -18,7 +18,7 @@ Search results show Jitro mentioned as an internal name for the next generation 
 - One report speculates the agent might work out for itself what to change in the code to improve a metric; the report itself states this is speculation.
 The official Google pages I read do not mention Jitro at all. I found no launch announcement, timing or availability. So any feature comparison between Jitro and Jules right now is speculation, and this article does not offer a comparison table.
 ## How to read news about unreleased tools
-- Separate official announcements from leaks and speculative posts. For how to read rumors, see [Rumored new GPT models: how to read leaked information](tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html).
+- Separate official announcements from leaks and speculative posts. For how to read rumors, see [Rumors about new AI models: how should you read leaked information?](tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao.html).
 - Do not change your workflow because of a code name.
 - Wait for official documentation, then try it on a non-critical repository.
 ## Choosing an agentic coding tool now
@@ -27,4 +27,4 @@ If you want to try Google's asynchronous agent, Jules is the real thing. When ev
 2. Can it write to the main branch? Start with a separate branch and review changes before merging.
 3. What are the limits and costs by plan?
 4. Are the results measurable: how many tasks accepted, how many reworked?
-For a measurement framework, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html). For coding agents that run on your machine, see [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+For a measurement framework, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html). For coding agents that run on your machine, see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).

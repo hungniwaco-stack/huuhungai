@@ -8,7 +8,7 @@ QUICK: Hermes WebUI (repo `nesquena/hermes-webui`) is a community web interface,
 - **Hermes WebUI** (this article): a community project by the author `nesquena`, a three-pane interface with sessions, chat and a working file panel.
 - **The official dashboard (`hermes dashboard`):** made by Nous Research, used to manage configuration, sessions, keys and cron.
 - **Open WebUI:** a standalone chat app that connects to Hermes's API server, see [Hermes Open WebUI with Docker and Ollama: an internal AI interface](hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo.html).
-The Hermes WebUI author states clearly that this is an independent project, not affiliated with or endorsed by Nous Research. There is also [Hermes Workspace](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html), another community interface.
+The Hermes WebUI author states clearly that this is an independent project, not affiliated with or endorsed by Nous Research. There is also [Setting up Hermes Workspace: a working base for AI agents](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html), another community interface.
 ## Requirements
 - Hermes Agent installed (the bootstrap script will try to install it with the official installer if it is missing).
 - Python 3.11 or later.

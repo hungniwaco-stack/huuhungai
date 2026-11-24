@@ -40,4 +40,4 @@ DeepSeek-R1 usually prints its reasoning before giving the answer, usually insid
 - Running locally does not automatically make your data safe if your machine is shared, cloud-synced or accessed remotely.
 - The Vietnamese quality of the small versions is usually lower than English. Test with a few of your real questions before relying on it.
 - Consider the model's terms of use and license before using it for commercial purposes.
-If you want to use a local model to run a coding tool, see also [Claude Code for free through Ollama: understanding limits and model choices](claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html).
+If you want to use a local model to run a coding tool, see also [Claude Code for free through Ollama: understanding the limits and model choices](claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html).

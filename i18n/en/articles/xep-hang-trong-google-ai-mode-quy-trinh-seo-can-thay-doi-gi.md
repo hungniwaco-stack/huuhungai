@@ -29,8 +29,8 @@ Google lists the controls available to site owners:
 If content still appears after you add a limit, use the URL Inspection tool to confirm Googlebot sees the directive, then wait for a recrawl.
 ## What really needs to change
 - **Drop the idea of "optimizing for AI" as a separate trade.** Put your effort into content quality and technical basics.
-- **Do not create content in bulk just to take over results.** Google's spam policy targets creating many pages only to manipulate rankings, including when AI is used, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+- **Do not create content in bulk just to take over results.** Google's spam policy targets creating many pages only to manipulate rankings, including when AI is used, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
 - **Measure with your own data:** Search Console instead of rumors about the algorithm.
 ## About other platforms
 The points above only concern Google Search. Other AI services may weigh other signals. If you are targeting them, follow each platform's guidance and do not extrapolate from Google.
-For how to run technical checks across a whole site, see [Claude Code SEO Agent](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
+For how to run technical checks across a whole site, see [Claude Code SEO Agent: a workflow for building SEO content with AI](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).

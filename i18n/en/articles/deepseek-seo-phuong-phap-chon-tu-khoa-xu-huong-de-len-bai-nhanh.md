@@ -39,11 +39,11 @@ Prioritize topics with high demand and relevance where you can write something d
 ## Step 4: Check competitors before writing
 Look at the pages that currently rank for the topic. Ask: have they answered fully, is the information old or wrong, what can you add. If you have nothing to add, drop that topic.
 ## Step 5: Make a brief, then write
-For each chosen topic, create a brief: search intent, the questions to answer, the point of difference, reference sources, internal links. Only then write, see [Claude Code SEO Agent](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
+For each chosen topic, create a brief: search intent, the questions to answer, the point of difference, reference sources, internal links. Only then write, see [Claude Code SEO Agent: a workflow for building SEO content with AI](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
 ## Common mistakes
 - Chasing a keyword because you heard it is "trending" with no numbers.
 - Asking the AI "which keywords have high search volume" and trusting the answer.
-- Writing many articles with the same idea to "cover" a keyword, leading to pages competing with each other and thin content, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+- Writing many articles with the same idea to "cover" a keyword, leading to pages competing with each other and thin content, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
 - Skipping updates to articles when the trend changes.
 ## Measure the results
 After publishing, track in Search Console: is the article indexed, and what are impressions and average position after a few weeks. This data feeds the next round of topic selection.

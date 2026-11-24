@@ -43,4 +43,4 @@ Citation verification through arXiv, CrossRef and DataCite with model-scored rel
 - State the use of an automated tool as required by wherever you submit.
 - Set `cost_budget_usd` before running because the README does not state costs; run experiments in Docker or a sandbox.
 - Start with an approval mode and a small topic.
-To use it with OpenClaw, install and set up OpenClaw first following [Installing OpenClaw](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html), and keep tool permissions narrow following [Building OpenClaw yourself: the skills and tools layer decides agent capability](tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent.html).
+To use it with OpenClaw, install and set up OpenClaw first following [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html), and keep tool permissions narrow following [OpenClaw skills and tools: building agent capability under control](tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent.html).

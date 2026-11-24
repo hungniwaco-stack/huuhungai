@@ -22,7 +22,7 @@ node space serve
 ```
 There is an online demo with a guest account. The README does not state which models or providers are supported, does not state a license, and has no specific security section; it also says the project is developed by AI agents themselves, including the documentation. Remember to change the sample password `change-me-now` if you run it yourself.
 ## What OpenClaw is, for a fair comparison
-OpenClaw is a self-hosted gateway that connects chat apps to an agent: a Gateway process, chat channels, skills, memory and automation. For installation, see [Installing OpenClaw](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
+OpenClaw is a self-hosted gateway that connects chat apps to an agent: a Gateway process, chat channels, skills, memory and automation. For installation, see [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
 ## Compare the approaches, not the scores
 - **Where the agent works:** Space Agent in a web space, at the frontend layer; OpenClaw at a Gateway connected to chat channels.
 - **How abilities are added:** Space Agent uses `SKILL.md`; OpenClaw uses ClawHub skills, tools and plugins.
@@ -35,6 +35,6 @@ There is no data to say which is "more powerful", "faster" or "cheaper". Each of
 3. **Measure:** accuracy, number of fixes needed, time from handing over to done, and tokens (or cost) at the provider's price list.
 4. **Record the risks:** what the tool can access, where data goes, whether a network port must be opened.
 5. **Repeat 2 to 3 times** because agent results fluctuate.
-For the detailed framework, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+For the detailed framework, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 ## When to consider which
 If you want an assistant you can message from a phone that also runs automatically on a schedule, OpenClaw's design points that way. If you want a browser-based workspace where the agent edits the interface itself, Space Agent points that way. Both can run code and act on your machine, so isolate them with a separate account or machine before trying.

@@ -56,4 +56,4 @@ Some agents can create skills from experience. The official Hermes Agent documen
 - **Check security:** a skill can contain scripts, so use skills only from trusted sources and read them before installing.
 - **Review periodically,** removing skills no longer used, as in managing a tool library in [How should an AI tool library be organized to be easy to use?](mot-kho-cong-cu-ai-nen-duoc-to-chuc-nhu-the-nao-de-de-dung.html).
 ## When to use skills
-When you repeat the same workflow many times and want the agent to do it your way. You do not need a skill for one-off work. To choose work worth automating and to evaluate agents, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+When you repeat the same workflow many times and want the agent to do it your way. You do not need a skill for one-off work. To choose work worth automating and to evaluate agents, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

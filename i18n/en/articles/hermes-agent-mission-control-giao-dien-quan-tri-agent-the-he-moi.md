@@ -22,7 +22,7 @@ By default it serves on port 9119 at the address `127.0.0.1`. The main sections 
 - **Config and API Keys:** edit `config.yaml`, manage keys (displayed masked).
 - **Sessions, Logs, Analytics:** search sessions, view live logs, track tokens and cost by day and by model.
 - **Cron, Profiles, Skills, MCP:** scheduled tasks, profiles, skills and MCP servers.
-- **Kanban:** a task board across profiles (see [Setting up Kanban for Hermes](thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai.html)).
+- **Kanban:** a task board across profiles (see [Setting up Kanban for Hermes: managing a website-building workflow with AI](thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai.html)).
 That means most "manage and monitor" needs are already met without installing anything more.
 ## When a community version is worth considering
 - You run many bots at once and want an overview screen in a "team lineup" style.
@@ -37,4 +37,4 @@ That means most "manage and monitor" needs are already met without installing an
 ## General security warning
 Any kind of dashboard is a door into your agent. Do not expose it to the internet with a simple password. The official documentation recommends Nous Portal (OAuth) sign-in for internet exposure, with username and password reserved for trusted networks or VPN. If you only need to view remotely, use an SSH tunnel or private network instead of opening a port.
 ## Instead of installing more
-If the goal is to understand what the agent is doing, start with the official board, and look at the logs and token counts. Add tools only when you can name the specific thing that is missing. Alternative chat interfaces are also available in [Hermes WebUI](hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc.html) and [Hermes Workspace](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html).
+If the goal is to understand what the agent is doing, start with the official board, and look at the logs and token counts. Add tools only when you can name the specific thing that is missing. Alternative chat interfaces are also available in [Hermes WebUI: build a chat interface for your agent in a few steps](hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc.html) and [Setting up Hermes Workspace: a working base for AI agents](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html).

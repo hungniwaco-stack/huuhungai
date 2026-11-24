@@ -7,7 +7,7 @@ QUICK: Claude Code can use a model run through Ollama instead of an Anthropic mo
 ## How it works
 Ollama supports an interface compatible with the Anthropic Messages API. Because of that, Claude Code, which calls Anthropic's API, can be pointed at a different server with environment variables. The software you use is still Claude Code, but the "brain" behind it is the model you choose in Ollama. This is the official way Ollama documents.
 ## Installing Claude Code and Ollama
-Install Claude Code following the guide in [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html), and install Ollama from ollama.com. Ollama's documentation gives the Claude Code install command as:
+Install Claude Code following the guide in [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html), and install Ollama from ollama.com. Ollama's documentation gives the Claude Code install command as:
 ```
 # macOS, Linux
 curl -fsSL https://claude.ai/install.sh | bash

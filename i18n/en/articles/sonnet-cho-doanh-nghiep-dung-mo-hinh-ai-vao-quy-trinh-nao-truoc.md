@@ -33,7 +33,7 @@ You do not need to use one model for everything:
 - Hard, multi-step work or work that needs deep reasoning: try a stronger model for those tasks only.
 Start from the balanced model, measure results, then try stepping down for simple work to save money or stepping up for hard work.
 ## How to deploy safely
-1. **Define what counts as passing** before running, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+1. **Define what counts as passing** before running, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 2. **Run a trial with a small group** using real data, with a person reviewing every result.
 3. **Measure:** accuracy, time saved, rework rate, cost.
 4. **Expand gradually** when the numbers are good, keeping the review step for the high-risk parts.

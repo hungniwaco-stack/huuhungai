@@ -13,7 +13,7 @@ If your requirement is absolutely no outbound connection, verify it by monitorin
 ## Step 1: Prepare the hardware
 The larger the model, the more memory it needs. Nous Research's guide to running agents locally gives a reference: about 8 GB of RAM for a model of about 3 billion parameters and 32 GB or more for models of 27 billion parameters and up, while an NVIDIA graphics card with 8 GB or more of its own memory is noticeably faster. Compare against the sizes listed on each model's page in the Ollama library.
 ## Step 2: Install the components (while you still have a network)
-1. Install Claude Code, see [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+1. Install Claude Code, see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
 2. Install Ollama from ollama.com and check:
 ```
 ollama --version
@@ -58,4 +58,4 @@ Ollama can unload a model from memory after a period of not being used, making t
 - Quality on par with top models. A small local model is usually weaker at multi-step work and large codebases.
 - Speed like a cloud service, especially on CPU only.
 ## Security and safety
-Running locally does not make the agent safer when it comes to editing files. Keep the same habits: the project in Git, start in plan-only mode, block reading secret files with deny rules, and do not use the flag that skips all permissions outside an isolated environment. See also [Claude Code for free through Ollama: understanding limits and model choices](claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html).
+Running locally does not make the agent safer when it comes to editing files. Keep the same habits: the project in Git, start in plan-only mode, block reading secret files with deny rules, and do not use the flag that skips all permissions outside an isolated environment. See also [Claude Code for free through Ollama: understanding the limits and model choices](claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh.html).

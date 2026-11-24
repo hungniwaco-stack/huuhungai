@@ -31,7 +31,7 @@ Answer in this order:
 2. **Is the data sensitive:** if so, consider running locally or a service with suitable commitments.
 3. **Budget and speed:** do you need a fast answer, a cheap one or the highest quality?
 4. **Typical text length:** how long are your documents usually.
-5. **Test with real data yourself:** run a few of your tasks on a few models and compare, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html) for a scoring framework.
+5. **Test with real data yourself:** run a few of your tasks on a few models and compare, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html) for a scoring framework.
 ## Common misunderstandings
 - "More parameters is always smarter." Not necessarily, especially with MoE, where total parameters and active parameters are two different numbers.
 - "A long context replaces organizing your data." No, good organization usually gives better results than stuffing in a lot.

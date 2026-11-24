@@ -32,10 +32,10 @@ Peak hours are 01:00 to 04:00 and 06:00 to 10:00 UTC from Monday to Friday, exce
 - **Cost.** An agent calls the model many turns, so the cached input price matters. Hermes's stable prompt helps raise the cache-hit rate; changing the model or provider mid-session loses this advantage.
 - **Data.** Using the API means conversation content, including files the agent reads, is sent to DeepSeek. Read their data policy and terms, and do not put in customer data or confidential information if you are not sure. If data must not leave the machine, look at the local option.
 - **Tool reliability.** Each model is better or worse at calling tools. Test on your real tasks before using it for important work.
-- **Fallback.** You can set DeepSeek as the main model and another provider as the fallback, or the reverse, with `fallback_providers` (see [Hermes AI course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html)).
+- **Fallback.** You can set DeepSeek as the main model and another provider as the fallback, or the reverse, with `fallback_providers` (see [Hermes AI Course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html)).
 ## Assigning models by role
 Not every task needs the most expensive model. Hermes lets you set a separate model for subagents with `delegation.model` and `delegation.provider`, or pin a separate model to each profile. One common approach: a strong model for planning and review, a cheap model for repetitive steps such as summarizing and classifying. Measure the real cost after a week instead of guessing.
 ## A testing workflow before real use
 1. Choose three real tasks, small enough.
 2. Run them with DeepSeek and with the model you currently use.
-3. Compare on accuracy, number of fixes, time and cost, using the framework in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+3. Compare on accuracy, number of fixes, time and cost, using the framework in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

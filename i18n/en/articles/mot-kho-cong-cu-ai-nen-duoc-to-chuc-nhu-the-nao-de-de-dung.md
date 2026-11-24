@@ -51,7 +51,7 @@ Set a review schedule, for example each quarter:
 For tools no longer used, mark them "being retired" and then remove them instead of leaving them forever.
 ## Process for adding a new tool
 1. The proposer states the job to be done and why existing tools are not enough.
-2. Try it on non-sensitive data with a few real tasks, following the framework in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+2. Try it on non-sensitive data with a few real tasks, following the framework in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 3. Review the terms, data policy and cost.
 4. Assign an owner and the allowed data level.
 5. Add the card to the library and write a quick guide.

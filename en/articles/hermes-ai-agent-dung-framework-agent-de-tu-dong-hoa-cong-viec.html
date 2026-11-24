@@ -5,7 +5,7 @@
 <p><strong>1. Scheduled tasks (cron).</strong> According to the architecture documentation, a cron task is an agent task: at the set time, the scheduler creates a fresh agent with no history, loads the attached skills, runs it and sends the result to a destination platform such as Telegram. Suited to morning reports, periodic checks and news summaries. Because the agent starts from empty, the task's prompt must carry enough context.</p>
 <p><strong>2. Messaging bots (gateway).</strong> A long-running process connects the agent to more than 25 platforms such as Telegram, Discord, Slack, WhatsApp, Signal and email. Set up with <code>hermes gateway setup</code>, check with <code>hermes gateway status</code>. Remember to limit the list of people allowed to message it, because the bot has real permissions on the machine.</p>
 <p><strong>3. Subagents (<code>delegate_task</code>).</strong> Creates child agents with clean context that run in parallel for independent work such as researching several sources or reading many files. By default up to 10 subagents per batch, one level deep, at most 250 iterations each. Only the final summary returns to the parent. A subagent cannot ask you questions.</p>
-<p><strong>4. The Kanban board.</strong> A durable work queue on SQLite, with each task assigned to a profile (see <a href="thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai.html">Setting up Kanban for Hermes</a>). Suited to work that is long, multi-step and needs tracking and retries.</p>
+<p><strong>4. The Kanban board.</strong> A durable work queue on SQLite, with each task assigned to a profile (see <a href="thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai.html">Setting up Kanban for Hermes: managing a website-building workflow with AI</a>). Suited to work that is long, multi-step and needs tracking and retries.</p>
 <h2 id="hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec-3">Which to choose</h2>
 <ul>
 <li>Work that repeats on a schedule: cron.</li>
@@ -19,7 +19,7 @@
 <li><strong>Do it by hand a few times</strong>, and write down the criteria for "correct".</li>
 <li><strong>Give it to the agent in read-only mode</strong>, and compare with the manual version.</li>
 <li><strong>Add write permission step by step.</strong> Posting, sending, deleting and payments still go through you.</li>
-<li><strong>Measure</strong> accuracy, time, cost and the number of interventions, using the framework in <a href="danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests</a>.</li>
+<li><strong>Measure</strong> accuracy, time, cost and the number of interventions, using the framework in <a href="danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html">Evaluating AI agents through real tests: which criteria to look at</a>.</li>
 <li><strong>Review periodically</strong>, because models and tools change.</li>
 </ol>
 <h2 id="hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec-5">Security and control</h2>
@@ -29,6 +29,6 @@
 <li>With small models run locally, check carefully because they may say they did something without calling a tool; the memory documentation warns about this too.</li>
 </ul>
 <h2 id="hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec-6">Cost</h2>
-<p>An agent runs many steps with many tools, so tokens rise quickly, especially with subagents. Set a limit on the provider account and watch the Analytics board. If you need to reduce cost, see the local option in <a href="ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html">Ollama and Hermes: when local beats cloud</a>.</p>
+<p>An agent runs many steps with many tools, so tokens rise quickly, especially with subagents. Set a limit on the provider account and watch the Analytics board. If you need to reduce cost, see the local option in <a href="ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud.html">Ollama and Hermes: when does a local AI agent beat the cloud?</a>.</p>
 <h2 id="hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec-7">Where to start</h2>
-<p>Installation and the first conversation: <a href="cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html">Installing Hermes Agent simply: a guide for non-technical people</a>. Once a single task runs well, then consider multiple agents, see <a href="hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html">Hermes AI course: understanding multi-agent, profiles and fallback chains</a>.</p></div></article></main><footer class="site-foot"><a href="/en/privacy.html">Privacy and cookies</a> · <a href="/en/news/">AI News</a> · © Hữu Hùng AI</footer></body></html>
+<p>Installation and the first conversation: <a href="cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html">Installing Hermes Agent simply: a guide for non-technical people</a>. Once a single task runs well, then consider multiple agents, see <a href="hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html">Hermes AI Course: understanding multi-agent, profiles and fallback chains</a>.</p></div></article></main><footer class="site-foot"><a href="/en/privacy.html">Privacy and cookies</a> · <a href="/en/news/">AI News</a> · © Hữu Hùng AI</footer></body></html>

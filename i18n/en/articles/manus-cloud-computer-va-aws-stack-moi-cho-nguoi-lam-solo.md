@@ -25,4 +25,4 @@ An always-on cloud machine is useful for things like running a small bot, a sche
 3. **Security:** the article mentions environment isolation and team access control; use public-key SSH, keep the system updated and turn on a firewall.
 4. **Provider dependence:** running a service long term on a third party's platform needs a backup and migration plan.
 5. **Compared with renting your own server:** an ordinary VPS also keeps files and runs 24/7; Cloud Computer may be more convenient for people who are not technical, but I have no price comparison data.
-If you run a self-hosted agent, the way to keep control is in [Installing OpenClaw](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html) and the [security lessons](openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat.html).
+If you run a self-hosted agent, the way to keep control is in [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html) and the [security lessons](openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat.html).

@@ -42,6 +42,6 @@ Can I measure results after a few weeks?      No -> Set criteria before paying
 - There is real interaction, not only pre-recorded content.
 - They do not use urgency pressure or income promises.
 ## Signs to stop
-Promises of quick riches, pressure to decide fast, hidden prices or terms, no preview of anything, hard to cancel. For details, see [Evaluating an AI Automation community](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html).
+Promises of quick riches, pressure to decide fast, hidden prices or terms, no preview of anything, hard to cancel. For details, see [Evaluating an AI Automation community: which value should you look at?](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html).
 ## If you choose an AI agent community
-The technical and safety criteria have their own section, see [Choosing an AI agent community](chon-cong-dong-ai-agent-tieu-chi-danh-gia-truoc-khi-tham-gia.html). For high-quality free resources for learning agents, do not overlook the tools' official documentation and open-source communities.
+The technical and safety criteria have their own section, see [Choosing an AI agent community: criteria to evaluate before joining](chon-cong-dong-ai-agent-tieu-chi-danh-gia-truoc-khi-tham-gia.html). For high-quality free resources for learning agents, do not overlook the tools' official documentation and open-source communities.

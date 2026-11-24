@@ -18,7 +18,7 @@ npx -y add-mcp "npx -y @netlify/mcp"
 The documentation also says the older connection at `netlify-mcp.netlify.app` still works, but new connections should use `mcp.netlify.com`. Netlify has a separate guide for Claude Code; see that page for the detailed steps and the current Node.js version requirement.
 ## A suggested content publishing workflow
 1. **Keep content in a code repository** (Markdown or HTML pages) with Git to track changes.
-2. **Claude Code drafts or edits the article** following the brief and the rules in `CLAUDE.md`, see [Claude Code SEO Agent](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
+2. **Claude Code drafts or edits the article** following the brief and the rules in `CLAUDE.md`, see [Claude Code SEO Agent: a workflow for building SEO content with AI](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
 3. **Run automatic on-page checks:** title, meta description, headings, canonical, broken links.
 4. **Preview:** push to a separate branch and let Netlify build a preview (deploy preview).
 5. **You approve** the content and facts on the preview.
@@ -29,6 +29,6 @@ The documentation also says the older connection at `netlify-mcp.netlify.app` st
 - **Secrets.** Access keys and environment variables should not sit in the repository or in the agent's input.
 - **Authentication.** The MCP server connects with your account, so the agent's actions have real effect. Review the permissions granted in the account.
 ## About SEO content
-A tool that publishes quickly does not make content better. Google has a policy against creating many pages only to manipulate rankings, including when AI is used, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html). Use the speed to gain time for editing, not to publish more.
+A tool that publishes quickly does not make content better. Google has a policy against creating many pages only to manipulate rankings, including when AI is used, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html). Use the speed to gain time for editing, not to publish more.
 ## After publishing
-Monitor with Google Search Console: is the article indexed, does it have impressions yet. If not, recheck technical factors such as the canonical, `robots` and the sitemap. If you still need to install Claude Code first, see [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+Monitor with Google Search Console: is the article indexed, does it have impressions yet. If not, recheck technical factors such as the canonical, `robots` and the sitemap. If you still need to install Claude Code first, see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).

@@ -32,7 +32,7 @@ git commit -m "Backup before using AI"
 - Do not edit the "Private-diary" and "Passwords" folders.
 - Always propose a plan first, and edit only when I agree.
 ```
-For installation instructions for Claude Code, see [Setting up Claude Code step by step](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
+For installation instructions for Claude Code, see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
 ## Sample tasks for Claude Code
 Start in plan-only mode and test on a small subfolder:
 - "List the notes missing the tags property, change nothing yet."

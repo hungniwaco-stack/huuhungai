@@ -32,11 +32,11 @@ AI tools change constantly, so a course that only teaches operations in one tool
 - Managing access keys and secrets.
 - Notes on personal data and regulations in Vietnam.
 **7. Evaluation and measurement**
-- A test set, pass criteria, running several times, see [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+- A test set, pass criteria, running several times, see [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 - Measuring time saved and real cost.
 **8. Operations and maintenance**
 - Monitoring, logging, handling changes when tools change.
-- Updating workflows, switching platforms when needed, see [When to switch your AI agent platform within your workflow](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
+- Updating workflows, switching platforms when needed, see [When should you switch AI agent platforms in your workflow?](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
 **9. Final project**
 - Learners build a real workflow for their own work, with measured results.
 ## Exercises matter more than lectures
@@ -54,4 +54,4 @@ A sign that a course teaches practical skills: most of the time is spent doing. 
 - Is there any exercise that uses my real data?
 - Does anyone review my work?
 - If it does not suit me, how do I get a refund?
-If you are considering a community that comes with the course, see [Evaluating an AI Automation community](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html).
+If you are considering a community that comes with the course, see [Evaluating an AI Automation community: which value should you look at?](danh-gia-mot-cong-dong-ai-automation-nen-nhin-vao-gia-tri-nao.html).

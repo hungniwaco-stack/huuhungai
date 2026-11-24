@@ -32,5 +32,5 @@ Use Search Console to see which community pages are indexed, which queries bring
 - Mass-rewriting members' posts with AI to capture keywords, since that may fall into the category of low-value content at scale.
 - Ignoring the experience on phones.
 ## Linking with your main content
-The community adds to your main content rather than replacing it. Link from guides to related discussions and the other way round. A controlled content workflow is presented in [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
-For how Google handles content in AI results, see [Ranking in Google AI Mode: what the SEO process must change](xep-hang-trong-google-ai-mode-quy-trinh-seo-can-thay-doi-gi.html).
+The community adds to your main content rather than replacing it. Link from guides to related discussions and the other way round. A controlled content workflow is presented in [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+For how Google handles content in AI results, see [Ranking in Google AI Mode: what does the SEO process need to change?](xep-hang-trong-google-ai-mode-quy-trinh-seo-can-thay-doi-gi.html).

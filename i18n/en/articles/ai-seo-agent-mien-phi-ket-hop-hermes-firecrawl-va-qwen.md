@@ -40,7 +40,7 @@ a canonical. Return a table with URL, errors found, priority. Do not change anyt
 ## Quality limits
 - A page-fetch tool only sees the displayed content and does not replace Search Console data on indexing and impressions.
 - A local model may miss things or judge wrongly. Verify important errors by hand.
-- A technical check is only one part of SEO. It does not judge the real value of the content, see [Claude Code SEO Agent](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
+- A technical check is only one part of SEO. It does not judge the real value of the content, see [Claude Code SEO Agent: a workflow for building SEO content with AI](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
 ## Crawling notes
 - Crawl only sites you own or have permission for.
 - Respect `robots.txt` and the terms of use of the site being scanned.

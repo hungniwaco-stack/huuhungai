@@ -39,6 +39,6 @@ This is the most important step and cheaper than you think:
 3. Run each task on the models you care about, with the same prompt and conditions.
 4. Repeat a few times to see stability.
 5. Compare on accuracy, time, cost and the number of fixes needed.
-The detailed framework is in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+The detailed framework is in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
 ## Final advice
-Use benchmarks to **filter down to a few candidates**, not to pick a winner. Then let your own data decide. And remember that the best model today may not be the best a few months from now, so keep your test set to rerun when needed, see [When to switch your AI agent platform within your workflow](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
+Use benchmarks to **filter down to a few candidates**, not to pick a winner. Then let your own data decide. And remember that the best model today may not be the best a few months from now, so keep your test set to rerun when needed, see [When should you switch AI agent platforms in your workflow?](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).

@@ -31,4 +31,4 @@ Once you are sure everything works, the documentation names the command `hermes 
 2. Pick one real task, small enough.
 3. Install each side, do exactly that task, and record time, cost and the number of fixes.
 4. Do not decide based on a video or a vendor's comparison table.
-The scoring framework is in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html). If you are weighing a platform switch, see also [When to switch your AI agent platform within your workflow](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
+The scoring framework is in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html). If you are weighing a platform switch, see also [When should you switch AI agent platforms in your workflow?](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).

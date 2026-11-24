@@ -17,7 +17,7 @@ The difference lies in **what you are allowed to do**. Read each model's license
 Do not rely on a model calling itself "open". Read the actual license.
 ## Where genuinely open models help
 - **Data control:** running on your own infrastructure means content does not have to be sent out, which suits sensitive data.
-- **No dependence on one provider:** you can change the model or where it runs, see [When to switch your AI agent platform within your workflow](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
+- **No dependence on one provider:** you can change the model or where it runs, see [When should you switch AI agent platforms in your workflow?](khi-nao-nen-doi-nen-tang-ai-agent-trong-workflow-cua-ban.html).
 - **Customization:** adjust the model for your narrow needs if the license allows.
 - **Predictable cost at a steady high load,** because you do not pay per use.
 - **Learning and experimenting:** you can try it free on your machine, see [Installing DeepSeek with Ollama: running AI models on a budget](cai-deepseek-voi-ollama-chay-mo-hinh-ai-theo-huong-tiet-kiem.html).
@@ -34,7 +34,7 @@ Small load, need high quality, few people to operate it?  -> Use a service
 Large steady load, people with operations skills?         -> Self-hosting may be cheaper
 Not sure?                                                 -> Try both on a few real tasks
 ```
-Compare using your own tests, following the framework in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html), with real costs including operating time.
+Compare using your own tests, following the framework in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html), with real costs including operating time.
 ## Advice for small businesses
 1. Start by identifying which data is sensitive.
 2. Read the license before choosing a model.

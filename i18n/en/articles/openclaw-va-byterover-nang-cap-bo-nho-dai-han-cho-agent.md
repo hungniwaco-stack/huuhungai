@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: ByteRover is a third-party product that adds a structured memory layer to OpenClaw, installed with the `@byterover/byterover` plugin or a setup script. Add it only when OpenClaw's built-in memory is not enough for you. The accuracy figures are published by the vendor itself, and the Memory Flush feature is still experimental.
 ## What ByteRover is
-According to ByteRover's documentation, it is a long-term memory system for OpenClaw agents that helps the agent remember across sessions. It is not an OpenClaw feature but a separate product. Before adding it, understand OpenClaw's built-in memory in [Long-term memory for OpenClaw](thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html): Markdown files, semantic lookup and dreaming. Many people will find that enough.
+According to ByteRover's documentation, it is a long-term memory system for OpenClaw agents that helps the agent remember across sessions. It is not an OpenClaw feature but a separate product. Before adding it, understand OpenClaw's built-in memory in [Setting up long-term memory for OpenClaw: when it is needed and how to control it](thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html): Markdown files, semantic lookup and dreaming. Many people will find that enough.
 ## Two main components
 - **Context Engine:** retrieves relevant knowledge before each agent response and stores what it learns after each turn. It requires OpenClaw v2026.3.22 or later.
 - **Memory Flush (experimental):** before context is compacted, the agent reviews the session for architectural decisions, bugs it fixed and repeated patterns, then runs `brv curate` to store them. The documentation page marks this feature as experimental and behavior may change.

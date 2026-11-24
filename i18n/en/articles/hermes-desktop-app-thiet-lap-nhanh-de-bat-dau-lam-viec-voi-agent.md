@@ -38,4 +38,4 @@ Uninstalling is at Settings, About, Danger zone, with three levels: remove only 
 - **Switching the model mid-session** loses the cache, and the next turn may cost more.
 - A remote backend must be kept running by you, and on Linux minimizing to the system tray needs a suitable tray component.
 ## How to use Desktop sensibly
-Start in local mode, with one profile, in a test folder. Once you are comfortable, try Bot Mode and Kanban, see [Hermes AI course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html).
+Start in local mode, with one profile, in a test folder. Once you are comfortable, try Bot Mode and Kanban, see [Hermes AI Course: understanding multi-agent, profiles and fallback chains](hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain.html).

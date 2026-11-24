@@ -37,4 +37,4 @@ If the text is an important part, the sure way is to create a background image a
 - **Images of real people and brands:** do not use it to impersonate real people or other people's brands.
 - **Transparency:** if an image could lead customers to think it is a real photo of the product, say clearly that it is an illustration.
 - **Check before posting:** AI-generated images can contain wrong details such as hands, text and odd logos.
-If you handle the whole content workflow, see [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).
+If you handle the whole content workflow, see [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html).

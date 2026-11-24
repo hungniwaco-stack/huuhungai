@@ -42,4 +42,4 @@ I could not read Claude Design's official documentation so I do not describe its
 3. **Export formats:** do they meet your handoff needs (HTML, PDF, PPTX)?
 4. **Maturity:** the README still has many "not done" items; try it on a small project.
 5. **Controlling agent permissions:** the agent writes real files; run in a separate folder and review changes, see the [security lessons](openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat.html).
-Run the same brief on both tools and compare the output, time and cost, following the framework in [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+Run the same brief on both tools and compare the output, time and cost, following the framework in [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

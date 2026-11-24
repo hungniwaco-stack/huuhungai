@@ -5,11 +5,11 @@ min: 8
 ---
 QUICK: OpenClaw has the `web_search` and `web_fetch` tools, skills, scheduled tasks and tool policy, enough to build a research and content drafting workflow. The automated part should stop at drafts and technical checks; deciding topics, verifying facts and publishing must be done by a person. Google treats creating many pages only to manipulate rankings as spam, even when AI writes them.
 ## The goal of the system
-A good content system with AI is not a printing press but a workflow that helps you do the laborious, low-judgment parts quickly, saving time for real value: understanding readers, real experience and verifying facts. The governance principles, review gates and spam risks are discussed in detail in [An AI SEO system with Claude](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html); this article only covers how to fit them to OpenClaw's building blocks.
+A good content system with AI is not a printing press but a workflow that helps you do the laborious, low-judgment parts quickly, saving time for real value: understanding readers, real experience and verifying facts. The governance principles, review gates and spam risks are discussed in detail in [An AI SEO system with Claude: automate content but still edit it](he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap.html); this article only covers how to fit them to OpenClaw's building blocks.
 ## The OpenClaw blocks you can use
 - **Web search (`web_search`):** supports many providers (Brave, DuckDuckGo, Exa, Firecrawl, Tavily, self-hosted SearXNG, Perplexity...), each with its own key, and some need no key. Configured at `tools.web.search` (enabled, provider, default result count 5, timeout, 15-minute cache).
 - **Page fetching (`web_fetch`):** choose the provider with `tools.web.fetch.provider`; Firecrawl is the only bundled provider per the documentation.
-- **Skills:** a `SKILL.md` folder teaches the agent a procedure, see [Building OpenClaw yourself: the skills and tools layer decides agent capability](tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent.html).
+- **Skills:** a `SKILL.md` folder teaches the agent a procedure, see [OpenClaw skills and tools: building agent capability under control](tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent.html).
 - **Scheduled automation** (`openclaw automations`, alias `openclaw cron`), which can send results to a chat channel.
 - **Tool policy** to limit the agent to exactly its job.
 ## A suggested workflow
@@ -39,4 +39,4 @@ Put the rules in writing in the workspace's instruction file, for example:
 ## Quantity versus quality
 The speed AI brings easily turns into a reason to publish more. Do the opposite: use the time saved to make fewer articles but more carefully. A warning sign is many articles with the same heading structure and the same opening sentence, with only the topic name changed. Google's spam policy lists using generative AI tools to create many pages that add no value as an example of scaled content abuse.
 ## Monitoring
-Use Search Console to see which articles are indexed, measure reading time and real reader feedback, and review old articles periodically. To choose a model and measure cost, see [OpenClaw and Kimi](openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo.html) and [Evaluating AI agents through real tests](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).
+Use Search Console to see which articles are indexed, measure reading time and real reader feedback, and review old articles periodically. To choose a model and measure cost, see [OpenClaw and Kimi: configuring Moonshot, Kimi Coding and Ollama Cloud](openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo.html) and [Evaluating AI agents through real tests: which criteria to look at](danh-gia-ai-agent-qua-bai-test-thuc-te-nhin-vao-tieu-chi-nao.html).

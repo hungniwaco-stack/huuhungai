@@ -35,7 +35,7 @@ manim -pql main.py CreateCircle
 ```
 The `-p` flag opens the video after it is built, and `-ql` chooses low quality for fast builds. Use higher quality only once the content is settled.
 ## The role of an agent like Hermes
-An agent can write scenes from your script, fix errors when the render reports them and iterate quickly. As for Hermes Agent, Nous Research's official documentation describes it as an agent with skills and memory that you can extend with skills you create. At the time I checked, Hermes's optional skills catalog **has no dedicated skill for Manim**; the video-related skills cover other tools such as building video from HTML. So the practical approach is to write your own guide (or your own skill) describing Manim conventions for the agent. See Hermes's "Creating Skills" documentation for how.
+An agent can write scenes from your script, fix errors when the render reports them and iterate quickly. For Hermes Agent, the bundled skills catalog in the official documentation includes **`manim-video`**, for making Manim CE animations for math and algorithm explainers in the 3Blue1Brown style. The skill's page says it is installed by default and supports Linux, macOS and Windows. I have not tried this skill. You should still give it your own conventions, such as frame size, colors and fonts, and you can write an extra skill of your own following Hermes's "Creating Skills" documentation.
 ## Suggested workflow
 1. **Write a script** by scene: one idea per scene, with narration or on-screen text.
 2. **Give each scene to the agent**, along with conventions: frame size, colors, fonts, duration.

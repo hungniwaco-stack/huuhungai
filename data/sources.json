@@ -204,5 +204,282 @@
     "url": "https://support.google.com/webmasters/answer/16984139"
    }
   ]
+ },
+ "cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Install Hermes Agent: Official Guide | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+   },
+   {
+    "title": "Hermes Agent Quickstart: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/quickstart"
+   },
+   {
+    "title": "Hermes Desktop: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/desktop"
+   }
+  ]
+ },
+ "ai-agent-local-mien-phi-voi-hermes-va-ollama-khi-nao-nen-dung": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Hermes Agent Docs (Official) | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs"
+   },
+   {
+    "title": "Run Hermes Locally with Ollama — Zero API Cost: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   },
+   {
+    "title": "Fallback Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   }
+  ]
+ },
+ "ollama-va-hermes-khi-nao-local-ai-agent-tot-hon-cloud": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Run Hermes Locally with Ollama — Zero API Cost: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   },
+   {
+    "title": "Fallback Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   }
+  ]
+ },
+ "hermes-ai-course-hieu-multi-agent-profile-va-fallback-chain": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Profiles: Running Multiple Agents: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/profiles"
+   },
+   {
+    "title": "Subagent Delegation: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation"
+   },
+   {
+    "title": "Kanban (Multi-Agent Board): Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban"
+   },
+   {
+    "title": "Bot Mode: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode"
+   },
+   {
+    "title": "Fallback Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   },
+   {
+    "title": "CLI Commands Reference: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/reference/cli-commands"
+   }
+  ]
+ },
+ "xay-second-brain-voi-hermes-ghi-chu-va-ai-automation": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Persistent Memory: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory"
+   },
+   {
+    "title": "Bundled Skills Catalog: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/reference/skills-catalog"
+   },
+   {
+    "title": "Optional Skills Catalog: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog"
+   },
+   {
+    "title": "Skills System: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/skills"
+   }
+  ]
+ },
+ "hermes-va-deepseek-thiet-lap-mo-hinh-cho-agent-trong-workflow-that": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "LLM and Model Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/integrations/providers"
+   },
+   {
+    "title": "Your First API Call: DeepSeek API Docs",
+    "url": "https://api-docs.deepseek.com/"
+   },
+   {
+    "title": "Models & Pricing: DeepSeek API Docs",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing"
+   },
+   {
+    "title": "Subagent Delegation: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation"
+   },
+   {
+    "title": "Fallback Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   }
+  ]
+ },
+ "hermes-ai-agent-dung-framework-agent-de-tu-dong-hoa-cong-viec": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Architecture: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/developer-guide/architecture"
+   },
+   {
+    "title": "Subagent Delegation: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation"
+   },
+   {
+    "title": "Kanban (Multi-Agent Board): Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban"
+   },
+   {
+    "title": "Profiles: Running Multiple Agents: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/profiles"
+   },
+   {
+    "title": "Persistent Memory: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory"
+   },
+   {
+    "title": "Hermes Agent Quickstart: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/quickstart"
+   }
+  ]
+ },
+ "hermes-agent-workspace-goc-nhin-developer-ve-kien-truc-va-hieu-nang": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Architecture: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/developer-guide/architecture"
+   },
+   {
+    "title": "Fallback Providers: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   },
+   {
+    "title": "Persistent Memory: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory"
+   },
+   {
+    "title": "README.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/README.md"
+   },
+   {
+    "title": "Hermes Agent Configuration: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/configuration"
+   }
+  ]
+ },
+ "thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "README.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/README.md"
+   }
+  ]
+ },
+ "hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "README.md: nesquena/hermes-webui (GitHub)",
+    "url": "https://github.com/nesquena/hermes-webui/blob/master/README.md"
+   },
+   {
+    "title": "Hermes Web Dashboard: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard"
+   }
+  ]
+ },
+ "thiet-lap-agent-swarm-trong-hermes-workspace-tung-buoc": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "docs/swarm/QUICKSTART.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/docs/swarm/QUICKSTART.md"
+   },
+   {
+    "title": "README.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/README.md"
+   },
+   {
+    "title": "docs/swarm/ROLES.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/docs/swarm/ROLES.md"
+   },
+   {
+    "title": "Kanban (Multi-Agent Board): Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban"
+   }
+  ]
+ },
+ "cac-vai-tro-trong-hermes-swarm-builder-reviewer-va-cach-phoi-hop": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "docs/swarm/ROLES.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/docs/swarm/ROLES.md"
+   },
+   {
+    "title": "docs/swarm/QUICKSTART.md: outsourc-e/hermes-workspace (GitHub)",
+    "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/docs/swarm/QUICKSTART.md"
+   },
+   {
+    "title": "Kanban (Multi-Agent Board): Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban"
+   },
+   {
+    "title": "Subagent Delegation: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation"
+   },
+   {
+    "title": "Hermes Agent Docs (Official) | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs"
+   }
+  ]
+ },
+ "hermes-ai-video-generator-tao-video-giai-thich-bang-manim": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Installation: Manim Community docs",
+    "url": "https://docs.manim.community/en/stable/installation.html"
+   },
+   {
+    "title": "Installing Manim locally: Manim Community docs",
+    "url": "https://docs.manim.community/en/stable/installation/uv.html"
+   },
+   {
+    "title": "Quickstart: Manim Community docs",
+    "url": "https://docs.manim.community/en/stable/tutorials/quickstart.html"
+   },
+   {
+    "title": "Bundled Skills Catalog: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/reference/skills-catalog"
+   },
+   {
+    "title": "Manim Video — Manim CE animations: 3Blue1Brown math/algo videos: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/creative/creative-manim-video"
+   },
+   {
+    "title": "Optional Skills Catalog: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog"
+   },
+   {
+    "title": "Skills System: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/skills"
+   }
+  ]
  }
 }

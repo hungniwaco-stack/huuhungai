@@ -14,6 +14,26 @@
       "source": "/index-interactive-backup.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/huu-hung-ai-seo-aeo-geo.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-aeo-geo",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-aeo-geo/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-aeo-geo/index.html",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

@@ -18,3 +18,9 @@ html[data-size="-1"]{font-size:93.75%}
 .disp button[disabled]{opacity:.4;cursor:default}
 .site-foot{padding:28px 14px 40px;color:var(--muted);font-size:.9rem;text-align:center}.site-foot a{text-decoration:underline}
 .consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:720px;margin:0 auto;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.35);display:flex;gap:12px;align-items:center;flex-wrap:wrap}.consent p{margin:0;flex:1 1 260px;font-size:.92rem;line-height:1.5}.consent a{text-decoration:underline}.consent-btns{display:flex;gap:8px}.consent-btns button{min-height:44px;padding:0 16px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-weight:800;cursor:pointer}.consent-btns button[data-v=granted]{background:var(--accent);border-color:var(--accent);color:#fff}
+/* Chip dang chon: chu trang tren cam dam de du tuong phan (>= 4.5:1) o ca hai giao dien */
+html[data-theme] .topic-chip.active,html .topic-chip.active{background:#c2410c;border-color:#c2410c;color:#fff}
+html[data-theme] .topic-chip.active em,html .topic-chip.active em{color:#fff;opacity:1}
+/* Dien thoai: hang 1 = ten site + nut hien thi, hang 2 = menu */
+@media(max-width:640px){.nav{flex-direction:row;align-items:center;column-gap:8px;row-gap:0;padding:6px 0}.nav .disp{order:1;margin-left:auto;gap:4px}.nav nav{order:2;width:100%;display:flex;flex-wrap:wrap}.nav .brand{padding-left:0}}
+.topic-chip em{opacity:1}

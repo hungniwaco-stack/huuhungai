@@ -14,6 +14,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from mdrender import render, inline
+import add_sources
+SOURCES = add_sources.load()
 
 SITE = "https://huuhungai.com"
 BRAND = "Hữu Hùng AI"
@@ -67,6 +69,7 @@ def read_md(path):
 
 def vi_facts(slug):
     s = rd(f"articles/{slug}.html")
+    s = add_sources.BLOCK.sub("", s)
     a = s.index('<div itemprop="articleBody">'); b = s.index("</div></article>")
     body = s[a:b]
     return {"html": s,
@@ -138,14 +141,14 @@ def article_page(slug, a, have=()):
     a = dict(a, body=re.sub(r'href="([^"/#:]+)\.html"', lambda m: m.group(0) if m.group(1) in have else 'href="/articles/%s.html"' % m.group(1), a["body"]))
     url = f"{SITE}/en/articles/{slug}.html"; vi_url = f"{SITE}/articles/{slug}.html"
     head = en_head(a["vi"], url, a["title"], a["desc"], vi_url)
-    head = set_ld(head, headline=a["title"], description=a["desc"], mainEntityOfPage=url, inLanguage="en",
+    head = set_ld(head, headline=a["title"], description=a["desc"], mainEntityOfPage=url, inLanguage="en", **({"dateModified": SOURCES[slug]["checked"]} if slug in SOURCES else {}),
                   articleSection=CAT.get(a["cat"].split(" / ")[-1], a["cat"].split(" / ")[-1]))
     code = a["cat"].split(" / ")[0] + " / " + CAT.get(a["cat"].split(" / ")[-1], a["cat"].split(" / ")[-1])
     return (head + "</head><body>" + HEADER + '<main class="reader"><article class="article" itemscope itemtype="https://schema.org/Article"><header>'
             '<a class="back" href="/en/#automation-index">Back to all articles</a><p class="code">' + esc(code) + '</p>'
             '<h1 itemprop="headline">' + esc(a["title"]) + '</h1><p class="excerpt" itemprop="description">' + esc(a["desc"]) + '</p>'
             '<p class="meta">By <span itemprop="author">Hữu Hùng</span> · Published: <time itemprop="datePublished" datetime="' + a["date"] + '">' + a["date"] +
-            "</time> · " + a["min"] + " min read</p></header>" + a["body"] + "</article></main>" + FOOT + "</body></html>")
+            "</time> · " + a["min"] + " min read</p></header>" + a["body"] + (add_sources.section(SOURCES[slug], "en") if slug in SOURCES else "") + "</article></main>" + FOOT + "</body></html>")
 
 
 # ---------------------------------------------------------------- homepage

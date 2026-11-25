@@ -1,0 +1,208 @@
+{
+ "cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Install: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/install"
+   },
+   {
+    "title": "Getting started: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/start/getting-started"
+   },
+   {
+    "title": "Dashboard CLI: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/cli/dashboard"
+   },
+   {
+    "title": "Updating: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/install/updating"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   }
+  ]
+ },
+ "openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Security: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security"
+   },
+   {
+    "title": "Prompt injection: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/prompt-injection"
+   },
+   {
+    "title": "Telegram access control: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/channels/telegram/access-control"
+   },
+   {
+    "title": "Automations: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/automation/cron-jobs"
+   },
+   {
+    "title": "Hardened baselines: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/hardened-baseline"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   },
+   {
+    "title": "Updating: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/install/updating"
+   }
+  ]
+ },
+ "openclaw-computer-use-cho-agent-thao-tac-may-tinh-sao-cho-an-toan": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Computer use: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/nodes/computer-use"
+   },
+   {
+    "title": "Browser control risks: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/browser-control"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   }
+  ]
+ },
+ "thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Memory overview: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/memory"
+   },
+   {
+    "title": "Memory architecture: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/memory-architecture"
+   },
+   {
+    "title": "Memory provenance and deletion: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/memory-provenance"
+   },
+   {
+    "title": "Active memory: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/active-memory"
+   }
+  ]
+ },
+ "tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Skills CLI: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/cli/skills"
+   },
+   {
+    "title": "Skill format: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/clawhub/skill-format"
+   },
+   {
+    "title": "Configuration — tool policy: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/config-tools/tool-policy"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   }
+  ]
+ },
+ "deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Local models: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/local-models"
+   },
+   {
+    "title": "Custom providers and local runtimes: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers/custom-providers"
+   },
+   {
+    "title": "Configuration — provider examples: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/config-tools/provider-examples"
+   },
+   {
+    "title": "Model providers: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers"
+   },
+   {
+    "title": "Getting started: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/start/getting-started"
+   }
+  ]
+ },
+ "thiet-lap-kanban-cho-hermes-quan-ly-quy-trinh-xay-website-bang-ai": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Kanban (Multi-Agent Board): Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban"
+   },
+   {
+    "title": "Kanban tutorial: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban-tutorial"
+   }
+  ]
+ },
+ "hermes-desktop-app-thiet-lap-nhanh-de-bat-dau-lam-viec-voi-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Hermes Desktop: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/desktop"
+   },
+   {
+    "title": "Install Hermes Agent: Official Guide | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+   }
+  ]
+ },
+ "hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Open WebUI: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/messaging/open-webui"
+   },
+   {
+    "title": "Run Hermes Locally with Ollama — Zero API Cost: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   },
+   {
+    "title": "Install Hermes Agent: Official Guide | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+   }
+  ]
+ },
+ "xep-hang-trong-google-ai-mode-quy-trinh-seo-can-thay-doi-gi": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "AI Features and Your Website",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features"
+   },
+   {
+    "title": "Spam Policies for Google Web Search",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   },
+   {
+    "title": "Google's Guide to Optimizing for Generative AI Features on Google Search",
+    "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+   },
+   {
+    "title": "Generative AI performance report (Search): Search Console Help",
+    "url": "https://support.google.com/webmasters/answer/16984139"
+   }
+  ]
+ }
+}

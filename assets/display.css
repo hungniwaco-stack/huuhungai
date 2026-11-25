@@ -24,3 +24,5 @@ html[data-theme] .topic-chip.active em,html .topic-chip.active em{color:#fff;opa
 /* Dien thoai: hang 1 = ten site + nut hien thi, hang 2 = menu */
 @media(max-width:640px){.nav{flex-direction:row;align-items:center;column-gap:8px;row-gap:0;padding:6px 0}.nav .disp{order:1;margin-left:auto;gap:4px}.nav nav{order:2;width:100%;display:flex;flex-wrap:wrap}.nav .brand{padding-left:0}}
 .topic-chip em{opacity:1}
+/* Nguon tham khao cuoi bai */
+.sources{margin-top:36px;padding-top:18px;border-top:1px solid #d5d9e0;font-size:.95rem;line-height:1.55}.sources h2{font-size:1.25rem;margin:0 0 6px}.sources p{margin:0 0 12px;color:#4b5666}.sources ul{margin:0;padding-left:18px}.sources li{margin:0 0 10px}.sources a{color:#0b5cad;text-decoration:underline;font-weight:700}.sources span{display:block;color:#4b5666;font-size:.85em;overflow-wrap:anywhere}

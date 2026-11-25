@@ -3,7 +3,7 @@ title: OpenClaw and Kimi: configuring Moonshot, Kimi Coding and Ollama Cloud
 desc: Use Kimi with OpenClaw through Moonshot AI and Kimi Coding: key variables, sample config, the China endpoint, Ollama Cloud and notes on cost and data.
 min: 7
 ---
-QUICK: OpenClaw supports Kimi in two ways: **Moonshot AI** (`MOONSHOT_API_KEY`, model `moonshot/kimi-k2.6`) and **Kimi Coding** (`KIMI_API_KEY`, model `kimi/kimi-for-coding`). Both have a ready-made onboarding command. You can also call Kimi through Ollama Cloud. The prices in the documentation's sample config are only example values, so do not use them to plan a budget.
+QUICK: OpenClaw supports Kimi in two ways: **Moonshot AI** (`MOONSHOT_API_KEY`, model `moonshot/kimi-k2.6`) and **Kimi Coding** (`KIMI_API_KEY`, model `kimi/kimi-for-coding`). Both have a ready-made onboarding command. You can also call Kimi through Ollama Cloud. The prices in the documentation's sample config are only example values, so do not use them to plan a budget. The current Moonshot page requires installing a plugin before onboarding, and fresh Moonshot onboarding now selects `moonshot/kimi-k3` by default; `kimi-k2.6` in this article follows the config examples page.
 ## "Open models" and what needs to be said clearly
 This article is about connecting Kimi to OpenClaw. Many articles lump models such as Kimi together as "open models", but whether a model's weights are published is a question for each individual release. When you use the Moonshot API, you use their cloud service, not weights running on your own machine. For running a model locally, see [Running local models for OpenClaw: runtimes, configuration and risks](deepseek-va-openclaw-thiet-lap-local-gateway-cho-agent.html).
 ## Route 1: Moonshot AI (Kimi through the Moonshot API)
@@ -49,7 +49,7 @@ Sample config from the "Provider examples" documentation (JSON5):
   },
 }
 ```
-This is a built-in provider that is Anthropic-compatible. The onboarding shortcut is `openclaw onboard --auth-choice kimi-code-api-key`.
+The config examples page calls this a built-in, Anthropic-compatible provider. The Moonshot page says Moonshot and Kimi Coding are two separate providers, each an external plugin that must be installed first, with keys and model names that are not interchangeable. The install commands are `openclaw plugins install @openclaw/moonshot-provider` for Moonshot and `openclaw plugins install @openclaw/kimi-provider` for Kimi Coding. The Kimi Coding onboarding shortcut is `openclaw onboard --auth-choice kimi-code-api-key`.
 ## Route 3: Kimi through Ollama Cloud
 In the provider plugin table, Ollama Cloud (id `ollama-cloud`, variable `OLLAMA_API_KEY`) has an example model `ollama-cloud/kimi-k2.6`. For details see [DeepSeek, OpenClaw and Ollama Cloud: connecting models to an agent](deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent.html), including the notes on Ollama's data handling.
 ## Which route to choose

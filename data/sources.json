@@ -481,5 +481,296 @@
     "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/skills"
    }
   ]
+ },
+ "thiet-lap-aion-ui-voi-openclaw-giao-dien-dieu-khien-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "iOfficeAI/AionUi (GitHub)",
+    "url": "https://github.com/iOfficeAI/AionUi"
+   }
+  ]
+ },
+ "ngay-dau-voi-clawx-openclaw-nen-kiem-tra-gi-truoc-khi-dung-that": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "README.md: ValueCell-ai/ClawX (GitHub)",
+    "url": "https://github.com/ValueCell-ai/ClawX/blob/main/README.md"
+   }
+  ]
+ },
+ "openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Dashboard CLI: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/cli/dashboard"
+   },
+   {
+    "title": "Tailscale: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/tailscale"
+   },
+   {
+    "title": "README.md: navjotdhanawat/openclaw-mission-control (GitHub)",
+    "url": "https://github.com/navjotdhanawat/openclaw-mission-control/blob/main/README.md"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   },
+   {
+    "title": "Workboard plugin: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/plugins/workboard"
+   }
+  ]
+ },
+ "openclaw-mission-control-squad-agent-task-board-va-memory-browser": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "README.md: navjotdhanawat/openclaw-mission-control (GitHub)",
+    "url": "https://github.com/navjotdhanawat/openclaw-mission-control/blob/main/README.md"
+   },
+   {
+    "title": "Security: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security"
+   },
+   {
+    "title": "Memory overview: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/memory"
+   },
+   {
+    "title": "Workboard plugin: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/plugins/workboard"
+   },
+   {
+    "title": "OpenClaw documentation index (llms.txt)",
+    "url": "https://docs.openclaw.ai/llms.txt"
+   }
+  ]
+ },
+ "openclaw-va-kimi-dung-agent-stack-voi-mo-hinh-mo": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Configuration — provider examples: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/config-tools/provider-examples"
+   },
+   {
+    "title": "Official provider plugins: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers/official-provider-plugins"
+   },
+   {
+    "title": "Model failover: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-failover"
+   },
+   {
+    "title": "Moonshot AI: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/providers/moonshot"
+   },
+   {
+    "title": "Ollama Cloud: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/providers/ollama-cloud"
+   }
+  ]
+ },
+ "deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Official provider plugins: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers/official-provider-plugins"
+   },
+   {
+    "title": "Model failover: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-failover"
+   },
+   {
+    "title": "Cloud - Ollama",
+    "url": "https://docs.ollama.com/cloud"
+   },
+   {
+    "title": "Model providers: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers"
+   },
+   {
+    "title": "Models & Pricing: DeepSeek API Docs",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing"
+   },
+   {
+    "title": "DeepSeek: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/providers/deepseek"
+   },
+   {
+    "title": "Ollama Cloud: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/providers/ollama-cloud"
+   }
+  ]
+ },
+ "openclaw-va-model-moi-cach-doc-mot-ban-cap-nhat-co-gia-tri": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Model providers: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers"
+   },
+   {
+    "title": "Custom providers and local runtimes: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-providers/custom-providers"
+   },
+   {
+    "title": "Model failover: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/model-failover"
+   },
+   {
+    "title": "Local models: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/local-models"
+   },
+   {
+    "title": "Updating: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/install/updating"
+   },
+   {
+    "title": "Running the security audit: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   }
+  ]
+ },
+ "lo-trinh-hoc-openclaw-cach-theo-kip-cong-cu-ai-agent-moi": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Getting started: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/start/getting-started"
+   },
+   {
+    "title": "Telegram setup: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/channels/telegram/setup"
+   },
+   {
+    "title": "Telegram access control: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/channels/telegram/access-control"
+   },
+   {
+    "title": "Security: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/gateway/security"
+   },
+   {
+    "title": "Updating: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/install/updating"
+   },
+   {
+    "title": "Memory overview: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/concepts/memory"
+   },
+   {
+    "title": "Skills CLI: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/cli/skills"
+   },
+   {
+    "title": "Automations: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/automation/cron-jobs"
+   }
+  ]
+ },
+ "xay-telegram-ai-agent-bien-chat-thanh-kenh-automation": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Telegram: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram"
+   },
+   {
+    "title": "Telegram setup: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/channels/telegram/setup"
+   },
+   {
+    "title": "Telegram access control: OpenClaw docs",
+    "url": "https://docs.openclaw.ai/channels/telegram/access-control"
+   }
+  ]
+ },
+ "hermes-hay-openclaw-vi-sao-cau-tra-loi-phu-thuoc-workflow": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "OpenClaw Docs",
+    "url": "https://docs.openclaw.ai"
+   },
+   {
+    "title": "Hermes Agent vs OpenClaw, Claude Code, Codex and more",
+    "url": "https://hermes-agent.nousresearch.com/compare"
+   },
+   {
+    "title": "Migrate from OpenClaw: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw"
+   },
+   {
+    "title": "Hermes Agent Docs (Official) | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs"
+   },
+   {
+    "title": "Install Hermes Agent: Official Guide | Nous Research",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+   },
+   {
+    "title": "Hermes Agent Quickstart: Hermes Agent docs",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/quickstart"
+   }
+  ]
+ },
+ "workspace-agents-trong-chatgpt-handoff-tac-vu-giua-nhieu-agent": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Building workspace agents in ChatGPT to complete repeatable, end-to-end work",
+    "url": "https://learn.chatgpt.com/cookbook/articles/chatgpt-agents-sales-meeting-prep"
+   }
+  ]
+ },
+ "chatgpt-ai-seo-voi-workspace-agents-van-hanh-noi-dung-moi-ngay": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Building workspace agents in ChatGPT to complete repeatable, end-to-end work",
+    "url": "https://learn.chatgpt.com/cookbook/articles/chatgpt-agents-sales-meeting-prep"
+   },
+   {
+    "title": "Spam Policies for Google Web Search",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   }
+  ]
+ },
+ "chatgpt-chronicle-bat-cau-hinh-va-dung-an-toan-cho-nang-suat": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Computer History | ChatGPT Learn",
+    "url": "https://learn.chatgpt.com/docs/customization/computer-history"
+   }
+  ]
+ },
+ "google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Jules Turndown | Jules",
+    "url": "https://jules.google/docs/changelog/2026-10-29/"
+   },
+   {
+    "title": "Jules, Google’s asynchronous AI coding agent, is out of public beta",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules-now-available/"
+   }
+  ]
+ },
+ "tin-don-mo-hinh-gpt-moi-nen-doc-thong-tin-ro-ri-nhu-the-nao": {
+  "checked": "2026-11-25",
+  "sources": [
+   {
+    "title": "Jules Turndown | Jules",
+    "url": "https://jules.google/docs/changelog/2026-10-29/"
+   }
+  ]
  }
 }

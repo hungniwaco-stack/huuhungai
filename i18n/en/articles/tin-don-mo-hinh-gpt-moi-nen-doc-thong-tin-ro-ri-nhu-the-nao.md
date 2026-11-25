@@ -11,7 +11,7 @@ Each time a company prepares a model, code names, screenshots, benchmark tables 
 2. **Reputable press that cites clearly:** it says where the information comes from and who confirmed it.
 3. **Leaks:** screenshots, tool names exposed in code, posts by people in the industry. They may be partly right, but they often lose context.
 4. **Speculation and aggregators:** articles that conclude more than the facts support, usually without a source of origin.
-One example: the name Jitro is mentioned in many articles as the next generation of Jules, but Google's official Jules page does not mention it, and the leak-based articles have dates that do not match. See [Google Jules and the Jitro rumor: what is confirmed and what is not](google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html).
+One example: the name Jitro is mentioned in many articles as the next generation of Jules, but Google's official Jules page does not mention it, and the leak-based articles have dates that do not match. See [Google Jules and the Jitro rumor: what is confirmed and what is not](google-jitro-va-jules-khac-nhau-o-dau-trong-workflow-lap-trinh-ai.html). As for Jules itself, Google has announced it will shut down on Dec 31, 2026.
 ## Signs to doubt
 - No publication date, or a date that does not match what the article says.
 - Very precise figures with no source (benchmarks, context length, price).

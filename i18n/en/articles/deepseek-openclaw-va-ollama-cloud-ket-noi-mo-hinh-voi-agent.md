@@ -3,7 +3,7 @@ title: DeepSeek, OpenClaw and Ollama Cloud: connecting models to an agent
 desc: Connect DeepSeek and Ollama Cloud to OpenClaw through the official provider plugins: provider ids, key variables, choosing a model, fallbacks and data notes.
 min: 7
 ---
-QUICK: OpenClaw has official provider plugins for DeepSeek (id `deepseek`, variable `DEEPSEEK_API_KEY`) and Ollama Cloud (id `ollama-cloud`, variable `OLLAMA_API_KEY`). Official plugins do not need `models.providers` declared; you enable the plugin, set the key and choose a model. The OpenClaw documentation gives example model names but has no dedicated setup guide for these two providers, so check the actual model list.
+QUICK: The OpenClaw documentation has dedicated guides for DeepSeek (id `deepseek`, variable `DEEPSEEK_API_KEY`) and Ollama Cloud (id `ollama-cloud`, variable `OLLAMA_API_KEY`). For DeepSeek you install the official plugin and run onboarding; for Ollama Cloud run `openclaw onboard --auth-choice ollama-cloud`. Model names change over time, so check with `openclaw models list`.
 ## Two providers, two ways of using them
 - **DeepSeek:** calls DeepSeek's API directly with your key. Data is sent to DeepSeek.
 - **Ollama Cloud:** runs large models on Ollama's cloud infrastructure so you do not need a powerful graphics card. According to Ollama's documentation, you can call through the API (no Ollama install needed) or run cloud models from the app, the CLI and the local API; both ways need an Ollama account. The cloud model catalog is at `ollama.com/search?c=cloud`.
@@ -13,7 +13,7 @@ The "Official provider plugins" page lists dozens of bundled provider plugins (i
 The page's table states:
 - **DeepSeek:** id `deepseek`, auth variable `DEEPSEEK_API_KEY`, example model `deepseek/deepseek-v4-flash`.
 - **Ollama Cloud:** id `ollama-cloud`, auth variable `OLLAMA_API_KEY`, example model `ollama-cloud/kimi-k2.6`.
-The page gives no setup command or special quirks for these two providers.
+The dedicated DeepSeek page gives the install command `openclaw plugins install @openclaw/deepseek-provider` and the onboarding command `openclaw onboard --auth-choice deepseek-api-key`, which sets `deepseek/deepseek-v4-pro` as the default. The Ollama Cloud page gives `openclaw onboard --auth-choice ollama-cloud`, with `ollama-cloud/minimax-m2.7` as the default model.
 ## Choosing and checking a model
 OpenClaw's general commands for choosing a model:
 ```
@@ -21,7 +21,7 @@ openclaw models list
 openclaw models list --provider deepseek
 openclaw models set deepseek/<model-name>
 ```
-Models are written as `provider/model`. Get the exact name from `openclaw models list`, because model names change over time. For example, when I read DeepSeek's API documentation (2026-11-16), the current model names were `deepseek-flash` and `deepseek-v4-pro`, while `deepseek-v4-flash` is an old name that is still accepted but is noted as a deprecated model. The example in the OpenClaw documentation uses this old name, so do not copy it mechanically.
+Models are written as `provider/model`. Get the exact name from `openclaw models list`, because model names change over time. The catalog on OpenClaw's DeepSeek page (read on 2026-11-25) has `deepseek/deepseek-flash` and `deepseek/deepseek-v4-pro`, while `deepseek/deepseek-v4-flash` is a legacy alias of V4.1 Flash. The example on the official plugins page still uses this old alias, so do not copy it mechanically. The DeepSeek page also says `deepseek-chat` and `deepseek-reasoner` were retired on Jul 24, 2026.
 In a chat session, `/model` selects the model as a mandatory user choice; if it fails, OpenClaw reports an error instead of switching to a fallback. `/status` shows the model in use and, if different, the fallback model and the reason.
 ## Fallback (failover)
 Fallback configuration per the "Model failover" documentation:

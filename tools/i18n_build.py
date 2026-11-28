@@ -15,6 +15,7 @@ os.chdir(ROOT)
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from mdrender import render, inline
 import add_sources
+import related
 SOURCES = add_sources.load()
 
 SITE = "https://huuhungai.com"
@@ -136,7 +137,7 @@ def set_ld(head, **fields):
 
 
 # ---------------------------------------------------------------- articles
-def article_page(slug, a, have=()):
+def article_page(slug, a, have=(), rel=""):
     # links to articles not translated yet fall back to the Vietnamese page
     a = dict(a, body=re.sub(r'href="([^"/#:]+)\.html"', lambda m: m.group(0) if m.group(1) in have else 'href="/articles/%s.html"' % m.group(1), a["body"]))
     url = f"{SITE}/en/articles/{slug}.html"; vi_url = f"{SITE}/articles/{slug}.html"
@@ -148,7 +149,7 @@ def article_page(slug, a, have=()):
             '<a class="back" href="/en/#automation-index">Back to all articles</a><p class="code">' + esc(code) + '</p>'
             '<h1 itemprop="headline">' + esc(a["title"]) + '</h1><p class="excerpt" itemprop="description">' + esc(a["desc"]) + '</p>'
             '<p class="meta">By <span itemprop="author">Hữu Hùng</span> · Published: <time itemprop="datePublished" datetime="' + a["date"] + '">' + a["date"] +
-            "</time> · " + a["min"] + " min read</p></header>" + a["body"] + (add_sources.section(SOURCES[slug], "en") if slug in SOURCES else "") + "</article></main>" + FOOT + "</body></html>")
+            "</time> · " + a["min"] + " min read</p></header>" + a["body"] + (add_sources.section(SOURCES[slug], "en") if slug in SOURCES else "") + "</article>" + rel + "</main>" + FOOT + "</body></html>")
 
 
 # ---------------------------------------------------------------- homepage
@@ -309,8 +310,11 @@ def main():
     if "--check" in sys.argv:
         print("English sources OK:", len(arts), "articles"); return
     files, pairs = {}, []
+    cats = {s: CAT.get(a["cat"].split(" / ")[-1], a["cat"].split(" / ")[-1]) for s, a in arts.items()}
+    rel = related.pick(cats)
     for slug, a in arts.items():
-        files[f"en/articles/{slug}.html"] = article_page(slug, a, arts); pairs.append((f"articles/{slug}.html", f"en/articles/{slug}.html"))
+        block = related.section([(o + ".html", arts[o]["title"], "%s · %s min read" % (cats[o], arts[o]["min"])) for o in rel[slug]], "en")
+        files[f"en/articles/{slug}.html"] = article_page(slug, a, arts, block); pairs.append((f"articles/{slug}.html", f"en/articles/{slug}.html"))
     if arts:
         files["en/index.html"] = home_page(arts); pairs.append(("index.html", "en/index.html"))
     for k, v in news_pages().items():

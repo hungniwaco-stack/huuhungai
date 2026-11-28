@@ -49,3 +49,39 @@
   var foot=document.querySelector(".site-foot");
   if(foot){var a=document.createElement("a");a.href="#";a.textContent=EN?"Cookie settings":"Cài đặt cookie";a.onclick=function(e){e.preventDefault();show()};foot.insertBefore(document.createTextNode(" · "),foot.firstChild);foot.insertBefore(a,foot.firstChild)}
 })();
+
+/* Trang bai viet: ngay cap nhat, muc luc, nut sao chep */
+(function(){
+  var art=document.querySelector("article.article");
+  if(!art)return;
+  var EN=document.documentElement.lang==="en";
+  try{
+    var ld=JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent),meta=art.querySelector(".meta");
+    if(meta&&ld.dateModified&&ld.datePublished&&ld.dateModified>ld.datePublished){
+      var t=document.createElement("time");t.dateTime=ld.dateModified;t.textContent=ld.dateModified;
+      meta.appendChild(document.createTextNode(EN?" · Updated: ":" · Cập nhật: "));meta.appendChild(t)}
+  }catch(e){}
+  var body=art.querySelector('[itemprop="articleBody"]');
+  if(!body)return;
+  var hs=body.querySelectorAll("h2[id]");
+  if(hs.length>2){
+    var box=document.createElement("details");box.className="toc";box.open=matchMedia("(min-width:641px)").matches;
+    var sum=document.createElement("summary");sum.textContent=EN?"In this article":"Mục lục";box.appendChild(sum);
+    var ol=document.createElement("ol");
+    Array.prototype.forEach.call(hs,function(h){var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;a.textContent=h.textContent;li.appendChild(a);ol.appendChild(li)});
+    box.appendChild(ol);
+    var quick=body.querySelector(".quick-answer");
+    body.insertBefore(box,quick?quick.nextSibling:body.firstChild);
+    if(location.hash){var target=document.getElementById(location.hash.slice(1));if(target)target.scrollIntoView()}
+  }
+  Array.prototype.forEach.call(body.querySelectorAll("pre"),function(pre){
+    var wrap=document.createElement("div");wrap.className="codebox";pre.parentNode.insertBefore(wrap,pre);wrap.appendChild(pre);
+    var b=document.createElement("button"),idle=EN?"Copy":"Sao chép",timer;b.type="button";b.textContent=idle;b.setAttribute("aria-live","polite");
+    function say(x){b.textContent=x;clearTimeout(timer);timer=setTimeout(function(){b.textContent=idle},2000)}
+    b.onclick=function(){
+      var fail=function(){say(EN?"Copy failed":"Chưa chép được")};
+      if(!navigator.clipboard){fail();return}
+      navigator.clipboard.writeText((pre.querySelector("code")||pre).textContent.replace(/\s+$/,"")).then(function(){say(EN?"Copied":"Đã chép")},fail)};
+    wrap.insertBefore(b,pre);
+  });
+})();

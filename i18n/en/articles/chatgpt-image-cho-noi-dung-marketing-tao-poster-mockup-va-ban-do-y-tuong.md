@@ -5,7 +5,7 @@ min: 7
 ---
 QUICK: ChatGPT can create and edit images right in the conversation. For marketing, write prompts with a clear purpose, refine part by part instead of starting over, and check the text in the image carefully, especially Vietnamese diacritics, before you use it.
 ## What this feature can do
-According to OpenAI's help page, you can create an image by describing it in a conversation, or by opening Images in the sidebar and entering a prompt. You can create images in several aspect ratios, start from an existing template, answer ChatGPT's suggested style questions, and on mobile sketch a drawing and add instructions. Images are saved automatically in Images. This feature replaces the old DALL·E tool, which has been discontinued. Plan details and limits change over time, so see the current help page.
+According to OpenAI's help page, you can create an image by describing it in a conversation, or by opening Images in the sidebar and entering a prompt. You can create images in several aspect ratios, start from an existing template, answer ChatGPT's suggested style questions, and on mobile sketch a drawing and add instructions. You can open Images to find and reuse the images you created. The help article, read on Nov 28, 2026, refers to ChatGPT Images 2.6 and says the official DALL·E GPT has been retired. Plan details and limits change over time, so see the current help page.
 ## Three kinds of marketing output that are common
 **Posters and ad visuals.** State the purpose, audience, main message, style, layout and an aspect ratio that suits the channel you post to.
 **Mockups.** Place a product in context: a cup, a bag, a phone screen, packaging. A mockup is good for presenting ideas, but it does not replace a real product photo when selling.
@@ -33,7 +33,7 @@ If the text is an important part, the sure way is to create a background image a
 - Save the prompts that give good results to use as templates.
 - View the images side by side to make sure they share one visual world.
 ## Legal and reputation notes
-- **Terms of use:** read OpenAI's terms on the right to use generated images for commercial purposes. This article does not claim any specific ownership or limits.
+- **Terms of use:** read OpenAI's terms on the right to use generated images for commercial purposes. The terms of use, read on Nov 28, 2026, say that as between you and OpenAI, to the extent permitted by law, you own the output. That does not guarantee an image avoids other people's rights, and terms may differ by region or account type.
 - **Images of real people and brands:** do not use it to impersonate real people or other people's brands.
 - **Transparency:** if an image could lead customers to think it is a real photo of the product, say clearly that it is an illustration.
 - **Check before posting:** AI-generated images can contain wrong details such as hands, text and odd logos.

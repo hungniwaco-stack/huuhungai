@@ -18,7 +18,7 @@ This approach **needs no human seed data** and, according to the authors, will g
 According to the blog post: the teacher is Gemini 2.5 Flash and the student is Gemma-3 4B, on five datasets: CTI-MCQ and CTI-RCM (cybersecurity), LEXam (legal reasoning), GSM8k (grade-school math) and Global MMLU (multilingual knowledge). Datasets reached up to 512,000 points per domain.
 - The full system consistently beat simpler baseline methods.
 - High complexity gave a 10% accuracy gain on GSM8k but reduced performance on LEXam, where the teacher model is weaker.
-- Simula reached lower loss with fewer samples, but the page gives no specific numbers.
+- Simula achieved higher downstream performance with fewer samples than the baseline approaches; the blog's text gives no specific numbers.
 - Two new metrics: Taxonomic Coverage and Calibrated Complexity Scoring, used in batch comparisons by a language model to assign Elo-style scores.
 ## Where it is used
 The blog post says Simula has supported the Gemma family of models (ShieldGemma, FunctionGemma, MedGemma), is the main synthetic data foundation for Gemini's safety classifiers, call scam detection on Android and spam filtering in Google Messages, along with applied research on enterprise security and teaching AI to read maps. This is Google's own description, not an independent assessment.

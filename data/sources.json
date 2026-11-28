@@ -683,7 +683,7 @@
   ]
  },
  "xay-telegram-ai-agent-bien-chat-thanh-kenh-automation": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Telegram: Hermes Agent docs",
@@ -696,6 +696,10 @@
    {
     "title": "Telegram access control: OpenClaw docs",
     "url": "https://docs.openclaw.ai/channels/telegram/access-control"
+   },
+   {
+    "title": "Bot features and BotFather (Telegram)",
+    "url": "https://core.telegram.org/bots/features"
    }
   ]
  },
@@ -1029,6 +1033,332 @@
    {
     "title": "Updating Hermes Agent (Hermes Agent docs)",
     "url": "https://hermes-agent.nousresearch.com/docs/getting-started/updating"
+   }
+  ]
+ },
+ "claude-code-va-remotion-tao-video-bang-workflow-lap-trinh-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Make videos with coding agents (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/agents"
+   },
+   {
+    "title": "Flickering (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/flickering"
+   },
+   {
+    "title": "Using randomness (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/using-randomness"
+   },
+   {
+    "title": "staticFile() (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/staticfile"
+   },
+   {
+    "title": "npx remotion render (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/cli/render"
+   },
+   {
+    "title": "Remotion LICENSE.md (GitHub)",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md"
+   }
+  ]
+ },
+ "thiet-lap-remotion-trong-moi-truong-coding-ai-quy-trinh-cho-video-tu-dong": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Creating a new project and system requirements (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/"
+   },
+   {
+    "title": "The core idea (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/idea"
+   },
+   {
+    "title": "Flickering (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/flickering"
+   },
+   {
+    "title": "Using randomness (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/using-randomness"
+   },
+   {
+    "title": "staticFile() (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/staticfile"
+   },
+   {
+    "title": "npx remotion render (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/cli/render"
+   },
+   {
+    "title": "License and pricing (Remotion docs)",
+    "url": "https://www.remotion.dev/docs/license/pricing"
+   },
+   {
+    "title": "Remotion LICENSE.md (GitHub)",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md"
+   }
+  ]
+ },
+ "gemma-chat-xay-ung-dung-offline-bang-mo-hinh-cuc-bo": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Gemma 4 overview (Google)",
+    "url": "https://ai.google.dev/gemma/docs/core"
+   },
+   {
+    "title": "Gemma 4 model card (Google)",
+    "url": "https://gemma.ai/models/gemma-4/model-card/"
+   },
+   {
+    "title": "gemma4 (Ollama library)",
+    "url": "https://ollama.com/library/gemma4"
+   },
+   {
+    "title": "OpenAI compatibility (Ollama docs)",
+    "url": "https://docs.ollama.com/api/openai-compatibility"
+   },
+   {
+    "title": "README: ammaarreshi/gemma-chat (GitHub)",
+    "url": "https://github.com/ammaarreshi/gemma-chat#readme"
+   },
+   {
+    "title": "README: google-ai-edge/gallery (GitHub)",
+    "url": "https://github.com/google-ai-edge/gallery#readme"
+   },
+   {
+    "title": "Run Hermes Locally with Ollama (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   }
+  ]
+ },
+ "sonnet-cho-doanh-nghiep-dung-mo-hinh-ai-vao-quy-trinh-nao-truoc": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Models overview (Claude docs)",
+    "url": "https://platform.claude.com/docs/en/models/overview"
+   }
+  ]
+ },
+ "claude-va-obsidian-chon-plugin-hay-claude-code-cho-he-ghi-chu": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "How Obsidian stores data (Obsidian Help)",
+    "url": "https://obsidian.md/help/data-storage"
+   },
+   {
+    "title": "Permissions (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permissions"
+   },
+   {
+    "title": "Memory and CLAUDE.md (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/memory"
+   },
+   {
+    "title": "Data usage (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/data-usage"
+   }
+  ]
+ },
+ "claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Spam policies for Google Web Search (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   },
+   {
+    "title": "Influencing title links (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/appearance/title-link"
+   },
+   {
+    "title": "Guidance on using generative AI content (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+   },
+   {
+    "title": "Memory and CLAUDE.md (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/memory"
+   }
+  ]
+ },
+ "cac-che-do-lam-viec-cua-claude-chat-code-va-cong-tac-khac-nhau-ra-sao": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Claude Cowork and chat are now one Claude (Anthropic)",
+    "url": "https://claude.com/resources/articles/cowork-is-now-claude"
+   },
+   {
+    "title": "Claude Cowork and chat are one Claude (Claude Help Center)",
+    "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude"
+   },
+   {
+    "title": "Use Claude Cowork safely (Claude Help Center)",
+    "url": "https://support.claude.com/en/articles/13364135-use-claude-cowork-safely"
+   },
+   {
+    "title": "Permission modes (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permission-modes"
+   },
+   {
+    "title": "Data usage (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/data-usage"
+   }
+  ]
+ },
+ "google-simula-va-mechanism-design-hieu-du-lieu-tong-hop-cho-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Designing synthetic datasets for the real world (Google Research)",
+    "url": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/"
+   },
+   {
+    "title": "Reasoning-Driven Synthetic Data Generation and Evaluation (arXiv:2603.29791)",
+    "url": "https://arxiv.org/abs/2603.29791"
+   }
+  ]
+ },
+ "thiet-lap-telegram-ai-agent-token-cau-hinh-va-tac-vu-dau-tien": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Bot features and BotFather (Telegram)",
+    "url": "https://core.telegram.org/bots/features"
+   },
+   {
+    "title": "Telegram Bot API",
+    "url": "https://core.telegram.org/bots/api"
+   },
+   {
+    "title": "Bots FAQ (Telegram)",
+    "url": "https://core.telegram.org/bots/faq"
+   }
+  ]
+ },
+ "ai-seo-agent-mien-phi-ket-hop-hermes-firecrawl-va-qwen": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Firecrawl MCP (Firecrawl docs)",
+    "url": "https://docs.firecrawl.dev/mcp-server"
+   },
+   {
+    "title": "Firecrawl MCP keyless and API key (Firecrawl docs)",
+    "url": "https://docs.firecrawl.dev/mcp-server/keyless"
+   },
+   {
+    "title": "Firecrawl MCP tools (Firecrawl docs)",
+    "url": "https://docs.firecrawl.dev/mcp-server/tools"
+   },
+   {
+    "title": "LICENSE: firecrawl/firecrawl (GitHub)",
+    "url": "https://github.com/firecrawl/firecrawl/blob/main/LICENSE"
+   },
+   {
+    "title": "MCP (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp"
+   },
+   {
+    "title": "Quickstart (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/quickstart"
+   }
+  ]
+ },
+ "deepseek-tutorial-hieu-context-dai-va-moe-khi-chon-mo-hinh": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "README: DeepSeek-V3 (GitHub)",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3#readme"
+   },
+   {
+    "title": "DeepSeek V4 Preview Release (DeepSeek API docs)",
+    "url": "https://api-docs.deepseek.com/news/news260424"
+   },
+   {
+    "title": "Models and pricing (DeepSeek API docs)",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing"
+   },
+   {
+    "title": "Lost in the Middle (arXiv:2307.03172)",
+    "url": "https://arxiv.org/abs/2307.03172"
+   }
+  ]
+ },
+ "deepseek-seo-tool-tao-landing-page-co-cau-truc-bang-mot-prompt": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Spam policies for Google Web Search (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   },
+   {
+    "title": "Guidance on using generative AI content (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+   },
+   {
+    "title": "Influencing title links (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/appearance/title-link"
+   },
+   {
+    "title": "General structured data guidelines (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+   },
+   {
+    "title": "Canonical URLs (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+   }
+  ]
+ },
+ "openclaw-ai-seo-thiet-ke-he-thong-noi-dung-tu-dong-co-kiem-soat": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Web search (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/tools/web"
+   },
+   {
+    "title": "Web fetch (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/tools/web-fetch"
+   },
+   {
+    "title": "Automations (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/automation/cron-jobs"
+   },
+   {
+    "title": "Skills (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/tools/skills"
+   },
+   {
+    "title": "Tool permissions (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/gateway/security/tool-permissions"
+   },
+   {
+    "title": "Prompt injection (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/gateway/security/prompt-injection"
+   },
+   {
+    "title": "Spam policies for Google Web Search (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   }
+  ]
+ },
+ "chatgpt-image-cho-noi-dung-marketing-tao-poster-mockup-va-ban-do-y-tuong": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Images in ChatGPT (OpenAI Help Center)",
+    "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt"
+   },
+   {
+    "title": "Terms of use (OpenAI)",
+    "url": "https://openai.com/policies/terms-of-use/"
    }
   ]
  }

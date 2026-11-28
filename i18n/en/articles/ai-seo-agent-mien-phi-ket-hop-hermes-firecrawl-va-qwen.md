@@ -10,7 +10,7 @@ QUICK: Firecrawl turns web pages into clean Markdown for the agent to read, Herm
 - **A local model** (for example a Qwen-family model run with Ollama) reads the data and writes conclusions.
 The idea: the agent gets a list of a site's URLs, reads each page, checks the basic SEO elements, then writes a report.
 ## About the word "free"
-- **Firecrawl:** the documentation says some page-fetch requests work without a key, and advises creating a free account for a higher quota. They also have a self-hosted (open-source) version, but I have not verified the license. Quotas and terms may change, so see the current pricing page.
+- **Firecrawl:** according to the documentation (read on Nov 28, 2026), the MCP server works without a key, with a rate limit, and exposes only Search, Scrape and Parse. For the full tool set (including site mapping) or higher limits you need an API key or sign-in. The `firecrawl/firecrawl` repo's root LICENSE file is AGPL-3.0, and it can be self-hosted. Quotas and terms may change, so see the current pricing page.
 - **Local model:** no per-use charge but it needs a capable machine. Hermes requires a model that can call tools and has a context of at least 64,000 tokens, see [A free local AI agent with Hermes and Ollama: when to use it](ai-agent-local-mien-phi-voi-hermes-va-ollama-khi-nao-nen-dung.html).
 - **Time and quality:** a small model may miss errors, so you must check again.
 ## Connecting Firecrawl to Hermes through MCP
@@ -20,13 +20,13 @@ mcp_servers:
   firecrawl:
     url: "https://mcp.firecrawl.dev/v2/mcp"
 ```
-The address above comes from the Firecrawl documentation, where they say this MCP server supports search, page fetching and file parsing. After configuring, check with:
+The address above comes from the Firecrawl documentation, where they say this MCP server supports search, page fetching and file parsing. After configuring, check with: A keyless connection does not have the map tool. To get it, create an API key and send it as a bearer token in `headers` (`Authorization: Bearer <key>`).
 ```
 hermes mcp test firecrawl
 ```
 This command connects and lists the tools it finds. If an authentication key is needed, add it in the `headers` section as in the Hermes documentation's example. Use `tools.include` to allow only the tools you need, following their security recommendation.
 ## Suggested SEO checking workflow
-1. **Map the site:** ask the agent to list the URLs of the website to check.
+1. **Map the site:** ask the agent to list the URLs of the website to check. (This step needs an API key because the map tool is not available keyless; without one, supply the URL list yourself, for example from the sitemap.)
 2. **Fetch each page** and extract the elements: title, meta description, headings, canonical tag, internal links, content length.
 3. **Check against the rules** you set beforehand: one `h1` per page, no duplicate titles and descriptions, a canonical present.
 4. **Gather the results** into an error table by priority.

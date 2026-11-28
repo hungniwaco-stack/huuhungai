@@ -7,7 +7,7 @@ QUICK: To get Claude Code to build video with Remotion effectively, write the Re
 ## Why a separate workflow is needed
 Claude Code writes React code very well, but video is a different genre: time is counted in frames, motion must be determined in advance, and errors often show up only when you watch. If you just command "make a product intro video", you will get code that runs but with pacing that is hard to use. The workflow below turns that into small steps with checks. This article assumes you already have a working Remotion project; see [Setting up Remotion in an AI coding environment: a workflow for automated video](thiet-lap-remotion-trong-moi-truong-coding-ai-quy-trinh-cho-video-tu-dong.html) if not.
 ## Step 1: Write CLAUDE.md for the video project
-This file helps Claude Code remember Remotion's constraints every time it starts. A short version should include:
+This file helps Claude Code remember Remotion's constraints every time it starts. A short version should include: Remotion's documentation also offers Agent Skills for coding agents: run `npx remotion skills add` in the project folder.
 ```
 # Remotion video project
 - All motion must use useCurrentFrame() with interpolate() or spring().
@@ -52,4 +52,4 @@ It is better for you to be the one to render because this command uses machine r
 - **Wrong duration:** confusing seconds and frames. Always state duration in seconds with the fps.
 - **Edits spreading to other scenes:** the request was too broad. Limit the scope by file name.
 ## Notes on cost and copyright
-If you use the tool for commercial video, read Remotion's license terms. Music, images and fonts must be properly licensed. The look and content of the video are your responsibility, not the AI's, so review everything before publishing.
+If you use the tool for commercial video, read Remotion's license terms. Music, images and fonts must be properly licensed. The look and content of the video are your responsibility, not the AI's, so review everything before publishing. According to the license file (read on Nov 28, 2026), individuals and for-profit organizations with up to 3 employees can use it for free; larger businesses need a Company License. The same file says the license will change slightly in Remotion 5.0.

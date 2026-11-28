@@ -11,7 +11,7 @@ A Telegram AI agent is a program that listens for messages sent to a Telegram bo
 2. Send the command `/newbot`.
 3. Set a display name, then set a username, which must end with `bot`.
 4. BotFather returns a **token**, a long string of characters. This is the key that controls the bot.
-The token lets anyone who holds it control your bot. Do not paste the token in a post, a screenshot or a public code repository. If it leaks, send `/revoke` to BotFather to create a new token.
+The token lets anyone who holds it control your bot. Do not paste the token in a post, a screenshot or a public code repository. If it leaks, send `/token` to BotFather to create a new token.
 ## Step 2: Store the token safely
 Put the token in an environment variable instead of writing it directly in code:
 ```

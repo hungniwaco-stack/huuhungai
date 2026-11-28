@@ -22,7 +22,7 @@ git init
 git add -A
 git commit -m "Backup before using AI"
 ```
-1. **Exclude folders you do not want the AI to touch.** Use deny rules in `.claude/settings.json` for private folders.
+1. **Exclude folders you do not want the AI to touch.** Use deny rules in `.claude/settings.json` for private folders. Note the limit described in the Claude Code docs: `Read`/`Edit` rules apply to the built-in file tools and to shell commands Claude Code recognizes (such as `cat`, `sed`), but they do not stop a script that opens files itself or a command that reads files without naming them. Keep truly sensitive data out of the vault you open to the AI altogether.
 2. **Write a CLAUDE.md** describing the vault's conventions so the AI works your way:
 ```
 # Personal notes vault

@@ -7,9 +7,9 @@ QUICK: Remotion lets you create video with React code. You create a project with
 ## What Remotion is and what it suits
 Remotion is a framework for building video with React. Each frame of the video is one render of a React component, so you write video like writing a web page: with components, with props, reusable and generated in bulk from data. This approach suits video with a repeated structure such as news bulletins, explainer videos, templated product intro clips, or video personalized for each customer. It does not replace traditional editing tools for video that needs free-form emotional cutting.
 ## Preparation
-- **Node.js** of a recent enough version. Check the current version requirement in the Remotion documentation before installing.
+- **Node.js:** the installation page (read on Nov 28, 2026) requires at least Node 16 or Bun 1.0.3, and macOS 15 or later. Requirements can change, so check again before installing.
 - **A code editor** such as VS Code, and a terminal.
-- **License:** Remotion has its own license, free in some cases, but businesses may need to buy a commercial license. Read the official terms carefully if you use it for business work.
+- **License:** according to the license file (read on Nov 28, 2026), individuals, non-profits and for-profit organizations with up to 3 employees can use it for free, including commercially, as can those still evaluating it and not yet using it commercially. Larger businesses need a Company License. The file says the license will change slightly in Remotion 5.0, so read the current version.
 ## Step 1: Create the project
 ```
 npx create-video@latest

@@ -7,7 +7,7 @@ QUICK: Telegram is a light channel for messaging commands to an AI agent from a 
 ## Why use Telegram as a channel
 Messaging is already on your phone, you do not need to open a web interface, and you can receive notifications from the agent (reports, alerts, results of scheduled tasks). The article [Setting up a Telegram AI agent: token, configuration and the first task](thiet-lap-telegram-ai-agent-token-cau-hinh-va-tac-vu-dau-tien.html) covers the first steps in detail; this article focuses on how to make it a safe automation channel, with both systems.
 ## Common step: create the bot
-In Telegram, open **@BotFather** (check that the name is exactly `@BotFather`), send `/newbot`, set a display name and a unique username ending in `bot`. BotFather returns an API token. **This token is the key that controls the bot**: whoever has the token controls it. If it leaks, revoke it with `/revoke` in BotFather. You can also create a bot in BotFather's web interface instead of chat.
+In Telegram, open **@BotFather** (check that the name is exactly `@BotFather`), send `/newbot`, set a display name and a unique username ending in `bot`. BotFather returns an API token. **This token is the key that controls the bot**: whoever has the token controls it. If it leaks, use `/token` in BotFather to generate a new one. You can also create a bot in BotFather's web interface instead of chat.
 ## With Hermes Agent
 According to the Hermes documentation:
 - **Interactive way:** run `hermes gateway setup` and choose Telegram; the wizard asks for the bot token and the allowed user IDs.

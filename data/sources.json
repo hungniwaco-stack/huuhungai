@@ -509,7 +509,7 @@
   ]
  },
  "openclaw-mission-control-quan-ly-agent-bang-dashboard-truc-quan": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Dashboard CLI: OpenClaw docs",
@@ -1025,6 +1025,10 @@
    {
     "title": "README: NousResearch/hermes-paperclip-adapter (GitHub)",
     "url": "https://github.com/NousResearch/hermes-paperclip-adapter#readme"
+   },
+   {
+    "title": "Updating Hermes Agent (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/updating"
    }
   ]
  }

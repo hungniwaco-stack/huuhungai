@@ -9,8 +9,8 @@ According to the description in the adapter repo, Paperclip is an orchestration 
 A point to keep separate: Paperclip is a project of its own; Hermes is just one of the runtimes it can control.
 ## The official adapter
 **Update, Nov 28, 2026:** per Paperclip's documentation, `hermes_local` is a built-in adapter that runs Hermes Agent on the same machine as Paperclip. An earlier version of this article told you to install an npm package and edit server code, following the README of the `NousResearch/hermes-paperclip-adapter` repo (last code push in April 2026). Follow Paperclip's current documentation. Requirements:
-- Hermes Agent installed on the same machine (Paperclip's environment test suggests `pip install hermes-agent`).
-- Python 3.10 or later.
+- Hermes Agent installed on the same machine with the official installer, see [Installing Hermes Agent](cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html). Paperclip's environment test suggests `pip install hermes-agent`, but do not just follow it: Hermes's updating page lists pip or PyPI package installs on Python 3.11 to 3.13 as unsupported and recommends the official installer or a packaged build. When I checked on Nov 28, 2026, the latest release on PyPI was 0.19.0 (July 20), while GitHub already had v0.23.4.
+- Paperclip's documentation says Python 3.10 or later, but current Hermes code declares 3.11 or later, and the Hermes installer provisions a suitable Python version itself.
 - A model configured for Hermes, usually in `~/.hermes/config.yaml`. The documentation advises leaving the adapter's `model` field empty if Hermes already works.
 - A current Paperclip server.
 If Hermes runs on another machine with its API server enabled, Paperclip also has the `hermes_gateway` adapter (built in since v2026.626.0). It needs the API address and Hermes's `API_SERVER_KEY`. The documentation asks you to prefer HTTPS or a private network such as a VPN for any non-local address.

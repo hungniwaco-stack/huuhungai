@@ -29,7 +29,7 @@ The `byterover` provider is free but needs you to sign in to a ByteRover account
 1. **Do not run a "download then run" command right away.** A `curl ... | sh` command runs code from the internet with your privileges. Always open the address and read it first: in this case what comes back is a web page, not a script.
 2. **Cross-check the domain.** Some addresses on `byterover.dev` now redirect to `byterover.ai`, while the documentation is still on `docs.byterover.dev`. I found no official notice explaining this, so verify the domain yourself before running anything.
 3. **OpenClaw's skill policy.** Installing skills from a third-party source may trigger warnings; the `openclaw skills` documentation describes install confirmation warnings, and `--force` does not override a block result.
-4. **Where the data goes.** The documentation page I read does not say whether data is stored locally or in the cloud, and another summary says the data is local-first and may be pushed to the cloud when needed. Ask or read the policy before putting in source code or customer data.
+4. **Where the data goes.** The documentation page I read does not say whether data is stored locally or in the cloud. Ask or read the policy before putting in source code or customer data.
 ## How to test in a controlled way
 1. Back up OpenClaw's config and working folder.
 2. Try it on a secondary agent, not one running important work.

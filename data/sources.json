@@ -96,7 +96,7 @@
   ]
  },
  "tu-xay-openclaw-lop-skills-va-tools-quyet-dinh-nang-luc-agent": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Skills CLI: OpenClaw docs",
@@ -113,6 +113,14 @@
    {
     "title": "Running the security audit: OpenClaw docs",
     "url": "https://docs.openclaw.ai/gateway/security/running-the-audit"
+   },
+   {
+    "title": "Skills (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/tools/skills"
+   },
+   {
+    "title": "Creating skills (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/tools/creating-skills"
    }
   ]
  },
@@ -621,6 +629,10 @@
    {
     "title": "Ollama Cloud: OpenClaw docs",
     "url": "https://docs.openclaw.ai/providers/ollama-cloud"
+   },
+   {
+    "title": "FAQ (Ollama docs)",
+    "url": "https://docs.ollama.com/faq"
    }
   ]
  },

@@ -40,7 +40,7 @@ metadata:
 ---
 ```
 `requires.env` declares the environment variables that must be present, `requires.bins` the programs that must all be installed, and `requires.anyBins` that at least one of them is needed. Install methods can be declared (`brew`, `node`, `go`, `uv`). The documentation stresses that declarations must match what the code actually uses; a variable that is not declared but is referenced by the code may be flagged as a mismatch. Skills on ClawHub use the MIT-0 license, with a total bundle size of at most 50 MB.
-The documentation gives no special syntax for referencing tools or scripts in a skill; any ordinary files in the folder go along with it.
+To point to a file or script inside a skill, the documentation says to use `{baseDir}`: the agent resolves it to the skill's own folder, so you do not hard-code paths, for example `{baseDir}/scripts/run.sh`. Any ordinary files in the folder go along with the skill.
 ## Tool policy
 The `tools` configuration decides what the agent can call, in order: the base profile, the provider-specific profile, then `allow` and `deny`.
 - `tools.profile`: `minimal` (only session status and Gateway maintenance), `coding` (files, run, web, sessions, memory, cron, skills), `messaging` (messaging, conversations, subagents), `full` (no core filtering). Local onboarding sets `full` if you have not configured anything, so review it.

@@ -5,10 +5,10 @@ min: 7
 ---
 QUICK: Install Claude Code with one command, sign in, open a terminal in the project folder, run `/init` to create the `CLAUDE.md` file, then hand over a small task in plan-only mode. Installation is very short; the parts that need care are access permissions and how you hand out work.
 ## What Claude Code is and who should use it
-Claude Code is a coding assistant that runs right in the terminal. Unlike a chatbot that only answers in a chat window, it can read your project, edit files, run commands and check the results, but every important action needs your permission. It suits people who build websites, automation or internal tools and want to hand repetitive work to AI while keeping control. You do not need to be a strong coder, but you need to be able to read the changes it proposes, or have someone review them before they go to a real environment.
+Claude Code is a coding assistant that runs right in the terminal. Unlike a chatbot that only answers in a chat window, it can read your project, edit files, run commands and check the results. How much it does on its own and when it asks you depends on the permission mode (see Step 4). It suits people who build websites, automation or internal tools and want to hand repetitive work to AI while keeping control. You do not need to be a strong coder, but you need to be able to read the changes it proposes, or have someone review them before they go to a real environment.
 ## Preparation before installing
-- **Account:** a paid Claude plan, or an API key from the Anthropic Console. Costs and limits change over time, so see the official pricing page instead of trusting an old figure.
-- **Git:** strongly recommended. Having the project in a Git repository lets you review and undo every change with a single command. On Windows, install Git for Windows or use WSL.
+- **Account:** per the documentation, you need a Pro, Max, Ultra, Team, Enterprise or Console (API) account. The free claude.ai plan does not include Claude Code. You can also use it through a third-party API provider such as Amazon Bedrock. Costs and limits change over time, so see the official pricing page instead of trusting an old figure.
+- **Git:** strongly recommended. Having the project in a Git repository lets you review and undo changes. On Windows, the documentation recommends installing Git for Windows so Claude Code can use Bash; it is not required, and without it commands run through PowerShell. WSL is also an option.
 - **A small project to try:** do not start with a client project that is live.
 ## Step 1: Install
 Choose one of the ways below. Always take the command from Anthropic's official documentation, because install commands can change by version.
@@ -19,7 +19,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 # Windows (PowerShell)
 irm https://claude.ai/install.ps1 | iex
 
-# Or through npm (needs Node.js 18 or later)
+# Or through npm (needs Node.js 22 or later)
 npm install -g @anthropic-ai/claude-code
 ```
 Open a new terminal window and check:
@@ -46,7 +46,7 @@ Type `/init`. Claude Code reads the project and creates a `CLAUDE.md` file at th
 ```
 This is only an illustrative example; replace it with the real information of your project. Keep it short, specific and updated when conventions change.
 ## Step 4: Understand the permission modes before handing out work
-This is the part that decides how safely you use Claude Code. By default, it asks you before editing files or running commands. During a session, you can press `Shift+Tab` to switch between modes, including a mode that auto-accepts file edits and a **plan** mode (only analyzes and proposes a plan, changing nothing). While you are new, prefer the default or plan mode, and avoid modes that skip all confirmations.
+**Update, Nov 28, 2026:** per the current documentation, in the terminal and VS Code, from version 2.1.283 the built-in starting mode is **auto mode**: many actions run without asking you, while an automatic classifier reviews and blocks risky ones. If auto mode is not available, the session starts in manual mode (it asks you first). An earlier version of this article said that by default Claude Code asks before editing files or running commands; that is no longer true. While you are new, switch to manual or **plan** mode (only analyzes and proposes a plan) with `Shift+Tab`, start with `claude --permission-mode default`, or set `permissions.defaultMode` to `"manual"` in `~/.claude/settings.json`. Watch the status bar to know which mode you are in, and avoid modes that skip all confirmations.
 To block it from reading sensitive files, create a `.claude/settings.json` file in the project:
 ```
 {

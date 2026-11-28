@@ -34,7 +34,7 @@ ollama pull model-name # download only, do not run
 ## Using it from code and other tools
 Ollama runs a local server, usually at `http://localhost:11434`, for other apps to call. Many chat interfaces such as Open WebUI can connect to this address, see [Hermes Open WebUI with Docker and Ollama: an internal AI interface](hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo.html). For each tool's specific configuration, see that tool's documentation.
 ## Reasoning models show a "thinking" section
-DeepSeek-R1 usually prints its reasoning before giving the answer, usually inside a `<think>` tag. This section lets you see how the model reasons, but it also makes the answer longer and slower. If you use the result in an app, separate the reasoning from the final answer.
+DeepSeek-R1 is a reasoning model, so it usually produces a reasoning trace before the answer. Per Ollama's documentation, when you call the API the trace is in a separate `thinking` field, apart from the answer (`message.content`), and you can control it with the `think` field. It lets you see how the model reasons, but it also makes responses longer and slower. If you use the result in an app, take only the answer field.
 ## Limits and safety notes
 - The model can still answer wrongly with confidence, especially with specific facts. Check important information.
 - Running locally does not automatically make your data safe if your machine is shared, cloud-synced or accessed remotely.

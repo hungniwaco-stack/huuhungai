@@ -20,7 +20,7 @@ npm install
 node space user create admin --password "change-me-now" --full-name "Admin" --groups _admin
 node space serve
 ```
-There is an online demo with a guest account. The README does not state which models or providers are supported, does not state a license, and has no specific security section; it also says the project is developed by AI agents themselves, including the documentation. Remember to change the sample password `change-me-now` if you run it yourself.
+There is an online demo with a guest account. The README does not state which models or providers are supported, does not mention a license (the LICENSE file in the repo is MIT), and has no specific security section; it also says the project is developed by AI agents themselves, including the documentation. When checked on Nov 28, 2026, the repo's last code push was June 8, 2026. Remember to change the sample password `change-me-now` if you run it yourself.
 ## What OpenClaw is, for a fair comparison
 OpenClaw is a self-hosted gateway that connects chat apps to an agent: a Gateway process, chat channels, skills, memory and automation. For installation, see [Installing the OpenClaw Desktop App: how to start with a clean-interface AI agent](cai-openclaw-desktop-app-cach-bat-dau-voi-ai-agent-giao-dien-sach.html).
 ## Compare the approaches, not the scores

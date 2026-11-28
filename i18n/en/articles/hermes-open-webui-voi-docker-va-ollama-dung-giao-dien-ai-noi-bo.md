@@ -27,7 +27,7 @@ The first command is for Linux (on Windows and macOS, download the installer fro
 ollama pull gemma4:31b
 ```
 ## Step 2: Raise the context length to 64,000 tokens
-According to Hermes's documentation, Ollama defaults to a 2048-token context, while Hermes needs at least 64,000 tokens to use tools. Create a version of the model with a larger context using a Modelfile:
+Hermes needs at least 64,000 tokens of context to use tools. The Hermes documentation says Ollama defaults to 2048 tokens, while Ollama's documentation now says the default depends on VRAM (4k, 32k or 256k), so set the value explicitly. Create a version of the model with a larger context using a Modelfile:
 ```
 cat > Modelfile << 'EOF'
 FROM gemma4:31b

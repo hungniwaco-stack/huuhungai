@@ -20,7 +20,7 @@ Look at the agent as software with many exits:
 ## Limits of this approach
 - **Quality.** A model that can run on a personal machine is usually smaller than a top model, and more likely to err on multi-step tasks.
 - **Speed.** The documentation warns that the first response can stay silent for a long time on CPU only or with little graphics card memory.
-- **Easy to misconfigure.** Ollama defaults to a small context; if you forget to raise it, tools will fail or the model will print tool commands as text.
+- **Easy to misconfigure.** On machines with little VRAM, Ollama defaults to a small context; if you forget to raise it, tools will fail or the model will print tool commands as text.
 - **The agent's permissions.** Even running locally, the agent still has your account's permissions (a profile is not a sandbox). If you hand it sensitive data, consider running the terminal backend in Docker and mounting only the folder needed.
 ## A practical model: classify data
 The easiest way to be both private and usable is to split by sensitivity:

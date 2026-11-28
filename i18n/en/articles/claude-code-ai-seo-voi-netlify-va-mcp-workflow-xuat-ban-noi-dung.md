@@ -15,7 +15,7 @@ This command runs interactively so you can choose which agents to configure (Cla
 ```
 npx -y add-mcp "npx -y @netlify/mcp"
 ```
-The documentation also says the older connection at `netlify-mcp.netlify.app` still works, but new connections should use `mcp.netlify.com`. Netlify has a separate guide for Claude Code; see that page for the detailed steps and the current Node.js version requirement.
+The documentation also says the older connection at `netlify-mcp.netlify.app` still works, but new connections should use `mcp.netlify.com`. Netlify's guide for Claude Code requires Node 24 or higher and recommends `claude mcp add --transport http netlify https://mcp.netlify.com/mcp` (local server: `claude mcp add netlify -- npx -y @netlify/mcp`). Netlify also offers `npx netlify@latest init`, run in the project folder: it signs you in, installs agent skills, adds the MCP server and links the folder to a Netlify project, so know what it changes before you run it.
 ## A suggested content publishing workflow
 1. **Keep content in a code repository** (Markdown or HTML pages) with Git to track changes.
 2. **Claude Code drafts or edits the article** following the brief and the rules in `CLAUDE.md`, see [Claude Code SEO Agent: a workflow for building SEO content with AI](claude-code-seo-agent-quy-trinh-xay-noi-dung-seo-bang-ai.html).
@@ -25,7 +25,7 @@ The documentation also says the older connection at `netlify-mcp.netlify.app` st
 6. **Merge into the main branch** to publish, following the process you have set.
 ## What to keep under control
 - **Agent permissions.** Grant only what is needed. For actions that could break the site or affect costs, require confirmation before they run.
-- **No self-publishing.** Pushing to the main site should be your decision, not something the agent does on its own.
+- **No self-publishing.** Pushing to the main site should be your decision, not something the agent does on its own. The Netlify CLI has `netlify deploy --prod`, which publishes straight to production, so require the agent to ask you before running it.
 - **Secrets.** Access keys and environment variables should not sit in the repository or in the agent's input.
 - **Authentication.** The MCP server connects with your account, so the agent's actions have real effect. Review the permissions granted in the account.
 ## About SEO content

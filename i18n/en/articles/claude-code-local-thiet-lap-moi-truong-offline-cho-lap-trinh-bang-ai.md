@@ -22,9 +22,9 @@ ollama --version
 ```
 ollama pull model-name
 ```
-Choose a model that **supports tool calling**, because Claude Code works through tools. Ollama's documentation requires a context of at least 64,000 tokens for this.
+Choose a model that **supports tool calling**, because Claude Code works through tools. Ollama's documentation advises setting a context of 64,000 tokens or more for local models.
 ## Step 3: Raise the context length
-The Hermes Agent guide notes that Ollama defaults to a very short context (2048 tokens), not enough to use tools. You can create a version of the model with a larger context using a Modelfile:
+Per Ollama's current documentation, the default context depends on graphics memory (VRAM): 4k below 24 GiB, 32k from 24 to 48 GiB and 256k at 48 GiB or more; agent and coding work should use at least 64,000. The Hermes Agent guide still says the default is 2048 tokens, which does not match that page. You can set `OLLAMA_CONTEXT_LENGTH=64000` when running `ollama serve`, or create a model version with a larger context using a Modelfile:
 ```
 cat > Modelfile << 'EOF'
 FROM model-name
@@ -32,7 +32,7 @@ PARAMETER num_ctx 64000
 EOF
 ollama create model-name-64k -f Modelfile
 ```
-The default value may differ by Ollama version, so check with `ollama show model-name`. The longer the context, the more memory it uses, so choose just enough.
+Check the allocated context with `ollama ps` (the CONTEXT column). The longer the context, the more memory it uses, so choose just enough.
 ## Step 4: Point Claude Code at Ollama
 The quick way per Ollama's documentation:
 ```

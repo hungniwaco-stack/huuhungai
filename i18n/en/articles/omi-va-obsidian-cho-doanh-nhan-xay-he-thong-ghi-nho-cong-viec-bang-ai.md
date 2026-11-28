@@ -7,7 +7,7 @@ QUICK: Omi is an open-source AI wearable platform that records and transcribes c
 ## What Omi is
 According to Omi's documentation, it is an open-source AI wearable platform: "a necklace that records conversations, transcribes them and turns them into memories you can query". There is the Omi device (CV1) and the self-built omiGlass smart glasses. The Omi app can also be used without a device, recording from a phone or the Mac app to capture meetings and screen context. The system transcribes in real time, identifies speakers, then extracts memories, action items and summaries. There is a REST API for memories, conversations and action items. The documentation page gives no information about data or privacy, and does not mention Obsidian.
 ## The bridge to Obsidian: a community plugin
-There are several community projects connecting Omi with Obsidian. One example is `obsidian-omi` (repo `smian1/obsidian-omi`, MIT license), per its README:
+There are several community projects connecting Omi with Obsidian. One example is `obsidian-omi` (repo `smian1/obsidian-omi`). Its README says MIT, but the LICENSE file in the repo is the 0BSD text, and the last code push was Dec 31, 2025 (checked Nov 28, 2026). Per its README:
 - It syncs Omi's conversations, action items and memories into Obsidian as searchable Markdown files, with Dataview-compatible metadata.
 - A conversation file can include an AI summary, action items, events and the transcript.
 - There is an "Omi Hub" (a dashboard) and a "Tasks Hub" with two-way sync for action items, plus daily notes that automatically link to conversations.

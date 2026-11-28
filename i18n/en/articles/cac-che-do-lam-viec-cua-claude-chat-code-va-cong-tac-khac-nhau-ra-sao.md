@@ -12,7 +12,7 @@ This is the familiar conversation window. You type a question or paste content, 
 - **Permissions:** usually only works with what you put into the conversation. It does not read or edit files on your machine on its own.
 - **Risk:** low, mostly the sensitive data you paste in yourself.
 ## Mode 2: Claude Code
-Claude Code is a coding assistant that works directly in your project folder, usually through a terminal. It reads code, edits files, runs commands and checks results, with important actions needing your permission.
+Claude Code is a coding assistant that works directly in your project folder, usually through a terminal. It reads code, edits files, runs commands and checks results. How often it asks you depends on the permission mode, and recent versions may start in a mode that runs many actions on its own, see [Setting up Claude Code step by step: the foundation for AI coding](thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai.html).
 - **Suits:** writing and fixing code, building small websites, automating with scripts, working on many files at once, and also text folders such as a notes vault.
 - **Permissions:** read and write in the folder you open, run commands with the permissions you grant.
 - **Risk:** medium to high if you grant broad permissions. Use Git and plan-only mode when starting out.

@@ -33,7 +33,7 @@ The `ANTHROPIC_AUTH_TOKEN` variable only needs to have a value; Ollama does not 
 ## Method 3: Use Ollama's cloud models
 You can also use cloud models (names with the suffix `:cloud`) through Ollama without downloading them to your machine. The documentation also describes connecting directly to `https://ollama.com` with an Ollama API key, set in the `ANTHROPIC_AUTH_TOKEN` variable. With this method the model does not run on your machine, so terms of use, limits and costs are set by the service. Check Ollama's pricing page before relying on it.
 ## Choosing a model: two required conditions
-Ollama's documentation states two requirements for a locally run model:
+Ollama's documentation says tools work with compatible models, and for local models you should set a context window of 64,000 tokens or more. So watch two things:
 - **Tool calling support.** Claude Code works by calling tools (reading files, editing files, running commands). A model that does not support this can only chat.
 - **A context window of at least 64,000 tokens.** A large project needs a large context so the agent can read enough code.
 For a large project, set the context length to 64,000 or more. A weak machine struggles to meet both conditions at once, which is why many people see slow or poor results.
@@ -43,9 +43,9 @@ For a large project, set the context length to 64,000 or more. A weak machine st
 - **Cloud models:** may have limits or fees, depending on your Ollama plan.
 - **Different quality:** a small model running on a personal machine is usually weaker than top models at complex coding, and results will differ from using Claude.
 ## Limits and notes per Ollama's documentation
-- Web search provided by the hosted service and some advanced tool controls are **not fully supported** when connecting directly to the cloud. Basic chat and file editing work with compatible models.
+- Ollama's documentation now lists web search and web fetch through Ollama. When connecting directly to the cloud, however, hosted WebSearch and some advanced tool controls are **not fully supported**; basic chat and file editing work with compatible models.
 - **Claude's settings can override environment variables.** If you change the address or credentials, update them in Claude's configuration files too, then run `/status` to check the connection.
-- Claude Code still asks permission for most actions. A fully automatic mode needs allow rules or the permission-skipping flag, and that flag should only be used in an isolated environment.
+- Ollama's page says Claude Code asks permission for most actions, but the Claude Code documentation now says auto mode is the built-in starting mode in recent versions. Do not assume: check the status bar, or run `claude --permission-mode default` to be asked first. A fully autonomous run needs allow rules or the permission-skipping flag, and that flag should only be used in an isolated environment.
 ## When this approach is worth it
 - You want to try Claude Code without configuring a subscription, or work with source code that cannot be sent out.
 - The work is simple and clear, such as small fixes, explaining code and writing tests.

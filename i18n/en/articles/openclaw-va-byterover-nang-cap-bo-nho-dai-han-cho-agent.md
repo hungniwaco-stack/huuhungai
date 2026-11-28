@@ -3,7 +3,7 @@ title: OpenClaw and ByteRover: upgrading long-term memory for agents
 desc: ByteRover is an external memory layer for OpenClaw: plugin install, setup, Context Engine, experimental Memory Flush and warnings about third-party scripts.
 min: 7
 ---
-QUICK: ByteRover is a third-party product that adds a structured memory layer to OpenClaw, installed with the `@byterover/byterover` plugin or a setup script. Add it only when OpenClaw's built-in memory is not enough for you. The accuracy figures are published by the vendor itself, and the Memory Flush feature is still experimental.
+QUICK: ByteRover is a third-party product that adds a structured memory layer to OpenClaw, installed with the `@byterover/byterover` plugin. Its documentation also gives a one-line install script, but when checked on Nov 28, 2026 that address redirected to the home page, so do not run it. Add ByteRover only when OpenClaw's built-in memory is not enough. The Memory Flush feature is still experimental.
 ## What ByteRover is
 According to ByteRover's documentation, it is a long-term memory system for OpenClaw agents that helps the agent remember across sessions. It is not an OpenClaw feature but a separate product. Before adding it, understand OpenClaw's built-in memory in [Setting up long-term memory for OpenClaw: when it is needed and how to control it](thiet-lap-bo-nho-dai-han-cho-openclaw-khi-nao-can-va-lam-sao-kiem-soat.html): Markdown files, semantic lookup and dreaming. Many people will find that enough.
 ## Two main components
@@ -11,18 +11,14 @@ According to ByteRover's documentation, it is a long-term memory system for Open
 - **Memory Flush (experimental):** before context is compacted, the agent reviews the session for architectural decisions, bugs it fixed and repeated patterns, then runs `brv curate` to store them. The documentation page marks this feature as experimental and behavior may change.
 There is also a ClawHub skill named `byterover`.
 ## Requirements
-Node.js, and the `openclaw` command-line tool on your `PATH`. The setup script installs `brv` (ByteRover's CLI) if it is missing and installs the `byterover` skill automatically.
+Node.js, and the `openclaw` command-line tool on your `PATH`. Per the documentation, the setup script installs `brv` (ByteRover's CLI) if it is missing and installs the `byterover` skill automatically.
 ## Installing per the documentation
-- **Quick install with a script:**
-```
-curl -fsSL https://byterover.dev/openclaw-setup.sh | sh
-```
 - **Plugin only:**
 ```
 openclaw plugins install @byterover/byterover
 ```
 - Skill (the script installs it automatically): `npx clawhub@latest install byterover --force`.
-The script checks prerequisites, backs up your config, then asks whether to turn on each feature (Context Engine, Memory Flush) and updates `AGENTS.md` and `TOOLS.md` with ByteRover commands. After that, connect a model provider for ByteRover:
+**Update, Nov 28, 2026:** the documentation still tells you to download `byterover.dev/openclaw-setup.sh` and run it directly, but this address, like `byterover.dev/install.sh` (the `brv` installer), redirects with a 301 to the `byterover.ai` home page and returns an HTML page, not a script. The same paths on `byterover.ai` return 404. So do not pipe the download into `sh`; use the plugin install and check the latest documentation. I have not tested the plugin install. Per the documentation, once you have `brv`, you connect a model provider for ByteRover:
 ```
 brv providers connect byterover
 brv providers connect <llm-provider>
@@ -30,12 +26,10 @@ brv providers list
 ```
 The `byterover` provider is free but needs you to sign in to a ByteRover account; other providers need your own API key.
 ## Warnings before installing
-1. **Do not run a "download then run" command right away.** The `curl ... | sh` command runs code from the internet with your privileges. Open the script address and read it first, or use the plugin-only method through `openclaw plugins install`.
-2. **Cross-check the domain.** When I checked, an old blog page on `byterover.dev` redirected (301) to `byterover.ai`. The current documentation still uses `byterover.dev` for the install command. Verify the official domain yourself from ByteRover's documentation page before running anything.
+1. **Do not run a "download then run" command right away.** A `curl ... | sh` command runs code from the internet with your privileges. Always open the address and read it first: in this case what comes back is a web page, not a script.
+2. **Cross-check the domain.** Some addresses on `byterover.dev` now redirect to `byterover.ai`, while the documentation is still on `docs.byterover.dev`. I found no official notice explaining this, so verify the domain yourself before running anything.
 3. **OpenClaw's skill policy.** Installing skills from a third-party source may trigger warnings; the `openclaw skills` documentation describes install confirmation warnings, and `--force` does not override a block result.
 4. **Where the data goes.** The documentation page I read does not say whether data is stored locally or in the cloud, and another summary says the data is local-first and may be pushed to the cloud when needed. Ask or read the policy before putting in source code or customer data.
-## Accuracy figures
-One source says the ByteRover team published a LongMemEval-S score of 92.8%. That is a vendor-published number that I did not independently verify, and the aggregator sites that repeat it are often of low quality. Do not use it to decide; measure on your own real work.
 ## How to test in a controlled way
 1. Back up OpenClaw's config and working folder.
 2. Try it on a secondary agent, not one running important work.

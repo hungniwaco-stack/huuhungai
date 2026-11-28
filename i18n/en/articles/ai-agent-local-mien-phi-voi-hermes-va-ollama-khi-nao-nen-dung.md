@@ -32,7 +32,7 @@ model:
   provider: "custom"
   base_url: "http://localhost:11434/v1"
 ```
-1. **Raise the context.** The guide says Ollama defaults to a 2048-token context while Hermes needs at least 64,000 to use tools, and shows how to create a Modelfile with `PARAMETER num_ctx 64000` and then `ollama create`. Then use the new model name in the configuration.
+1. **Raise the context.** Hermes needs at least 64,000 tokens to use tools. The Hermes guide says Ollama defaults to 2048 tokens, but Ollama's documentation now says the default depends on VRAM (4k, 32k or 256k). Either way, set at least 64,000 explicitly. The guide shows how to create a Modelfile with `PARAMETER num_ctx 64000` and then `ollama create`. Then use the new model name in the configuration.
 2. **Run:** type `hermes`.
 ## Common problems (per the documentation)
 - **The first response stays silent for a long time:** the model is processing the system prompt and the tool list, especially on CPU only. Keeping the model loaded in memory reduces this.

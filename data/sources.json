@@ -168,7 +168,7 @@
   ]
  },
  "hermes-open-webui-voi-docker-va-ollama-dung-giao-dien-ai-noi-bo": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Open WebUI: Hermes Agent docs",
@@ -181,6 +181,10 @@
    {
     "title": "Install Hermes Agent: Official Guide | Nous Research",
     "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+   },
+   {
+    "title": "Context length (Ollama docs)",
+    "url": "https://docs.ollama.com/context-length"
    }
   ]
  },
@@ -223,7 +227,7 @@
   ]
  },
  "ai-agent-local-mien-phi-voi-hermes-va-ollama-khi-nao-nen-dung": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Hermes Agent Docs (Official) | Nous Research",
@@ -236,6 +240,10 @@
    {
     "title": "Fallback Providers: Hermes Agent docs",
     "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   },
+   {
+    "title": "Context length (Ollama docs)",
+    "url": "https://docs.ollama.com/context-length"
    }
   ]
  },
@@ -770,6 +778,253 @@
    {
     "title": "Jules Turndown | Jules",
     "url": "https://jules.google/docs/changelog/2026-10-29/"
+   }
+  ]
+ },
+ "space-agent-va-openclaw-so-sanh-suc-manh-toc-do-va-chi-phi": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "README: agent0ai/space-agent (GitHub)",
+    "url": "https://github.com/agent0ai/space-agent#readme"
+   },
+   {
+    "title": "LICENSE: agent0ai/space-agent (GitHub)",
+    "url": "https://github.com/agent0ai/space-agent/blob/main/LICENSE"
+   },
+   {
+    "title": "Getting started (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/start/getting-started"
+   }
+  ]
+ },
+ "auto-research-claw-tu-dong-hoa-quy-trinh-nghien-cuu-bang-ai-agent": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "README: aiming-lab/AutoResearchClaw (GitHub)",
+    "url": "https://github.com/aiming-lab/AutoResearchClaw#readme"
+   }
+  ]
+ },
+ "kimi-agent-swarm-khi-nao-nen-dung-nhieu-agent-cung-luc": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Kimi Agent Swarm (Kimi Help Center)",
+    "url": "https://www.kimi.com/en/help/agent/agent-swarm"
+   }
+  ]
+ },
+ "manus-cloud-computer-va-aws-stack-moi-cho-nguoi-lam-solo": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Introducing Cloud Computer (Manus)",
+    "url": "https://manus.im/blog/manus-cloud-computer"
+   },
+   {
+    "title": "A Note to Our Users (Manus)",
+    "url": "https://manus.im/blog/a-note-to-our-users"
+   },
+   {
+    "title": "Manus Resumes Independent Operations (Manus)",
+    "url": "https://manus.im/blog/manus-resumes-independent-operations"
+   },
+   {
+    "title": "Manus selects AWS (AWS press release)",
+    "url": "https://press.aboutamazon.com/aws/2025/12/manus-selects-aws-to-power-general-purpose-ai-agent-serving-millions-globally"
+   },
+   {
+    "title": "Manus launches Cloud Computer (TestingCatalog)",
+    "url": "https://www.testingcatalog.com/manus-launches-cloud-computer-with-service-hosting-capabilities/"
+   }
+  ]
+ },
+ "open-design-va-claude-design-cho-agency-chon-cong-cu-thiet-ke-ai-the-nao": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "README: nexu-io/open-design (GitHub)",
+    "url": "https://github.com/nexu-io/open-design#readme"
+   }
+  ]
+ },
+ "omi-va-obsidian-cho-doanh-nhan-xay-he-thong-ghi-nho-cong-viec-bang-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "What is Omi (Omi docs)",
+    "url": "https://docs.omi.me/doc/get_started/what-is-omi"
+   },
+   {
+    "title": "README: smian1/obsidian-omi (GitHub)",
+    "url": "https://github.com/smian1/obsidian-omi#readme"
+   },
+   {
+    "title": "LICENSE: smian1/obsidian-omi (GitHub)",
+    "url": "https://github.com/smian1/obsidian-omi/blob/main/LICENSE"
+   }
+  ]
+ },
+ "openclaw-va-byterover-nang-cap-bo-nho-dai-han-cho-agent": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "OpenClaw integration (ByteRover docs)",
+    "url": "https://docs.byterover.dev/autonomous-agents/openclaw"
+   },
+   {
+    "title": "openclaw skills (OpenClaw docs)",
+    "url": "https://docs.openclaw.ai/cli/skills"
+   }
+  ]
+ },
+ "thiet-lap-claude-code-tung-buoc-nen-tang-cho-coding-bang-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Advanced setup (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/setup"
+   },
+   {
+    "title": "Quickstart (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/quickstart"
+   },
+   {
+    "title": "Permission modes (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permission-modes"
+   },
+   {
+    "title": "Permissions (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permissions"
+   },
+   {
+    "title": "Memory and CLAUDE.md (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/memory"
+   },
+   {
+    "title": "Commands (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/commands"
+   },
+   {
+    "title": "Data usage (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/data-usage"
+   }
+  ]
+ },
+ "claude-code-mien-phi-qua-ollama-hieu-dung-gioi-han-va-lua-chon-mo-hinh": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Claude Code with Ollama (Ollama docs)",
+    "url": "https://docs.ollama.com/integrations/claude-code"
+   },
+   {
+    "title": "Permission modes (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permission-modes"
+   }
+  ]
+ },
+ "claude-code-local-thiet-lap-moi-truong-offline-cho-lap-trinh-bang-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Claude Code with Ollama (Ollama docs)",
+    "url": "https://docs.ollama.com/integrations/claude-code"
+   },
+   {
+    "title": "Context length (Ollama docs)",
+    "url": "https://docs.ollama.com/context-length"
+   },
+   {
+    "title": "Run Hermes Locally with Ollama (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   },
+   {
+    "title": "Permission modes (Claude Code docs)",
+    "url": "https://code.claude.com/docs/en/permission-modes"
+   }
+  ]
+ },
+ "claude-code-ai-seo-voi-netlify-va-mcp-workflow-xuat-ban-noi-dung": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Agent setup overview and MCP server (Netlify docs)",
+    "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/"
+   },
+   {
+    "title": "Set up Claude Code for Netlify (Netlify docs)",
+    "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/set-up-claude-code-for-netlify/"
+   }
+  ]
+ },
+ "cai-deepseek-voi-ollama-chay-mo-hinh-ai-theo-huong-tiet-kiem": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "deepseek-r1 (Ollama library)",
+    "url": "https://ollama.com/library/deepseek-r1"
+   },
+   {
+    "title": "Thinking (Ollama docs)",
+    "url": "https://docs.ollama.com/capabilities/thinking"
+   },
+   {
+    "title": "CLI reference (Ollama docs)",
+    "url": "https://docs.ollama.com/cli"
+   },
+   {
+    "title": "Quick Start (Open WebUI docs)",
+    "url": "https://docs.openwebui.com/getting-started/quick-start/"
+   }
+  ]
+ },
+ "hermes-va-gemma-stack-ai-agent-local-cho-du-lieu-rieng-tu": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Run Hermes Locally with Ollama (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/guides/local-ollama-setup"
+   },
+   {
+    "title": "Fallback providers (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers"
+   },
+   {
+    "title": "Profiles (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/profiles"
+   },
+   {
+    "title": "Context length (Ollama docs)",
+    "url": "https://docs.ollama.com/context-length"
+   }
+  ]
+ },
+ "hermes-agent-mission-control-giao-dien-quan-tri-agent-the-he-moi": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Web Dashboard (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard"
+   }
+  ]
+ },
+ "paperclip-hermes-agent-mo-hinh-to-chuc-cong-viec-bang-ai": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Hermes adapter (Paperclip docs)",
+    "url": "https://docs.paperclip.ing/reference/adapters/hermes/"
+   },
+   {
+    "title": "Hermes Gateway adapter (Paperclip docs)",
+    "url": "https://docs.paperclip.ing/reference/adapters/hermes-gateway"
+   },
+   {
+    "title": "README: NousResearch/hermes-paperclip-adapter (GitHub)",
+    "url": "https://github.com/NousResearch/hermes-paperclip-adapter#readme"
    }
   ]
  }

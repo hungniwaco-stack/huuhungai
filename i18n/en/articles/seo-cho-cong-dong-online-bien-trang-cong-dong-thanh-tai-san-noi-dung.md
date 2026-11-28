@@ -19,7 +19,7 @@ Real discussions contain exactly what searchers need: specific questions, real e
 - **Discussion titles that describe the content,** instead of vague ones like "Help me please".
 - **Update or merge** duplicate topics to avoid many thin pages saying the same thing.
 ## Step 3: Block spam and poor content
-Google's spam policies list **user-generated spam** as a form of spam, along with site reputation abuse, where third-party content is posted mainly to benefit from the host site's ranking. Google states that having third-party content is not in itself a violation; the issue lies in the purpose. In practice for community owners:
+Google's spam policies list **user-generated spam**: spammy content added by users through a channel meant for their content, such as spam posts in forum threads or comment spam, often without the site owner knowing. The same page has the **site reputation policy**, which applies when third-party content is published on a host site mainly because of the host's established ranking signals. Google states that having third-party content alone is not against that policy; the issue is the purpose. How the policy is enforced differs for searchers inside and outside the European Economic Area. In practice for community owners:
 - **Moderate new posts,** especially from new members, to block ads and junk links.
 - **Use appropriate link attributes** such as `rel="ugc"` for links posted by users, to tell search engines the link was created by a user.
 - **Let members report** bad content and act on it quickly.

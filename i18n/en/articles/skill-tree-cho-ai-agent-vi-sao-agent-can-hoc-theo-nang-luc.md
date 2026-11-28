@@ -24,7 +24,7 @@ description: Check the title, meta, headings and canonical of an HTML page. Use 
 # Check a page's SEO
 (the steps, rules and examples)
 ```
-According to the publicly described specification, the name contains only lowercase letters, numbers and hyphens and has a limited length, and the description also has a length limit.
+Under the Agent Skills specification (agentskills.io), `name` has at most 64 characters, only lowercase letters, numbers and hyphens, cannot start or end with a hyphen or contain two hyphens in a row; `description` has at most 1,024 characters. Anthropic says that on Dec 18, 2025 it published Agent Skills as an open standard for use across platforms.
 ## Loading in parts: why skills save context
 Anthropic calls the core principle progressive disclosure:
 1. At startup, the agent loads only the **name and description** of every skill.

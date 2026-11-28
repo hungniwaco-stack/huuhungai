@@ -1381,5 +1381,91 @@
     "url": "https://openai.com/policies/terms-of-use/"
    }
   ]
+ },
+ "ai-lead-generation-agent-tu-dong-hoa-pipeline-ban-hang": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15, bản Công báo (PDF)",
+    "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf"
+   },
+   {
+    "title": "Nghị định 356/2025/NĐ-CP, bản Công báo (PDF)",
+    "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/17/356signed-1768638052103952849513.pdf"
+   },
+   {
+    "title": "Nghị định 330/2026/NĐ-CP (xaydungchinhsach.chinhphu.vn)",
+    "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-330-2026-nd-cp-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-an-ninh-mang-119260824172446407.htm"
+   },
+   {
+    "title": "Nghị định 91/2020/NĐ-CP: thông tin văn bản (vanban.chinhphu.vn)",
+    "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=200773"
+   },
+   {
+    "title": "Nghị định 91/2020/NĐ-CP, bản ký số (PDF, chinhphu.vn)",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/08/91.signed.pdf"
+   },
+   {
+    "title": "Dự thảo nghị định chống tin nhắn rác đang lấy ý kiến, tin ngày 9/9/2026 (chinhphu.vn)",
+    "url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-cac-bien-phap-chong-ngan-chan-tin-nhan-rac-thu-dien-tu-rac-cuoc-goi-rac-119260909163123265.htm"
+   }
+  ]
+ },
+ "he-thong-ai-seo-voi-claude-tu-dong-hoa-noi-dung-nhung-van-can-bien-tap": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Spam policies for Google web search (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   }
+  ]
+ },
+ "seo-cho-cong-dong-online-bien-trang-cong-dong-thanh-tai-san-noi-dung": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Spam policies for Google web search (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+   },
+   {
+    "title": "Qualify your outbound links to Google (Google Search Central)",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+   }
+  ]
+ },
+ "seo-reddit-bang-noi-dung-ai-co-hoi-va-gioi-han-khi-lam-o-viet-nam": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Reddit Rules (Reddit)",
+    "url": "https://redditinc.com/policies/reddit-rules"
+   }
+  ]
+ },
+ "open-source-ai-dang-thang-o-dau-bai-hoc-cho-doanh-nghiep-nho": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "The Open Source AI Definition 1.0 (Open Source Initiative)",
+    "url": "https://opensource.org/ai/open-source-ai-definition"
+   }
+  ]
+ },
+ "skill-tree-cho-ai-agent-vi-sao-agent-can-hoc-theo-nang-luc": {
+  "checked": "2026-11-28",
+  "sources": [
+   {
+    "title": "Equipping agents for the real world with Agent Skills (Anthropic)",
+    "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+   },
+   {
+    "title": "Agent Skills specification (agentskills.io)",
+    "url": "https://agentskills.io/specification"
+   },
+   {
+    "title": "Hermes Agent documentation (Nous Research)",
+    "url": "https://hermes-agent.nousresearch.com/docs/"
+   }
+  ]
  }
 }

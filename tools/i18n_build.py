@@ -153,13 +153,17 @@ def article_page(slug, a, have=(), rel=""):
 
 
 # ---------------------------------------------------------------- homepage
+START_EN = ["New to AI agents", "Coding with AI", "Doing SEO with AI", "Choosing a tool"]  # same order as the Vietnamese "start" list
+
+
 def home_page(arts):
     vi = rd("index.html")
     cards = re.findall(r'<a class="card article-card" href="articles/([^"]+)\.html" data-topic="([^"]*)" data-search="[^"]*"><span class="code">([^<]*)</span><h2>.*?</h2><p>.*?</p><small>(.*?) · (\d{4}-\d{2}-\d{2}) · (\d+) phút đọc</small></a>', vi, re.S)
     cards = [c for c in cards if c[0] in arts]
-    secs = re.findall(r'<section class="topic-section" id="([^"]*)"><div class="section-heading"><h2>[^<]*</h2><p>[^<]*</p></div><div class="cluster compact">(.*?)</div></section>', vi, re.S)
+    start = re.findall(r'<li><a href="articles/([^"]+)\.html"><span>', re.search(r'<div class="start" id="start">.*?</ul></div>', vi, re.S).group(0))
+    assert len(start) == len(START_EN), "start list changed: update START_EN"
     url = SITE + "/en/"
-    title = BRAND + " | Browse by topic"
+    title = BRAND + ": practical AI Automation"
     desc = "Hữu Hùng AI shares practical AI Automation, AI agents, AI SEO and workflow automation guides."
     head = en_head(vi, url, title, desc, SITE + "/")
     head = re.sub(r'<script type="application/ld\+json">.*?</script>', "", head, flags=re.S)
@@ -181,33 +185,21 @@ def home_page(arts):
         search = norm(a["title"] + " " + a["desc"] + " " + ccat + " " + TOPIC.get(topic, topic))
         card_html.append('<a class="card article-card" href="/en/articles/%s.html" data-topic="%s" data-search="%s"><span class="code">%s</span><h2>%s</h2><p>%s</p><small>%s · %s · %s min read</small></a>'
                          % (slug, topic, esc(search), code, esc(a["title"]), esc(a["desc"]), esc(ccat), date, mins))
-    sec_html = []
-    for sid, inner in secs:
-        items = re.findall(r'<a class="card" href="articles/([^"]+)\.html"><span class="code">([^<]*)</span><h2>.*?</h2><small>(\d{4}-\d{2}-\d{2}) · (\d+) phút đọc</small></a>', inner)
-        items = [i for i in items if i[0] in arts]
-        if not items: continue
-        tname = None
-        for t in TOPIC:
-            if "topic-" + re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-") == sid: tname = TOPIC[t]
-        tname = tname or sid.replace("topic-", "").replace("-", " ").title()
-        lis = "".join('<a class="card" href="/en/articles/%s.html"><span class="code">%s</span><h2>%s</h2><small>%s · %s min read</small></a>' % (s, c, esc(arts[s]["title"]), d, m) for s, c, d, m in items)
-        sec_html.append('<section class="topic-section" id="%s"><div class="section-heading"><h2>%s</h2><p>%d article%s in the %s library.</p></div><div class="cluster compact">%s</div></section>'
-                        % (sid, tname, len(items), "" if len(items) == 1 else "s", BRAND, lis))
-    news = en_news_block()
-    script = re.search(r"<script>\(\(\) => \{const cards.*?</script>", vi, re.S).group(0)
-    script = script.replace("' bài phù hợp'", "' matching article'+(count===1?'':'s')").replace("' trong chủ đề đang chọn'", "' in the selected topic'")
-    body = ('<body>' + HEADER + '<main><section class="wrap hero"><p class="eyebrow">SEO / AEO / GEO ready</p><h1>Practical AI Automation</h1>'
-            '<p>The Hữu Hùng AI library is organised by topic. Every article has its own page, so a click opens exactly the article you want.</p>'
-            '<div class="answer"><strong>Quick answer:</strong> The index uses a browse-by-topic model for fast filtering. Each article opens at its own URL under /en/articles/, '
-            'which works better for SEO, link sharing and AI crawlers.</div><div class="stats"><span><strong>%d</strong> articles</span><span>Article + FAQ schema</span></div></section>'
-            '<section class="wrap topic-browser" id="topics"><div class="topic-title">Browse by topic:</div><div class="topic-chips">%s</div></section>%s'
+    start_html = "".join('<li><a href="/en/articles/%s.html"><span>%s</span><strong>%s</strong></a></li>' % (s, label, esc(arts[s]["title"])) for s, label in zip(start, START_EN))
+    body = ('<body id="top" class="home">' + HEADER + '<main><section class="wrap hero"><h1>Practical AI Automation</h1>'
+            '<p>Guides and analysis on AI agents, coding with AI, AI SEO and work automation.</p></section>'
             '<section class="wrap" id="automation-index"><div class="toolbar"><input class="searchbox" id="article-search" type="search" placeholder="Search articles on AI agents, SEO, tools, workflows..." aria-label="Search articles">'
-            '<button class="clear-btn" id="clear-search" type="button">Clear filter</button></div><p class="result-line" id="result-status"></p>'
-            '<div class="empty" id="empty-state">No matching articles. Try a broader keyword such as AI agents, AI SEO or AI tools.</div><div class="cluster">%s</div>%s</section>'
-            '<section class="reader faq" id="faq"><h2>Frequently asked questions</h2><details open><summary>Where does an article open?</summary>'
-            '<p>Each article card links to its own file under /en/articles/. For example: /en/articles/article-name.html.</p></details>'
-            '<details><summary>Why static HTML?</summary><p>Many AI crawlers do not run JavaScript. Static HTML puts the important content in the initial source, which suits SEO, AEO and GEO.</p></details></section></main>%s%s</body></html>'
-            % (n, " ".join(chips), news, " ".join(card_html), "".join(sec_html), script, FOOT))
+            '<button class="clear-btn" id="clear-search" type="button">Clear filter</button></div>'
+            '<div class="topic-browser" id="topics"><div class="topic-chips">' + " ".join(chips) + '</div></div>'
+            '<div class="start" id="start"><h2>Where to start</h2><ul>' + start_html + '</ul></div>'
+            '<h2 class="list-title">Articles, newest first</h2><p class="result-line" id="result-status" aria-live="polite"></p>'
+            '<div class="empty" id="empty-state">No matching articles. Try a broader keyword such as AI agents, AI SEO or AI tools.</div>'
+            '<div class="cluster">' + " ".join(card_html) + '</div><button class="more-btn" id="show-more" type="button" hidden>Show more articles</button></section>'
+            + en_news_block() +
+            '<section class="wrap about" id="about"><h2>About the content</h2>'
+            '<p>Many articles, especially those about specific tools, list their sources at the end with the date they were cross-checked. Some articles about methods do not have that section.</p>'
+            '<p>AI products change quickly. Open the original sources and check again before following along, especially for install commands, pricing, access permissions and legal rules.</p></section></main>'
+            '<script src="/assets/home.js" defer></script>' + FOOT + "</body></html>")
     return head + "</head>" + body
 
 

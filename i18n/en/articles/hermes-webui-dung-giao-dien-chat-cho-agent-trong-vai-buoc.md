@@ -11,7 +11,7 @@ QUICK: Hermes WebUI (repo `nesquena/hermes-webui`) is a community web interface,
 The Hermes WebUI author states clearly that this is an independent project, not affiliated with or endorsed by Nous Research. There is also [Setting up Hermes Workspace: a working base for AI agents](thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent.html), another community interface.
 ## Requirements
 - Hermes Agent installed (the bootstrap script will try to install it with the official installer if it is missing).
-- Python 3.11 or later.
+- Python 3.11 or later per the WebUI README. Hermes Agent itself now runs on Python 3.14, which its official installer provisions.
 - Linux, macOS or WSL2. Native Windows is not supported by the bootstrap script; the README points to a Windows guide written by the community.
 - Docker if you install with a container.
 ## Method 1: bootstrap (recommended by the README)

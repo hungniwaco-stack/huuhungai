@@ -6,7 +6,7 @@
 <p><strong>Update, Nov 28, 2026:</strong> per Paperclip's documentation, <code>hermes_local</code> is a built-in adapter that runs Hermes Agent on the same machine as Paperclip. An earlier version of this article told you to install an npm package and edit server code, following the README of the <code>NousResearch/hermes-paperclip-adapter</code> repo (last code push in April 2026). Follow Paperclip's current documentation. Requirements:</p>
 <ul>
 <li>Hermes Agent installed on the same machine with the official installer, see <a href="cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html">Installing Hermes Agent</a>. Paperclip's environment test suggests <code>pip install hermes-agent</code>, but do not just follow it: Hermes's updating page lists pip or PyPI package installs on Python 3.11 to 3.13 as unsupported and recommends the official installer or a packaged build. When I checked on Nov 28, 2026, the latest release on PyPI was 0.19.0 (July 20), while GitHub already had v0.23.4.</li>
-<li>Paperclip's documentation says Python 3.10 or later, but current Hermes code declares 3.11 or later, and the Hermes installer provisions a suitable Python version itself.</li>
+<li>Paperclip's documentation says Python 3.10 or later, but Hermes's updating page (read on Nov 28, 2026) says Hermes now runs only on Python 3.14. The 3.11 floor still declared in the code exists only so that older installs can run the transition update. The official installer provisions Python 3.14 itself.</li>
 <li>A model configured for Hermes, usually in <code>~/.hermes/config.yaml</code>. The documentation advises leaving the adapter's <code>model</code> field empty if Hermes already works.</li>
 <li>A current Paperclip server.</li>
 </ul>

@@ -16,7 +16,7 @@ According to the help page (the K2.6 upgrade): up to 300 subagents at the same t
 ## The performance numbers, and who published them
 These are claims by Moonshot AI on its own page, not independently verified:
 - 4.5 times faster than running sequentially with a single agent.
-- A reduction of at least 3 to 4.5 times in critical steps in large-scale search.
+- The minimum number of critical steps needed to reach a goal is cut by 3 to 4.5 times in large-scale search.
 - On the BrowseComp test, accuracy rises from 15.9% (one agent) to 33.3%.
 The page explains that "critical steps" are the time of the slowest subagent at each stage, added up across stages. Treat these as vendor claims and measure on your own work.
 ## Which work suits a swarm

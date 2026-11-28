@@ -6,7 +6,7 @@
 <p><strong>Cập nhật 28/11/2026:</strong> theo tài liệu Paperclip, <code>hermes_local</code> là adapter có sẵn, chạy Hermes Agent trên cùng máy với Paperclip. Bản trước của bài này hướng dẫn tự cài gói npm và sửa mã máy chủ, theo README của kho <code>NousResearch/hermes-paperclip-adapter</code> (lần đẩy mã gần nhất là tháng 4/2026). Hãy làm theo tài liệu Paperclip hiện hành. Yêu cầu:</p>
 <ul>
 <li>Hermes Agent đã cài trên cùng máy bằng bộ cài chính thức, xem <a href="cai-hermes-agent-don-gian-huong-dan-cho-nguoi-khong-chuyen-ky-thuat.html">Cài Hermes Agent đơn giản</a>. Bộ kiểm tra môi trường của Paperclip gợi ý <code>pip install hermes-agent</code>, nhưng đừng làm theo ngay: trang cập nhật của Hermes xếp việc cài bằng pip hoặc gói PyPI trên Python 3.11 đến 3.13 vào loại không được hỗ trợ và khuyên dùng bộ cài chính thức hoặc bản đóng gói sẵn. Khi tôi kiểm tra ngày 28/11/2026, bản mới nhất trên PyPI là 0.19.0 (ngày 20/7), còn GitHub đã có v0.23.4.</li>
-<li>Tài liệu Paperclip ghi cần Python 3.10 trở lên, nhưng mã Hermes hiện hành khai báo từ 3.11, và bộ cài của Hermes tự chuẩn bị phiên bản Python phù hợp.</li>
+<li>Tài liệu Paperclip ghi cần Python 3.10 trở lên, nhưng trang cập nhật của Hermes (đọc ngày 28/11/2026) nói Hermes hiện chỉ chạy trên Python 3.14. Mức từ 3.11 còn ghi trong mã chỉ để bản cài cũ chạy được lần cập nhật chuyển tiếp. Bộ cài chính thức tự chuẩn bị Python 3.14.</li>
 <li>Đã cấu hình mô hình cho Hermes, thường trong <code>~/.hermes/config.yaml</code>. Tài liệu khuyên để trống trường <code>model</code> của adapter nếu Hermes đã chạy được.</li>
 <li>Một máy chủ Paperclip bản hiện hành.</li>
 </ul>

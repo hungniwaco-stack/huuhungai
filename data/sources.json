@@ -25,7 +25,7 @@
   ]
  },
  "openclaw-update-bai-hoc-ve-tich-hop-message-cron-va-bao-mat": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Security: OpenClaw docs",
@@ -390,16 +390,20 @@
   ]
  },
  "thiet-lap-hermes-workspace-nen-lam-viec-cho-ai-agent": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "README.md: outsourc-e/hermes-workspace (GitHub)",
     "url": "https://github.com/outsourc-e/hermes-workspace/blob/main/README.md"
+   },
+   {
+    "title": "Installation (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
    }
   ]
  },
  "hermes-webui-dung-giao-dien-chat-cho-agent-trong-vai-buoc": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "README.md: nesquena/hermes-webui (GitHub)",
@@ -408,6 +412,10 @@
    {
     "title": "Hermes Web Dashboard: Hermes Agent docs",
     "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard"
+   },
+   {
+    "title": "Installation (Hermes Agent docs)",
+    "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
    }
   ]
  },
@@ -584,7 +592,7 @@
   ]
  },
  "deepseek-openclaw-va-ollama-cloud-ket-noi-mo-hinh-voi-agent": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "Official provider plugins: OpenClaw docs",
@@ -704,7 +712,7 @@
   ]
  },
  "hermes-hay-openclaw-vi-sao-cau-tra-loi-phu-thuoc-workflow": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "sources": [
    {
     "title": "OpenClaw Docs",

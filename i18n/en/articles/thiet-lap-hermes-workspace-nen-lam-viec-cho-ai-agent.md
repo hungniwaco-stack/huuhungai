@@ -9,7 +9,7 @@ Hermes Workspace is a web app written by the community (version 2.3.0 when I rea
 ## Requirements
 - Node.js 22 or later and pnpm.
 - A Hermes Agent gateway or an OpenAI-compatible server. It does not pin a specific Hermes version; the README recommends the latest.
-- Python 3.11 or later if you want to run the Hermes gateway locally.
+- If you want to run the Hermes gateway locally: the Workspace README says Python 3.11 or later, but current Hermes documentation says Hermes runs on Python 3.14; use the official installer so it provisions that for you.
 - Docker and Docker Compose if you use the Docker method.
 ## Ports
 - `3000`: the Workspace interface (change with the `PORT` variable).

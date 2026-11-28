@@ -29,7 +29,7 @@ Fallback configuration per the "Model failover" documentation:
 - Each agent's model is strict unless that agent has its own `fallbacks`; use `fallbacks: []` to state strictness explicitly.
 - It switches to the next model on authentication errors, rate limits, overload, timeouts, billing lockouts, `model_not_found` or context overflow that compaction cannot resolve.
 - It does not switch on an intentional abort, the provider's final refusal, or local errors such as a session write conflict.
-- Cooldown: 30 seconds on the first failure, 1 minute on the second, up to 5 minutes from the third; for permanent billing and authentication failures the API key is locked for the first 10 minutes.
+- Cooldown for failures other than rate limits, billing and permanent authentication failures: 30 seconds on the first failure, 1 minute on the second, up to 5 minutes from the third. A rate limit causes a cooldown only when the provider says how long to wait. A billing failure disables the credential for 10 minutes at first.
 A sensible example: DeepSeek as the main model, an Ollama Cloud model or another provider as the fallback, to avoid stopping when one side is limited. However each provider switch sends the same content to another party, so set a fallback only for providers you accept on data grounds.
 ## About data and cost
 - Ollama says it only processes prompts and responses to answer requests and **does not use them to train models**, but the page I read does not state a retention period; read their privacy policy and Cloud FAQ. Cloud models do not yet support structured output, and capabilities differ between models; models may also be removed over their lifecycle.
